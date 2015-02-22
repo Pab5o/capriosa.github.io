@@ -1,0 +1,53 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Contentful-metalsmith plugin example</title>
+  <meta name="description" content="No description">
+  <meta name="author" content="Contentful">
+  <link rel="stylesheet" href="scss/style.css?v=1.0">
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="col-md-push-2 col-md-8">
+      <div class="cm-example">
+        
+        <div class="">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Body</th>
+              <th>Updated</th>
+            </tr>
+          </thead>
+          <tbody>
+          {{#each contentful.entries}}
+            <tr>
+              <td>
+                {{this.data.fields.title}}
+              </td>
+              <td>
+                {{this.data.fields.body}}
+              </td>
+              <td>
+                {{this.data.sys.updatedAt}}
+              </td>
+            </tr>
+          {{/each}}
+           </tbody>
+         </table>
+      </div>
+      <div class="cm-footer">
+        <a href='www.contentful.com'>Contentful</a> - All your content, one API
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+</html>
