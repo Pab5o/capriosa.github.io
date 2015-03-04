@@ -1,0 +1,12 @@
+%example-module
+  +trailer(1)
+  background: $yellow-light
+  border-radius: 10px
+  padding: pxtoem(40px)
+  text-align: center
+
+  +at-breakpoint($tablet-only)
+    +span(4)
+
+  +at-breakpoint($desktop-and-above)
+    +span(6 last)

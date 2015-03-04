@@ -1,0 +1,16 @@
+---
+:id: 1cV6ajHxXgGaciAUAUcyyY
+:slug: vodoo-mit-contentful-und-metalsmith
+:title: Vodoo mit Contentful und Metalsmith
+:author:
+- :id: 38dSdWDGswQGkU042ySgmA
+  :name: Meinolf Droste
+:Nw9j17g9iJMk8bDx: |-
+  Vodoo mit Contentful und Metalsmith.
+  https://www.contentful.com/blog/2014/07/17/contentful-metalsmith-integration/
+:body: Ist alles wirklich noch ein wenig Vodoo für mich. Bin dieser Anleitung gefolgt
+  - https://www.contentful.com/blog/2014/07/17/contentful-metalsmith-integration/
+  - und wenn ich jetzt im Terminal metalsmith aufrufe, werden meine Inhalte in eine
+  statische HTML Site auf meinem localhost gezogen. Vielleicht bekomme ich heute noch
+  ein Beispiel hin, das ich dann auf github freigebe. Auf jeden Fall ist das der Weg
+  zu (m)einem Social Network Blog.
