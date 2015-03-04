@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
-gem "middleman", "~> 3.3"
+gem "middleman", "~> 3.3.7"
 gem "contentful_middleman"
-gem 'middleman-gh-pages'
+
 
 # Compass plugins
 gem 'sass', "~> 3.3.0"
