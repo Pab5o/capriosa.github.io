@@ -2,7 +2,7 @@
 
 <ol>
   <% data.mdwp.post.reverse_each do |id, post| %>
-
-    <li><a href="/<%= post["slug"]%>"><%= post["title"] %></a></li>
+  <li><%= post["title"] %><p><%= post["body"] %></p></li>
+    
   <% end %>
 </ol>
