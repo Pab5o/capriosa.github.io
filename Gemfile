@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem "middleman", "~> 3.3.7"
-gem "contentful_middleman"
+#gem "contentful_middleman"
 
 
 # Compass plugins
