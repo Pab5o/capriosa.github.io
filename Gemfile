@@ -5,7 +5,7 @@ gem "contentful_middleman"
 
 
 # Compass plugins
-gem 'sass', "~> 3.3.0"
+gem 'sass', "~> 3.4.0"
 gem 'susy', "~> 2.0" # Susy
 gem "compass", "~> 1.0.0"
 
