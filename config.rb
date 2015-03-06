@@ -85,12 +85,12 @@ configure :build do
   # set :http_path, "/Content/images/"
 end
 
-activate :contentful do |f|
-  f.space         = { mdwp:'zlag77iul1ug' }
-  f.access_token  = '40e963dfce9e6bc216d6624cd39c0be5a32bd89e29eee07a1e49a8d30b51bfd6'
-  f.cda_query     = { content_type:'2wKn6yEnZewu2SCCkus4as', include: 1 }
-  f.content_types = { post:'2wKn6yEnZewu2SCCkus4as' }
-end
+#activate :contentful do |f|
+#  f.space         = { mdwp:'zlag77iul1ug' }
+#  f.access_token  = '40e963dfce9e6bc216d6624cd39c0be5a32bd89e29eee07a1e49a8d30b51bfd6'
+#  f.cda_query     = { content_type:'2wKn6yEnZewu2SCCkus4as', include: 1 }
+#  f.content_types = { post:'2wKn6yEnZewu2SCCkus4as' }
+#end
 
 #configure :build data.mdwp.post.each do |p|
 #  proxy "/work/#{p[:name].parameterize}.html", "work/template.html",
