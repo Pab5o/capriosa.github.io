@@ -3,6 +3,7 @@
 $responsive: true !default
 
 
+
 // Cross browser support settings
 // ------------------------------------------------
 $lt-ie9: false !default
@@ -39,15 +40,9 @@ $column-width: pxtoem(65px)
 $gutter-width: pxtoem(20px)
 $grid-padding: pxtoem(10px)
 
-// Breakpoints
-$phone-only: 4 pxtoem(568px)
-$tablet-and-above: pxtoem(569px) 8 fixed-layout
-$tablet-only: pxtoem(569px) 8 pxtoem(1024px)
-$tablet-and-below: 8 pxtoem(1024px)
-$desktop-and-above: pxtoem(1025px) 12 fixed-layout
+$susy: (debug: (image: show))
 
-// Where `at-breakpoint` is used with one of the `fixed-layout` breakpoints above,
-// the block will be scoped to a `fixed-layout` class instead of being scoped to 
-// media queries.
-$breakpoint-media-output: $responsive and not $lt-ie9
-$breakpoint-ie-output: $lt-ie9 or not $responsive
+// Breakpoints
+$mobile: 30em
+$tab: 40em
+$desk: 64em

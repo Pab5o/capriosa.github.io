@@ -1,0 +1,16 @@
+---
+:id: 6ziB6sdbKEkimAAKykCMIq
+:slug: post-mit-markdown
+:title: Post mit Markdown
+:body: |
+  #Hier ein Test für Markdown
+  1. Ein Listeneintrag
+  2. Noch einer
+
+  Und hier ein Absatz mit **fettem Text**
+
+
+
+  ![DCB14 - Drupalcity war einfach nur gut. Danke](//images.contentful.com/zlag77iul1ug/45wmFhh6us6YMw0OSOwMuQ/021822497b7a50d85e9dfc1dafe9f61c/DCB14_-_Drupalcity_war_einfach_nur_gut._Danke.jpg?w=400)
+:bild: 
+:image: 
