@@ -96,11 +96,11 @@ end
 #  f.content_types = { post:'2wKn6yEnZewu2SCCkus4as' }
 #end
 
-#data.mdwp.post.each do |id, post|
+data.mdwp.post.each do |id, post|
   # using its data as locals inside the template
   #:slug => post["slug"]
-#  proxy "/#{post["slug"]}.html", "proxy_template.html", :locals => { :post => post }, ignore: true
-#end
+  proxy "/#{post["slug"]}.html", "proxy_template.html", :locals => { :post => post }, ignore: true
+end
 
 activate :alias
 #activate :blog
