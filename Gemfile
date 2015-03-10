@@ -3,15 +3,19 @@ source 'https://rubygems.org'
 gem "middleman", "~> 3.3.7"
 #gem "contentful_middleman"
 gem "middleman-blog"
+gem "middleman-livereload", "~> 3.3.0"
+gem "slim"
 
 
 # Compass plugins
 gem 'sass', "~> 3.4.0"
 gem 'susy', "~> 2.0" # Susy
+gem 'font-awesome-sass', '~> 4.3.0'
 gem 'breakpoint', '~>2.0'
 gem "compass", "~> 1.0.0"
 gem 'compass-normalize'
 gem "kramdown"
+gem 'middleman-alias'
 
 # Javascript
 gem 'therubyracer'

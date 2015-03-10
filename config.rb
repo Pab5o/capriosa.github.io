@@ -3,9 +3,12 @@
 ###
 
 # Susy grids in Compass
+require 'compass'
+require 'compass-normalize'
 require 'susy'
 require 'breakpoint'
-require 'compass-normalize'
+
+require 'font-awesome-sass'
 
 # Change Compass configuration
 # compass_config do |config|
@@ -63,7 +66,7 @@ end
 
 # Build-specific configuration
 configure :build do
-
+  activate :livereload, :host => '0.0.0.0', :apply_js_live => false, :apply_css_live => false
   # For example, change the Compass output style for deployment
   # activate :minify_css
 
@@ -83,6 +86,7 @@ configure :build do
 
   # Or use a different image path
   # set :http_path, "/Content/images/"
+
 end
 
 #activate :contentful do |f|
@@ -92,9 +96,11 @@ end
 #  f.content_types = { post:'2wKn6yEnZewu2SCCkus4as' }
 #end
 
-#configure :build data.mdwp.post.each do |p|
-#  proxy "/work/#{p[:name].parameterize}.html", "work/template.html",
-#    :locals => { :p => p }
+#data.mdwp.post.each do |id, post|
+  # using its data as locals inside the template
+  #:slug => post["slug"]
+#  proxy "/#{post["slug"]}.html", "proxy_template.html", :locals => { :post => post }, ignore: true
 #end
 
+activate :alias
 #activate :blog

@@ -1,17 +1,64 @@
 .grid
   +adjust-font-size-to(18px)
+  color: #666
+  background-color: #fff
 
 nav
-  padding: $gutter-width
-  background-color: #333
+  //padding: $gutter-width
+  background-color: #222
+  width: 100%
+  margin-top: 38px
+  //padding-left: 6px
 
 .navigation
-
-  +adjust-font-size-to(18px)
-
-  a
-    +link-colors(#999, #ccc, #fff)
+  +adjust-font-size-to(21px)
+  font-family: $roboto
   +horizontal-list
 
+  img
+    margin-top: -10px
+    +border-radius(100%)
+
+
+  a
+    +link-colors(#cacaca, $main-color, $main-color, #cacaca, $main-color)
+    text-transform: lowercase
+    padding: 36px 10px 6px 10px
+    display: block
+    margin-left: -10px
+    +transition(all,ease-in, 1s)
+    font-weight: 700
+    margin-right: 18px
+
+.proxy-navigation
+  display:none
+  margin-left: -5px
+  a
+    +link-colors(#fff)
+    font-weight: 700
+    font-size: 1em
+    text-transform: lowercase
+    font-family: $roboto
+
+
+
+.sub-navigation, .proxy-navigation
+  +horizontal-list
+  font-size: 1em
+  color: #fff
+  font-family: $roboto
+
   li
-    margin-right: 14px
+    margin-right: 10px
+  span
+    font-size: pxtoem(12px)
+    padding-left: 6px
+
+.sub-nav-wrapper
+  background-color: #343434
+  position: fixed
+  top:  0
+  left: 0
+  width: 100%
+  padding: 6px 0
+  border-bottom: 1px solid #444

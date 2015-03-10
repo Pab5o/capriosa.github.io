@@ -8,18 +8,19 @@
 
 // The basics
 html
-  font-family: $helvetica
+  font-family: $roboto
   height: 100%
 
 body
-  background-color: $white
+  background-color: $main-color
   height: 100%
 
 a
   color: $blue
+  text-decoration: none
 
   &:hover, &:focus
-    color: darken($blue, 20%)
+    color: darken($blue, 10%)
 
 p
   +leader(0)
@@ -44,8 +45,8 @@ h1, .h1
 
 h2, .h2
   +adjust-font-size-to(24px)
-  +leader(0)
-  +trailer(1, 24px)
+  +leader(0,12px)
+  +trailer(1, 12px)
 
 h3, .h3
   +adjust-font-size-to(19px)

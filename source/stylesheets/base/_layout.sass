@@ -1,11 +1,24 @@
 .grid
-  padding: 0 20px
+  padding: 40px 20px 20px
+
+
 
 
 
 +susy-breakpoint($tab, 12)
 
-  .grid
-    +container(pxtoem(1150px))
+  .sub-nav
+    +container (1106px)
+    padding: 0 20px
     +pie-clearfix
-    border: 1px solid #ccc
+
+  .grid
+    +container(1106px)
+    +pie-clearfix
+
+  .sub-navigation
+    +span(5 last)
+    padding-left: 72px
+
+  .proxy-navigation
+    +span(7)

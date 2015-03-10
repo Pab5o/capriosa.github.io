@@ -16,11 +16,11 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png" />
     <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png" />
 
-    <%= favicon_tag("favicon.ico") %>
+    <link href="/favicon.ico" rel="icon" type="image/ico" />
 
-    <%= stylesheet_link_tag "screen" %>
-    <%= javascript_include_tag "libs/modernizr-2.6.1.min" %>
-    <%= javascript_include_tag "libs/jquery-1.9.0.min.js" %>
+    <link href="/stylesheets/screen.css" rel="stylesheet" type="text/css" />
+    <script src="/javascripts/libs/modernizr-2.6.1.min.js" type="text/javascript"></script>
+    <script src="/javascripts/libs/jquery-1.9.0.min.js" type="text/javascript"></script>
     <script>
     $(window).scroll(function() {
 if ($(this).scrollTop() > 10){
@@ -40,10 +40,10 @@ if ($(this).scrollTop() > 10){
     <div class="sub-nav-wrapper">
     <div class="sub-nav">
       <ul class="proxy-navigation">
-        <li><a href="/">mdwp.de</a></li>
-        <li><a href="/">Über Capriosa</a></li>
-        <li><a href="/">Kontakt</a></li>
-        <li><a href="/">Impressum</a></li>
+        <li><a href="/home">mdwp.de</a></li>
+        <li><a href="/home">Über Capriosa</a></li>
+        <li><a href="/home">Kontakt</a></li>
+        <li><a href="/home">Impressum</a></li>
       </ul>
     <ul class="sub-navigation">
       <li><i class="fa fa-github"></i></li>
@@ -58,11 +58,11 @@ if ($(this).scrollTop() > 10){
     <nav class="nav-wrapper">
       <div class="sub-nav">
       <ul class="navigation">
-        <li><a href="/"><img src="images/mdwp-logo.png"/></a></li>
-        <li><a href="/">mdwp.de</a></li>
-        <li><a href="/">Über Capriosa</a></li>
-        <li><a href="/">Kontakt</a></li>
-        <li><a href="/">Impressum</a></li>
+        <li><a href="/home"><img src="images/mdwp-logo.png"/></a></li>
+        <li><a href="/home">mdwp.de</a></li>
+        <li><a href="/home">Über Capriosa</a></li>
+        <li><a href="/home">Kontakt</a></li>
+        <li><a href="/home">Impressum</a></li>
       </ul>
       </div>
     </nav>
@@ -70,13 +70,25 @@ if ($(this).scrollTop() > 10){
   </header>
     <div class="grid">
 
-      <%= partial"test" %>
-      <%= yield %>
+      <h3 id="block-fr-neues">Block für Neues</h3>
+
+      <p>So, das Paket ist geschnürt, um nach über 10 Jahren mal wieder ein statische Site zu bauen.
+- Contentful CMS zur Erfassung der Inhalte
+- Zwei zaps bei zapier.com
+- Ein git repo bei github
+- Middleman als static website generator
+- Ein Middleman Contenful gem einrichten
+- Ein account bei http://netlify.com 
+Dort das github repo eintragen.
+Beim nächsten git push bekommt netlify das mit und startet einen build Prozess. Wenige Sekunden später sind die statischen HTML Seiten Online.
+Mein Test ist hier zu erreichen: http://54f6f4a671f1c33954000012.postman-porcupine-73520.netlify.com/
+Nach dem nächsten Deployment sollte dieser Post hier, dort an erster Stelle erscheinen.</p>
+
     </div>
   <footer>
   </footer>
-    <%= javascript_include_tag "//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" %>
-    <%= javascript_include_tag "plugins", "script" %>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
+    <script src="/javascripts/plugins.js" type="text/javascript"></script><script src="/javascripts/script.js" type="text/javascript"></script>
 
     <!-- put your analytics here -->
   </body>

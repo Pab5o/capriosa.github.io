@@ -1,11 +1,24 @@
 #Capriosa
+<%= link_to("About","/about.html")%>
+<%= partial "test" %>
+<img src="<%= lorem.image('1068x400') %>">
 
-<ul>
-  <% data.mdwp.post.reverse_each do |id, post| %>
+<% data.mdwp.post.take(3).each do |id, post| %>
+<section>
+  <header>
+  <h2><a href='<%= post["slug"] %>.html'><%= post["title"] %></a></h2>
+  </header>
+  <%= Kramdown::Document.new(truncate(post["body"],:length => 140)).to_html %>
 
-  <li><a href='<%= post["slug"] %>.html'><%= post["title"] %></a><%= Kramdown::Document.new(truncate(post["body"],:length => 140)).to_html %></li>
+</section>
+<% end %>
+<hr>
+<% data.mdwp.post.drop(3).each do |id, post| %>
+<section>
+  <header>
+  <h2><a href='<%= post["slug"] %>.html'><%= post["title"] %></a></h2>
+  </header>
+  <%= Kramdown::Document.new(truncate(post["body"],:length => 140)).to_html %>
 
-  <% end %>
-  
-</ul>
-
+</section>
+<% end %>
