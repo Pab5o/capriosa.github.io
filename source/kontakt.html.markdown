@@ -5,9 +5,9 @@
 Ansonsten erreichen Sie mich so:
 
 E-Mail: post@mdwp.de
-
 Tel.: 02331 3 96 16 91
+Mobil: 0151 2 41 26 232
 
-Oder über das Kontaktformular.
+Oder über das Kontaktformular auf der rechten Seite.
 
 Welchen Weg Sie auch immer wählen, ich freue mich auf Sie und möglicherweise auf spannende Projekte.
