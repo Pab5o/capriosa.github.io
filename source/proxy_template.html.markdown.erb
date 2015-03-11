@@ -1,1 +1,2 @@
-<%= post["body"] %>
+#<%= post["title"]%>
+<%= Kramdown::Document.new(post["body"]).to_html %>

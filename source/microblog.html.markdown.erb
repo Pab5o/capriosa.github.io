@@ -1,0 +1,21 @@
+#Microblog
+
+<% data.mdwp.post.take(3).reverse_each do |id, post| %>
+<section>
+  <header>
+  <h2><a href='<%= post["slug"] %>.html'><%= post["title"] %></a></h2>
+  </header>
+  <%= Kramdown::Document.new(truncate(post["body"],:length => 140)).to_html %>
+
+</section>
+<% end %>
+<hr>
+<% data.mdwp.post.drop(3).reverse_each do |id, post| %>
+<section>
+  <header>
+  <h2><a href='<%= post["slug"] %>.html'><%= post["title"] %></a></h2>
+  </header>
+  <%= Kramdown::Document.new(truncate(post["body"],:length => 140)).to_html %>
+
+</section>
+<% end %>
