@@ -1,5 +1,10 @@
-#Microblog
+<aside class="page-head">
+  <h2>Microblog</h2>
+  <p>In meinem Microblog Bereich finden Sie Beiträge von mir, die ich auf Facebook, Linkedin und Twitter geschrieben habe, auf einen Blick.
+  Gerne können Sie mir dort folgen.</p>
+</aside>
 
+<div class="attachment-top">
 <% data.mdwp.post.take(3).reverse_each do |id, post| %>
 <section>
   <header>
@@ -9,6 +14,7 @@
 
 </section>
 <% end %>
+</div>
 <hr>
 <% data.mdwp.post.drop(3).reverse_each do |id, post| %>
 <section>
