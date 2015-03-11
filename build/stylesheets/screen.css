@@ -2712,15 +2712,20 @@ table {
   font-size: 1.125em;
   line-height: 1.33333em;
   color: #666;
+  border-top: 30px solid #e3e3e3;
   background-color: #fff; }
 
-/* line 6, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_design.sass */
+/* line 7, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_design.sass */
 nav {
   background-color: #222;
   width: 100%;
   margin-top: 38px; }
 
-/* line 13, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_design.sass */
+/* line 14, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_design.sass */
+.nav-wrapper {
+  border-bottom: 30px solid #92be24; }
+
+/* line 18, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_design.sass */
 .navigation {
   font-size: 1.3125em;
   line-height: 1.71429em;
@@ -2748,51 +2753,54 @@ nav {
     /* line 52, /Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss */
     .navigation li.last {
       padding-right: 0; }
-  /* line 18, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_design.sass */
+  /* line 23, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_design.sass */
   .navigation img {
     margin-top: -10px;
     -moz-border-radius: 100%;
     -webkit-border-radius: 100%;
     border-radius: 100%; }
-  /* line 23, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_design.sass */
+  /* line 28, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_design.sass */
   .navigation a {
     color: #cacaca;
     text-transform: lowercase;
     padding: 36px 10px 6px 10px;
     display: block;
     margin-left: -10px;
+    margin-right: 0.35em;
     -moz-transition: all, ease-in, 1s;
     -o-transition: all, ease-in, 1s;
     -webkit-transition: all, ease-in, 1s;
     transition: all, ease-in, 1s;
-    font-weight: 700;
-    margin-right: 18px; }
+    font-weight: 700; }
     /* line 18, /Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
     .navigation a:visited {
       color: #cacaca; }
     /* line 21, /Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
     .navigation a:focus {
-      color: #5caa00; }
+      color: #92be24; }
     /* line 24, /Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
     .navigation a:hover {
-      color: #5caa00; }
+      color: #92be24; }
     /* line 27, /Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
     .navigation a:active {
-      color: #5caa00; }
+      color: #92be24; }
 
-/* line 33, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_design.sass */
+/* line 39, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_design.sass */
 .proxy-navigation {
   display: none;
   margin-left: -5px; }
-  /* line 36, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_design.sass */
+  /* line 42, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_design.sass */
   .proxy-navigation a {
     color: #fff;
     font-weight: 700;
     font-size: 1em;
     text-transform: lowercase;
     font-family: "Roboto", sans-serif; }
+    /* line 48, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_design.sass */
+    .proxy-navigation a:hover {
+      color: #92be24; }
 
-/* line 45, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_design.sass */
+/* line 53, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_design.sass */
 .sub-navigation, .proxy-navigation {
   margin: 0;
   padding: 0;
@@ -2820,15 +2828,15 @@ nav {
     /* line 52, /Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss */
     .sub-navigation li.last, .proxy-navigation li.last {
       padding-right: 0; }
-  /* line 51, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_design.sass */
+  /* line 59, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_design.sass */
   .sub-navigation li, .proxy-navigation li {
     margin-right: 10px; }
-  /* line 53, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_design.sass */
+  /* line 61, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_design.sass */
   .sub-navigation span, .proxy-navigation span {
     font-size: 0.75em;
     padding-left: 6px; }
 
-/* line 57, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_design.sass */
+/* line 65, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_design.sass */
 .sub-nav-wrapper {
   background-color: #343434;
   position: fixed;
@@ -2837,6 +2845,38 @@ nav {
   width: 100%;
   padding: 6px 0;
   border-bottom: 1px solid #444; }
+
+/* line 74, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_design.sass */
+.block-headline {
+  font-size: 0.875em;
+  line-height: 1.71429em; }
+
+/* line 77, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_design.sass */
+.page-head {
+  background-color: #ff9900;
+  color: #fff;
+  left: -20px;
+  padding: 10px 20px 37px;
+  position: relative;
+  top: -104px;
+  min-height: 155px;
+  max-height: 155px;
+  -moz-border-radius: 3px 3px 3px 0;
+  -webkit-border-radius: 3px;
+  border-radius: 3px 3px 3px 0; }
+  /* line 87, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_design.sass */
+  .page-head h2 {
+    float: right; }
+  /* line 89, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_design.sass */
+  .page-head p {
+    width: 66%;
+    text-align: justify;
+    margin-top: 28px;
+    line-height: 150%; }
+
+/* line 95, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_design.sass */
+.attachment-top {
+  margin-top: -102px; }
 
 /* line 106, /Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
@@ -2856,49 +2896,53 @@ html {
 
 /* line 14, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_elements.sass */
 body {
-  background-color: #5caa00;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YzZjNmMyIvPjxzdG9wIG9mZnNldD0iMTAlIiBzdG9wLWNvbG9yPSIjZjNmM2YzIi8+PHN0b3Agb2Zmc2V0PSIxMCUiIHN0b3AtY29sb3I9IiNmM2YzZjMiLz48c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2YzZjNmMyIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjZTNlM2UzIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f3f3f3), color-stop(10%, #f3f3f3), color-stop(10%, #f3f3f3), color-stop(50%, #f3f3f3), color-stop(50%, #e3e3e3));
+  background-image: -moz-linear-gradient(#f3f3f3 0%, #f3f3f3 10%, #f3f3f3 10%, #f3f3f3 50%, #e3e3e3 50%);
+  background-image: -webkit-linear-gradient(#f3f3f3 0%, #f3f3f3 10%, #f3f3f3 10%, #f3f3f3 50%, #e3e3e3 50%);
+  background-image: linear-gradient(#f3f3f3 0%, #f3f3f3 10%, #f3f3f3 10%, #f3f3f3 50%, #e3e3e3 50%);
+  background-color: #e3e3e3;
+  background-size: 100%;
+  background-repeat: no-repeat;
   height: 100%; }
 
-/* line 18, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_elements.sass */
+/* line 22, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_elements.sass */
 a {
-  color: #0066ff;
+  color: #4e9100;
   text-decoration: none; }
-  /* line 22, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_elements.sass */
+  /* line 26, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_elements.sass */
   a:hover, a:focus {
-    color: #0052cc; }
+    color: #577115; }
 
-/* line 25, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_elements.sass */
+/* line 29, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_elements.sass */
 p {
   margin-top: 0em;
   margin-bottom: 1.5em; }
-  /* line 29, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_elements.sass */
+  /* line 33, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_elements.sass */
   p:last-child {
     margin-bottom: 0em; }
 
-/* line 33, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_elements.sass */
+/* line 37, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_elements.sass */
 ul, ol {
   margin-top: 0em;
   margin-bottom: 1.5em;
-  padding-left: 0; }
-  /* line 38, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_elements.sass */
+  padding-left: 1.25em; }
+  /* line 42, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_elements.sass */
   ul li, ol li {
     margin-bottom: 0em; }
 
-/* line 41, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_elements.sass */
+/* line 45, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_elements.sass */
 h1, .h1 {
   font-size: 2em;
-  line-height: 1.125em;
-  margin-top: 0em;
-  margin-bottom: 0.75em; }
+  line-height: 1.125em; }
 
-/* line 46, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_elements.sass */
+/* line 50, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_elements.sass */
 h2, .h2 {
   font-size: 1.5em;
-  line-height: 1.5em;
-  margin-top: 0em;
-  margin-bottom: 2em; }
+  line-height: 1.5em; }
 
-/* line 51, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_elements.sass */
+/* line 55, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_elements.sass */
 h3, .h3 {
   font-size: 1.1875em;
   line-height: 1.26316em;
@@ -2915,16 +2959,6 @@ h3, .h3 {
     max-width: 1106px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzY2NjZmZiIgc3RvcC1vcGFjaXR5PSIwLjI1Ii8+PHN0b3Agb2Zmc2V0PSI4MCUiIHN0b3AtY29sb3I9IiNiM2IzZmYiIHN0b3Atb3BhY2l0eT0iMC4yNSIvPjxzdG9wIG9mZnNldD0iODAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA=='), url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuNSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
-    background-size: 100%;
-    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(102, 102, 255, 0.25)), color-stop(80%, rgba(179, 179, 255, 0.25)), color-stop(80%, rgba(0, 0, 0, 0))), -webkit-gradient(linear, 50% 0%, 50% 1, color-stop(100%, rgba(0, 0, 0, 0.5)), color-stop(100%, rgba(0, 0, 0, 0)));
-    background-image: -moz-linear-gradient(left, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 80%, rgba(0, 0, 0, 0) 80%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
-    background-image: -webkit-linear-gradient(left, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 80%, rgba(0, 0, 0, 0) 80%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
-    background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 80%, rgba(0, 0, 0, 0) 80%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
-    background-size: 8.47458%, 100% 24px;
-    background-origin: content-box, border-box;
-    background-clip: content-box, border-box;
-    background-position: left top;
     padding: 0 20px;
     *zoom: 1; }
     /* line 12, /Library/Ruby/Gems/2.0.0/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
@@ -2943,16 +2977,6 @@ h3, .h3 {
     max-width: 1106px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzY2NjZmZiIgc3RvcC1vcGFjaXR5PSIwLjI1Ii8+PHN0b3Agb2Zmc2V0PSI4MCUiIHN0b3AtY29sb3I9IiNiM2IzZmYiIHN0b3Atb3BhY2l0eT0iMC4yNSIvPjxzdG9wIG9mZnNldD0iODAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA=='), url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuNSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
-    background-size: 100%;
-    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(102, 102, 255, 0.25)), color-stop(80%, rgba(179, 179, 255, 0.25)), color-stop(80%, rgba(0, 0, 0, 0))), -webkit-gradient(linear, 50% 0%, 50% 1, color-stop(100%, rgba(0, 0, 0, 0.5)), color-stop(100%, rgba(0, 0, 0, 0)));
-    background-image: -moz-linear-gradient(left, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 80%, rgba(0, 0, 0, 0) 80%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
-    background-image: -webkit-linear-gradient(left, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 80%, rgba(0, 0, 0, 0) 80%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
-    background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 80%, rgba(0, 0, 0, 0) 80%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
-    background-size: 8.47458%, 100% 24px;
-    background-origin: content-box, border-box;
-    background-clip: content-box, border-box;
-    background-position: left top;
     *zoom: 1; }
     /* line 12, /Library/Ruby/Gems/2.0.0/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
     .grid:after {
@@ -2988,7 +3012,12 @@ h3, .h3 {
   .sidebar {
     width: 23.72881%;
     float: right;
-    margin-right: 0; } }
+    margin-right: 0;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    margin: -1.25em;
+    padding: 1.25em; } }
 /* line 3, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/state/_state.sass */
 .is-hidden {
   display: none; }

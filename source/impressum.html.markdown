@@ -1,4 +1,7 @@
-#Impressum
+<aside class="page-head">
+  <h2>Impressum</h2>
+  <p>....</p>
+</aside>
 
 mdwp*
 Meinolf Droste Web Production
