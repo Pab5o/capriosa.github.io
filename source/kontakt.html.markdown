@@ -1,11 +1,13 @@
 <aside class="page-head">
   <h2>Kontakt</h2>
-  <p>Sie können alle klassichen Kanäle nutzen, um Kontakt zu mir aufzunehmen. Falls Sie aber in der Nähe von Hagen sind, besuchen Sie mich doch einfach im Büro. Bei einer Tasse Kaffe, bei schönem Wetter gerne auf der Büroterasse, lässt sich vieles in einem persönlichen Gespräch leichter klären.</p>
+  <p>Sie können alle klassischen Kanäle nutzen, um Kontakt zu mir aufzunehmen. Falls Sie aber in der Nähe von Hagen sind, besuchen Sie mich doch einfach im Büro. Bei einer Tasse Kaffe, bei schönem Wetter gerne auf der Büroterasse, lässt sich vieles in einem persönlichen Gespräch leichter klären.</p>
 </aside>
 Ansonsten erreichen Sie mich so:
 
-E-Mail: post@mdwp.de
+E-Mail: meinolf.droste@mdwp.de
+
 Tel.: 02331 3 96 16 91
+
 Mobil: 0151 2 41 26 232
 
 Oder über das Kontaktformular auf der rechten Seite.
