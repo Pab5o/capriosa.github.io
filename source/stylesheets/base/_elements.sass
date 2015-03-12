@@ -10,12 +10,11 @@
 html
   font-family: $roboto
   height: 100%
+  background: url(../images/main-bg.jpg) 0 0 fixed
+  background-size: cover
+
 
 body
-  +background-image (linear-gradient(#f3f3f3 0%, #f3f3f3 10%, #f3f3f3 10%, #f3f3f3 50%, #e3e3e3 50%))
-  background-color: #e3e3e3
-  background-size: 100%
-  background-repeat:  no-repeat
   height: 100%
 
 
@@ -56,3 +55,6 @@ h3, .h3
   +adjust-font-size-to(19px)
   +leader(0)
   +trailer(1, 19px)
+
+section, article
+  line-heigth: 150%
