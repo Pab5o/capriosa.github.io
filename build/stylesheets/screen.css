@@ -2844,39 +2844,35 @@ nav {
   left: 0;
   width: 100%;
   padding: 6px 0;
-  border-bottom: 1px solid #444; }
+  border-bottom: 1px solid #444;
+  z-index: 10; }
 
-/* line 74, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_design.sass */
+/* line 75, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_design.sass */
 .block-headline {
   font-size: 0.875em;
   line-height: 1.71429em; }
 
-/* line 77, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_design.sass */
+/* line 78, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_design.sass */
 .page-head {
   background-color: #ff9900;
   color: #fff;
   left: -20px;
-  padding: 10px 20px 37px;
-  position: relative;
-  top: -104px;
+  padding: 10px 39px 10px 20px;
+  margin-top: -104px;
+  margin-bottom: 30px;
   min-height: 155px;
-  max-height: 155px;
   -moz-border-radius: 3px 3px 3px 0;
   -webkit-border-radius: 3px;
   border-radius: 3px 3px 3px 0; }
-  /* line 87, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_design.sass */
+  /* line 88, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_design.sass */
   .page-head h2 {
     float: right; }
-  /* line 89, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_design.sass */
+  /* line 90, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_design.sass */
   .page-head p {
     width: 66%;
     text-align: justify;
-    margin-top: 28px;
-    line-height: 150%; }
-
-/* line 95, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_design.sass */
-.attachment-top {
-  margin-top: -102px; }
+    margin-top: 26px;
+    line-height: 130%; }
 
 /* line 106, /Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
@@ -2954,7 +2950,42 @@ h3, .h3 {
   padding: 40px 20px 20px; }
 
 @media (min-width: 40em) {
-  /* line 10, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_layout.sass */
+  /* line 6, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_layout.sass */
+  footer {
+    background-color: #333;
+    width: 100%;
+    height: 55px; }
+
+  /* line 11, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_layout.sass */
+  .footer-inner {
+    max-width: 1106px;
+    margin-left: auto;
+    margin-right: auto; }
+    /* line 12, /Library/Ruby/Gems/2.0.0/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
+    .footer-inner:after {
+      content: " ";
+      display: block;
+      clear: both; }
+    /* line 13, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_layout.sass */
+    .footer-inner img {
+      margin-left: 20px; }
+
+  /* line 17, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_layout.sass */
+  .footer-first {
+    width: 15.25424%;
+    float: left;
+    margin-right: 1.69492%;
+    background-color: #fff; }
+
+  /* line 21, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_layout.sass */
+  .footer-second {
+    width: 83.05085%;
+    float: right;
+    margin-right: 0;
+    padding-top: 16px;
+    color: #fff; }
+
+  /* line 26, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_layout.sass */
   .sub-nav {
     max-width: 1106px;
     margin-left: auto;
@@ -2972,7 +3003,7 @@ h3, .h3 {
       display: table;
       clear: both; }
 
-  /* line 15, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_layout.sass */
+  /* line 31, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_layout.sass */
   .grid {
     max-width: 1106px;
     margin-left: auto;
@@ -2989,26 +3020,26 @@ h3, .h3 {
       display: table;
       clear: both; }
 
-  /* line 19, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_layout.sass */
+  /* line 35, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_layout.sass */
   .sub-navigation {
     width: 40.67797%;
     float: right;
     margin-right: 0;
     padding-left: 72px; }
 
-  /* line 23, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_layout.sass */
+  /* line 39, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_layout.sass */
   .proxy-navigation {
     width: 57.62712%;
     float: left;
     margin-right: 1.69492%; }
 
-  /* line 26, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_layout.sass */
+  /* line 42, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_layout.sass */
   .page {
     width: 74.57627%;
     float: left;
     margin-right: 1.69492%; }
 
-  /* line 29, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_layout.sass */
+  /* line 45, /Users/meinolfdroste/capriosa.github.io/source/stylesheets/base/_layout.sass */
   .sidebar {
     width: 23.72881%;
     float: right;
