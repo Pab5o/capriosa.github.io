@@ -9,8 +9,7 @@ Meinolf Droste Web Production
 Hügelstr. 6a
 58099 Hagen
 
-E-Mail: post@mdwp.de
-
+E-Mail: post@mdwp.de  
 Tel.: 02331 3 96 16 91
 
 USt-IdNr.: DE247190405

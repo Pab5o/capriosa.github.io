@@ -1,0 +1,9 @@
+<aside class="page-head">
+  <h2>Drupal Hosting</h2>
+  <p>Gerne hosten wir Ihre Drupal Websites. Dafür nutzen wir die professionelle Infrastruktur in der Acquia Cloud. Mit unserem Hosting Dienstleistungspaket bieten wir Ihnen auch einen umfassenden Update Service. ApacheSolr Suche, Varnish Cache, Memcache, SEO, Performance und Sicherheits-Audits inklusive.</p>
+</aside>
+
+<article>
+Unsere Sites werden in unserer Acquia Professional Subscription in der Acquia Cloud auf einer <a href="http://aws.amazon.com/de/ec2/instance-types/" target="_blank">Amazon EC2 M1 Large Instance</a> gehosted.<br />Dieses Hosting bietet:</p><ul><li>7,5 GB Arbeitsspeicher<br />4 EC2-Recheneinheiten (2 virtuelle Prozessorkerne mit je 2 EC2-Recheneinheiten)<br />850 GB-Instance-Speicher<br />64-Bit-Plattform<br />E/A-Leistung: Mittel<br />Für EBS optimiert verfügbar: 500 Mbit/s<br />API-Name: m1.large</li><li>Gute Performance<ul><li><strong>Varnish</strong> Proxy Cache</li><li><strong>Memcache</strong></li><li><strong>APC</strong></li></ul></li><li>Skalierbarkeit</li><li>Hohe Sicherheit</li><li>Monitoring</li><li>Kostenlose Zusatzdienste wie den Mollom Spamschutz und die ApacheSolr Suche</li></ul>
+
+</article>
