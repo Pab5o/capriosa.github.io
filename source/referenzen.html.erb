@@ -1,0 +1,17 @@
+<aside class="page-head">
+  <h2>Referenzen</h2>
+  <p>....</p>
+</aside>
+
+<% arr = data.mdwp_project.project %>
+
+<% arr.each do |rid, project| %>
+<section>
+  <header>
+  <h2><%= project["title"] %></h2>
+  <h2><%= project["rid"] %></h2>
+  </header>
+  <%= Kramdown::Document.new(project["body"]).to_html %>
+
+</section>
+<% end %>

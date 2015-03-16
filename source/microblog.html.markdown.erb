@@ -4,17 +4,6 @@
   Gerne können Sie mir dort folgen.</p>
 </aside>
 
-<div class="attachment-top">
-<% data.mdwp.post.take(3).reverse_each do |id, post| %>
-<section>
-  <header>
-  <h2><%= post["title"] %></h2>
-  </header>
-  <%= post["body"] %>
-
-</section>
-<% end %>
-</div>
 <hr>
 <% data.mdwp.post.drop(3).reverse_each do |id, post| %>
 <section>
