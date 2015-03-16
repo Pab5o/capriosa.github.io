@@ -32,13 +32,6 @@ GEM
       sass (>= 3.2, < 3.5)
     compass-normalize (1.5)
       compass (>= 0.12.0)
-    contentful (0.5.0)
-      http (~> 0.6)
-      multi_json (~> 1)
-    contentful_middleman (1.0.3)
-      contentful
-      middleman-blog (~> 3.5)
-      middleman-core (~> 3.3)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
@@ -54,10 +47,6 @@ GEM
     hitimes (1.2.2)
     hooks (0.4.0)
       uber (~> 0.0.4)
-    http (0.7.2)
-      http-form_data (~> 1.0.0)
-      http_parser.rb (~> 0.6.0)
-    http-form_data (1.0.0)
     http_parser.rb (0.6.0)
     i18n (0.7.0)
     json (1.8.2)
@@ -163,7 +152,6 @@ DEPENDENCIES
   breakpoint (~> 2.0)
   compass (~> 1.0.0)
   compass-normalize
-  contentful_middleman
   font-awesome-sass (~> 4.3.0)
   kramdown
   middleman (~> 3.3.7)
