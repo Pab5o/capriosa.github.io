@@ -5,10 +5,13 @@
 </aside>
 
 <div class="attachment-top">
-<% data.mdwp.post.take(3).reverse_each do |id, post| %>
+<% hash = data.mdwp.post %>
+
+<% hash.sort.reverse_each do |slug, post| %>
+
 <section>
   <header>
-  <h2><%= post["title"] %></h2>
+  <h2><%= post["slug"] %></h2>
   </header>
   <%= post["body"] %>
 
