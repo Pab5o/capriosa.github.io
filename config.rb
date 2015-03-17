@@ -98,6 +98,13 @@ end
 #  f.content_types = { post:'2wKn6yEnZewu2SCCkus4as' }
 #end
 
+#activate :contentful do |g|
+#  g.space         = { mdwp_project:'zlag77iul1ug' }
+#  g.access_token  = '40e963dfce9e6bc216d6624cd39c0be5a32bd89e29eee07a1e49a8d30b51bfd6'
+#  g.cda_query     = { content_type:'3yXXZj2Yyk0USyQyka2O0C', include: 1 }
+#  g.content_types = { project:'3yXXZj2Yyk0USyQyka2O0C' }
+#end
+
 data.mdwp.post.each do |id, post|
   # using its data as locals inside the template
   #:slug => post["slug"]
