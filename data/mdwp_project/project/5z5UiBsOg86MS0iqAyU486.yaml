@@ -1,5 +1,20 @@
 ---
 :id: 5z5UiBsOg86MS0iqAyU486
-:body: '![Meistertipp](//images.contentful.com/zlag77iul1ug/4WKL6nqu3YsMkmcOEgEqoM/47fc9cf632dfe2197be5d88fec095a06/7.png)'
+:body: |
+  ![Meistertipp](//images.contentful.com/zlag77iul1ug/4WKL6nqu3YsMkmcOEgEqoM/47fc9cf632dfe2197be5d88fec095a06/7.png)
+
+
+
+  Eine komplette Drupal-Site einschließlich eines individuellen Themes in 5 Tagen zu entwickeln ist sehr sportlich. Wenn diese auch noch einer bestehenden Site, entwickelt mit einem proprietären System, 1:1 entsprechen soll, kann man von einer größeren Herausforderung sprechen.
+
+  Dies war bei der Entwicklung von www.meistertipp.de der Fall. Auch hier war, wie bei unserem letzten Projekt Scheidungsfix, ein fester Termin - der Domain Umzug - gesetzt.
+
+  Sowohl Layout/Design, Navigation, Kategorien, Breadcrumbs, Bildergalerien und inhaltliche Struktur mussten der "alten" Site, soweit es eben geht, entsprechen. Nur der Inhalt wurde nicht übernommen. Dieser Umstand sorgte allerdings auch dafür, dass wir den neuen Betreiber in die Lage versetzen mussten, sehr schnell mit der Erfassung von neuen Inhalten beginnen zu können.
+  Das war dann auch am zweiten Tag nach Beginn unserer Arbeit der Fall.
+
+  Wir freuen, dass wir alle diese Herausforderungen, dank Drupal, meistern konnten.
+
+  MeisterTipp zeigt darüber hinaus mal wieder, dass Drupal nicht nur für Community Sites/Social Networks hervorragend geeignet ist.
 :title: Meistertipp
 :rid: 7
+:url: meistertipp

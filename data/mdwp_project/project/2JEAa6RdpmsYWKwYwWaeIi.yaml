@@ -1,5 +1,18 @@
 ---
 :id: 2JEAa6RdpmsYWKwYwWaeIi
-:body: '![Tonhalle](//images.contentful.com/zlag77iul1ug/4YVg2XBB4ASQwiekea6swo/0c4ccbfc5e9a60b793dac1cedd4200e2/1.png)'
+:body: |
+  ![Tonhalle](//images.contentful.com/zlag77iul1ug/4YVg2XBB4ASQwiekea6swo/0c4ccbfc5e9a60b793dac1cedd4200e2/1.png)
+
+
+
+  Unser erstes Drupal Projekt für einen Kunden war die Website der Düsseldorfer Tonhalle. Ursprünglich für eine Düsseldorfer Agentur entwickelt, die den Layoutentwurf beigetragen hat, wird der Kunde seit 2005 von mdwp betreut.
+
+  Aufgrund eines neuen CD/CI der Tonhalle Düsseldorf war 2007 ein Redesign des Webauftritts der Tonhalle Düsseldorf und der Düsseldorfer Symphoniker notwendig. Die Umsetzung des Designs des Düsseldorfer Ateliers Van Afferden, in ein Drupal Theme, erfolgte durch mdwp*. Meinolf Droste, Inhaber der auf Drupal spezialisierten Agentur: "Einen Relaunch, der in so kurzer Zeit durchgeführt wurde, habe ich in 10 Jahren noch nicht erlebt."
+  So kurze Entwicklungszeiten sind nur durch den Einsatz zeitgemäßer Layouttechniken - tabellenlose CSS Layouts - und einem Content Management System wie Drupal möglich, welches CSS Layouts optimal unterstützt.
+
+  Über die Designänderungen hinaus wurde die Website auch noch an anderen Stellen optimiert. So wurde die nicht pflegbare Flash Navigation durch ein Drupal Menü ersetzt. Besondere Herausforderung war hier die horizontale Ausrichtung eines mehrstufigen Navigations- Menüs. Dieses ist jetzt einfach über Drupal zu editieren und zu erweitern.
+
+  Die Website der Tonhalle Düsseldorf wird seit Anfang 2005 mit Drupal entwickelt und gepflegt. Wir von mdwp* freuen uns eine solch bedeutende Kulturinstitution in NRW betreuen und beraten zu dürfen.
 :title: Tonhalle Düsseldorf
 :rid: 1
+:url: tonhalle-duesseldorf

@@ -1,5 +1,20 @@
 ---
 :id: NnvmcSeBC6IsASmYGyCaq
-:body: '![Beck-Community](//images.contentful.com/zlag77iul1ug/6FVAjCZIOIoQI6Ui4Y6sq/bfdfc6ed3202575073ed896f33575f8f/18.png)'
+:body: |+
+  ![Beck-Community](//images.contentful.com/zlag77iul1ug/6FVAjCZIOIoQI6Ui4Y6sq/bfdfc6ed3202575073ed896f33575f8f/18.png)
+
+
+
+  Am 11. März 2009 war es nach mehreren Monaten intensiver Arbeit endlich soweit: der Launch, der von uns für den C.H.Beck Verlag entwickelten Beck Community. wurde realisiert.
+
+  Weitere Informationen zur neuen Community für Juristen, Steuerberater, Wirtschaftprüfer und weiteren Berufsgruppen in diesem Kontext finden Sie im beck.blog.de
+
+  Hier einige Besonderheiten:
+
+  - Nach Rechtsgebieten und Berufsgruppen filterbare Inhalte auf der Startseite
+  - Single-Sign-On mit beck-online (via Webservice)
+  - Automatische Generierung von Hyperlinks zur beck-online Datenbank, beim Speichern von Gruppenbreiträgen oder Blogeinträgen
+
 :title: Beck-Community
 :rid: 18
+:url: beck-community
