@@ -3,15 +3,14 @@
   <p>....</p>
 </aside>
 
-<% arr = data.mdwp_project.project %>
+<% data.mdwp_project.project.sort_by {|k,v| v["rid"]}.reverse_each do |project| %>
 
-<% arr.each do |rid, project| %>
 <section>
   <header>
-  <h2><%= project["title"] %></h2>
-  <h2><%= project["rid"] %></h2>
+  <h2><%= project[1]["title"] %></h2>
+  <h2><%= project[1]["rid"] %></h2>
   </header>
-  <%= Kramdown::Document.new(project["body"]).to_html %>
+  <%= Kramdown::Document.new(project[1]["body"]).to_html %>
 
 </section>
 <% end %>

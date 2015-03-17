@@ -4,30 +4,30 @@
   Gerne können Sie mir dort folgen.</p>
 </aside>
 
-<<<<<<< HEAD
-<div class="attachment-top">
-<% hash = data.mdwp.post %>
 
-<% hash.sort.reverse_each do |slug, post| %>
+<div class="attachment-top">
+
+
+
+<% data.mdwp.post.sort_by {|k,v| v["title"]}.first(3).each do |post| %>
 
 <section>
   <header>
-  <h2><%= post["slug"] %></h2>
+  <h2><%= post[1]["title"] %></h2>
   </header>
-  <%= post["body"] %>
+  <%= post[1]["body"] %>
 
 </section>
 <% end %>
 </div>
-=======
->>>>>>> 232c2dd16ee4fd1cf84dd20b90c409a24c965178
+
 <hr>
-<% data.mdwp.post.drop(3).reverse_each do |id, post| %>
+<% data.mdwp.post.sort_by {|k,v| v["title"]}.drop(3).each do |post| %>
 <section>
   <header>
-  <h2><%= post["title"] %></h2>
+  <h2><%= post[1]["title"] %></h2>
   </header>
-  <%= post["body"] %>
+  <%= post[1]["body"] %>
 
 </section>
 <% end %>
