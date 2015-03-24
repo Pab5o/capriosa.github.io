@@ -67,6 +67,8 @@ GEM
       middleman-sprockets (>= 3.1.2)
       sass (>= 3.4.0, < 4.0)
       uglifier (~> 2.5)
+    middleman-alias (0.0.9)
+      middleman-core (~> 3.2)
     middleman-blog (3.5.3)
       addressable (~> 2.3.5)
       middleman-core (~> 3.2)
@@ -153,6 +155,7 @@ DEPENDENCIES
   font-awesome-sass (~> 4.3.0)
   kramdown
   middleman (~> 3.3.7)
+  middleman-alias
   middleman-blog
   middleman-livereload (~> 3.3.0)
   sass (~> 3.4.0)
