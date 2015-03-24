@@ -1,0 +1,14 @@
+---
+:id: 6qkRIb9r6Ey0CEe84YA2kC
+:title: Basecamp Clone mit Drupal
+:url: basecamp-clone-mit-drupal
+:body: |-
+  Auf der Site DoItWithDrupal findet man neben einem kostenpflichtigen Video Archiv auch einige wenige "frei Videos". Direkt das Erste ist ein wahres Schmuckstück. Das Team von Lullabot zeigt in diesem Video, wie sie einen Clone von Basecamp, einem erfolgreichen webbasierten Projectmanagement Tool, in 48 Stunden mit Drupal beinahe 1:1 nachgebaut haben.
+
+  Hierbei gilt es zu beachten, dass das alles aus dem Jahre 2008 ist und sich Basecamp seitdem natürlich weiter entwickelt hat.
+
+  Die gesamten Sourcen (Drupal, SQL Dump) und ein begleitendes PDF können hier heruntergeladen werden.
+
+  Unbedingt anschauen und die Drupal Installation ausprobieren. Ob nun für den Einsatz als echtes Projektmanagement Werkzeugs oder als Quelle der Inspiration (Views, OG, Wiki, ToDos usw.). Es lohnt sich unbedingt.
+
+  Sicherlich ist auch das Eine oder Andere dabei, was man gut als Feature nutzen kann.

@@ -1,0 +1,18 @@
+---
+:id: 30EQACoXGgkgIAM8aoAM4C
+:title: Einfache Fehleranalyse
+:url: einfache-fehleranalyse
+:body: |-
+  Vorgestern erhielt ich einen Anruf eines verzweifelten Drupal-Users. Ihm gelang es einfach nicht die deutsche .po Datei zu importieren. Nachdem er mir den Zugang zu seiner Site gegeben hatte, machte ich mich auf die Fehlersuche.
+
+  Wie man hierbei vorgeht ist insbesondere für Einsteiger sehr wichtig. Nach dem Import kam eine weiße Seite. Ein 'white Screen of death' weist häufig auf zu wenig Memory Limit hin.
+
+  Wie hoch der ist kann man auf dieser Seite - 'admin/reports/status' - sehen.
+  Aber man findet dort auch andere wichtige Informationen. Deshalb ist das immer der erste Schritt einer Fehleranalyse. Hier war aber alles OK.
+
+  Eine andere Fehlerquelle sind falsche Dateieinstellungen. Hier -
+  'admin/settings/file-system - kann man die überprüfen. Wenn bei den Dateieinstellungen irgendwas nicht stimmt, falsche Pfade oder unzureichende Berechtigungen, kann man sicher sein, dass irgendwas in Drupal nicht funktionieren wird.
+
+  Und genau das war hier der Fall. Das tmp Verzeichnis stimmte nicht. Kurz korrigiert und die .po Datei ließ sich importieren.
+
+  Diese Fehleranalyse reicht natürlich nur für die einfachsten Fälle, aber sie sollte immer am Anfang jeder Fehlersuche stehen.

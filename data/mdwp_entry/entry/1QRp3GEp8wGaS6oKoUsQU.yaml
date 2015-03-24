@@ -1,0 +1,19 @@
+---
+:id: 1QRp3GEp8wGaS6oKoUsQU
+:title: Mehrere Argumente mit PHP-Argumentcode übergeben
+:url: mehrere-argumente-mit-php-argumentcode-uebergeben
+:body: |-
+  Unterhalb des Eingabefelds für PHP-Argumentcode in einer View lesen wir Folgendes: Enter PHP code that returns a value to use for this argument. Do not use <?php ?>. You must return only a single value for just this argument.
+
+  Man kann allerdings einer View, über die URL, Argumente auch in dieser Form übergeben: 1+2+3 oder 1,2,3
+
+  Wie kann man das denn über PHP Code erreichen, obwohl man da ja nur (s.o) einen Wert übergeben darf?
+
+  Z.B. so: nehmen wir an, wir haben uns im Code ein Array bspw. mit User Id's aufgebaut. Dann können wir das hier zurückliefern:
+  ```
+  <?php
+  return implode(',',array_unique($arr));
+  ?>
+  ```
+
+  Kommt man nicht unbedingt sofort drauf, aber funktioniert.

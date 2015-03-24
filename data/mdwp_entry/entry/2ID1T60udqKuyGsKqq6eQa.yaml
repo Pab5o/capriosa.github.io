@@ -1,0 +1,16 @@
+---
+:id: 2ID1T60udqKuyGsKqq6eQa
+:title: Submit-Button mit onClick event handler ausstatten
+:url: submit-button-mit-onclick-event-handler-ausstatten
+:body: |-
+  Manchmal kann es nötig oder auch nützlich sein, dass bei einem Klick auf einen Submit-Button eine JavaSrcipt Funktion aufgerufen wird.
+
+  Eine Möglichkeit hierfür besteht darin, folgenden Code im hook_form_alter unterzubringen:
+
+  ```
+  drupal_add_js('$(document).ready(function() {
+      $("#edit-submit").click(function() {
+      alert("Hier käme ein echter Funktionsaufruf rein");
+    });
+  });', 'inline', 'footer');
+  ```

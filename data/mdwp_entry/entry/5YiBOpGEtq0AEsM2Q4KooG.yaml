@@ -1,0 +1,14 @@
+---
+:id: 5YiBOpGEtq0AEsM2Q4KooG
+:title: String overrides
+:url: string-overrides
+:body: |-
+  Drupal-Sites mit lokalisiertem Interface, also übersetzte Sites mit aktiviertem Locale-Modul sind einiges langsamer als nicht lokalisierte Sites.
+
+  In einigen Fällen kann dieses Modul - http://drupal.org/project/stringoverrides - Abhilfe schaffen.
+
+  Wenn die Besucher einer Site nicht viel vom "Backend" zu sehen bekommen (wie hier) und die Betreiber der Site mit einem englischen Interface leben und arbeiten können, sollte man unbedingt mit String overrides arbeiten.
+
+  Einmal installiert kann man über eine einfache Eingabemaske die Zeichenketten übersetzen, mit denen die Besucher in Berührung. Das ist schnell erledigt und führt zu erheblich weniger Datenbankabfragen und damit zu mehr Performance.
+
+  Probleme bereiten lediglich gleiche Zeichenketten aus unterschiedlichen Modulen, wie z.B. "Submitted by !username on @datetime". String overrides weigert sich die Zeichenkette zweimal anzunehmen und eine einzige Übersetzung führt leider nicht um Ziel. Abhilfe schafft ein kleiner Workaround: eine der beiden Zeichenketten mit einer Theme Function zu überschreiben.

@@ -86,7 +86,7 @@ configure :build do
 
   # Or use a different image path
   # set :http_path, "/Content/images/"
-  # activate :directory_indexes
+  activate :directory_indexes
 
 
 end
@@ -112,11 +112,14 @@ end
 #  h.content_types = { entry:'5qHZV696FiIkemEGcm2moe' }
 #end
 
+data.mdwp_entry.entry.each do |id, entry|
+  # using its data as locals inside the template
+  #:slug => post["slug"]
+  proxy "/#{entry["url"]}.html", "proxy_entries_template.html", :locals => { :entry => entry }, ignore: true
+end
+
 data.mdwp.post.each do |id, post|
   # using its data as locals inside the template
   #:slug => post["slug"]
   proxy "/#{post["slug"]}.html", "proxy_template.html", :locals => { :post => post }, ignore: true
 end
-
-#activate :alias
-#activate :blog

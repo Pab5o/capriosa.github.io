@@ -1,0 +1,21 @@
+---
+:id: 355XPczCMgsaQcCO2SgSmI
+:title: Mehrfachwerte in einem CCK-Feld themen
+:url: mehrfachwerte-in-einem-cck-feld-themen
+:body: |-
+  Wer schon mal versucht hat in einer View Mehrfachwerte eines CCK-Felds zu beinflussen, wird festgestellt haben, dass es mit einem View Template nicht funktioniert.
+
+  Aber mit einer themable function geht es.
+
+
+  ```
+  function phptemplate_content_view_multiple_field ($rendered, $field, $values) {
+  foreach($rendered as $el) {
+  $output .= $el . ', ';
+  }
+  $charlist = " ,";
+  return rtrim($output, $charlist);
+  }
+  ```
+
+  Einfach diese Funktion in die template.php schreiben und die Theme Registry neu aufbauen und schon kann man die Mehrfachwerte, wie im Beispielcode mit einem Komma trennen.

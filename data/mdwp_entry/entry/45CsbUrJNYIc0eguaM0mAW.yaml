@@ -1,0 +1,24 @@
+---
+:id: 45CsbUrJNYIc0eguaM0mAW
+:title: Datum und Uhrzeit nach DIN 5008
+:url: datum-und-uhrzeit-nach-din-5008
+:body: |-
+  Datum und Uhrzeit lassen sich in verschiedenen Varianten schreiben. Es gibt Leute, die sich darüber den Kopf zerbrechen, welche Schreibweise am besten ist. Wenn man sich selbst nicht mit solchen Dingen belasten will, kann man einfach auf das zurückgreifen, was sich diese Leute ausgedacht haben. Festgelegt ist das in der DIN 5008 (vgl. hierzu Wikipedia).
+
+  In Drupal kann man die Einstellungen für Datum und Uhrzeit auf der Seite admin/settings/date-time systemweit einstellen. Überall, wo eine Zeitangabe auftaucht, wird auf diese Einstellungen zurückgegriffen. Es gibt drei Varianten: Kurzes, mittleres und langes Datumsformat.
+
+  Über das Klappfeld lassen sich die Standard-Einstellungen verändern.
+
+  Nach Abschnitt Nr. 9.5 der DIN 5008:2005-05 ist nach der Angabe der Uhrzeit das Wort „Uhr“ hinzuzufügen. Das ist über die Vorgaben in dem Klappfeld nicht vorgesehen. Man könnte nun auf die Idee kommen, im Template an den Stellen, wo das Datum auftaucht, etwas zu schreiben wie
+
+  $output .= format_date($node->created, 'custom', 'd.m.Y, H:i') . ' Uhr';
+
+  Viel einfacher geht das über das benuterdefinierte Format. Es lassen sich nämlich nicht nur Platzhalter wie z. B. H:i angeben, sondern auch beliebige Zeichen ausgeben, wenn man diese „escaped“. Eine DIN-konforme Zeitangabe lässt sich dann beispielsweise wie folgt einstellen:
+
+  Kurzes Datumsformat: d.m.Y - H:i \h
+  Mittleres Datumsformat: D., d.m.Y - H:i \h
+  Langes Datumsformat: I,j.F Y - H:i \U\h\r
+
+  So hat man überall schöne, DIN-konforme Zeitangaben.
+
+  Autor: Ralf Zosel, http://ralfzosel.de

@@ -1,0 +1,42 @@
+---
+:id: 6vbL8hJWyQ42qawu6C2MGq
+:body: |-
+  ## 07.09.2010
+
+  Ein CMS ist i.d.R. dazu geeignet, dass Sie über einen Browser die Inhalte Ihrer Site, ohne HTML Kenntnisse, erstellen und pflegen können. Dazu gehört auch die Menüstruktur und weitere Navigationselemente. Auch diese möchten Sie ohne besondere Kenntnisse ändern und erweitern können.
+
+  Das ist mit Drupal und vielen anderen Systemen auch problemlos möglich. Falls Sie ein System im Einsatz haben und für solche Änderungen Ihren Dienstleister benötigen, sollten Sie sich allerdings Gedanken machen.
+
+  Sie können solche Änderungen problemlos selber durchführen? Gut.
+
+  Was ist aber, wenn Sie Ihr Layout von einer fixen Breite auf eine fließende Breite umstellen möchten?
+
+  Wenn Sie bestimmte Bereiche Ihrer Site, die jetzt 2-spaltig sind, auf ein 3-spaltiges Layout mit Unterbrechern umrüsten möchten.
+
+  Alle Produktbilder, die Sie benutzen, in der Größe verändern möchten?
+
+  Die Headlines Ihrer Site mit einem schicken Font aus der Google Font API versehen möchten?
+
+  Wenn Sie dynamische News-Blöcke auch auf einer Ihrer anderen Sites, die mit einem ganz anderen System betrieben wird, anzeigen möchten?
+
+  Sie die Hintergrundfarben oder Hintergrundbilder auf bestimmten Seiten ändern möchten?
+
+  Und last but not least, die Inhalte einer neuen Datenbanktabelle abfragen und in einem Raster-Layout ausgeben möchten?
+
+  Seien wir realistisch, bei solchen Änderungen brauchen Sie zwangsläufig Ihren Dienstleister. Man braucht Programmierkenntnisse, muss sich mit CSS auskennen und irgendwie muss das alles integriert werden. Ist das wirklich so? Gibt es kein System, welches es erlaubt solche Änderungen ohne Dienstleister und externe Kosten durchzuführen?
+
+  Sie ahnen die Antwort? Richtig. Alle oben genannten komplizierteren Arbeiten können Sie mit Drupal, ohne Programmierkenntnisse, über das Benutzerinterface durchführen.
+
+  Was ist dazu notwendig? Ihre Drupal Site sollte so entwickelt und eingerichtet sein, dass Ihnen die Möglichkeiten dazu zur Verfügung stehen. Dafür ist Ihre Drupal Agentur zuständig.
+
+  Er sucht aus über 7000 Modulen die für Ihre Site geeignete Kombination von Modulen aus, entwickelt Ihnen ein Drupal Theme, welches Sie wie oben beschrieben selbst ändern können und erstellt Ihnen eine Verwaltungsoberfläche, mit der zu arbeiten eine Freude sein sollte.
+
+  Und Sie sollten darauf bestehen, dass Ihnen als Site-Betreiber solche Möglichkeiten zur Verfügung gestellt werden.
+
+  Natürlich werden Sie eine gewisse Einarbeitungszeit und wahrscheinlich eine Schulung benötigen. Vielleicht werden Sie hin und wieder auch ein wenig Beratung brauchen. Die brauchen Sie aber auch bei Systemen mit denen Sie nur Inhalte erstellen und pflegen können.
+
+  Dries Buytaert Gründer und Project Lead von Drupal forderte mal "Eliminate the webmaster".
+
+  Ich möchte nicht so weit gehen und sagen "Verzichten Sie auf Ihren Dienstleister". Aber wenn Sie ihn ständig für kleinste Anpassungen benötigen, sollten Sie über den Einsatz von Drupal für Ihre Firmen-Site nachdenken.
+:url: drupal-fuer-die-komplette-kontrolle-ueber-ihre-firmen-website
+:title: Die komplette Kontrolle über Ihre Firmen-Website mit dem CMS Drupal

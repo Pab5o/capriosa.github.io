@@ -1,0 +1,14 @@
+---
+:id: 53bWAjImusg6Uu8eiCyeM6
+:title: Drupal Snapshots
+:url: drupal-snapshots
+:body: |-
+  Ein weiteres Modul, welches auf keiner Drupal Site fehlen sollte, ist das Modul 'demo'. Eigentlich dazu gedacht Drupal Demonstrations Sites per Cron auf einen sauberen Stand zurückzubringen, eigenet es sich auch für Backups ganz hervorragend.
+
+  Wenn man also bspw. ein Modul aktualisiert, ein neues Modul ausprobiert oder andere kritische Arbeiten durchführt, klickt man einfach vorher auf 'Snapshot erstellen'. Geht etwas schief klickt man einfach auf 'Site zurücksetzen' und wählt den gewünschten Snapshot aus.
+
+  Das kann auch während der Entwicklung einer Site recht nützlich sein. Indem man sich von verschiedenen Meilensteinen einen Snapshot erstellt, kann man immer wieder zu einer fest definierten Ausgangslage zurückkehren
+
+  So kann man auch Kunden mal schnell zeigen, wie die Site vor einer Woche aussah.
+
+  Das alles bezieht sich allerdings ausschliesslich auf alles was Drupal in der DB ablegt. Änderungen an Dateien wie z.B. Templates werden nicht berücksichtigt. Also beim Erstellen eines Snapshots immer auch 'sites/all/*' Versionieren.

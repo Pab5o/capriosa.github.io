@@ -1,0 +1,42 @@
+---
+:id: 5gJlkzXVxKaoC6YIW4qKWg
+:title: Das Blocksystem von Drupal 7
+:url: das-blocksystem-von-drupal-7
+:body: |-
+  Ansicht(aktiver Reiter)
+      Bearbeiten
+      Beiträge
+
+  Startseite
+
+  Tel.: 02331 3 96 16 91
+  Drupal Entwicklung
+  Archiveintrag
+
+  Dies ist ein älterer Artikel, der von das-drupal-magazin.de importiert wurde.
+
+  mdwp* ist eine Drupal Agentur - für Beratung, Konzeption, Drupal SEO, Website-Entwicklung, Projektmanagement und Drupal Hosting. Drupal Consulting und Fullservice seit 2005. Geprüfte Acquia Partner.
+  Wir stellen sicher, dass Ihre Websites auch auf mobilen Geräten optimal dargestellt werden.
+  Site durchsuchen
+  Suche
+  Das Blocksystem von Drupal 7
+
+  Es gibt so viele neue Funktionen in Drupal 7, dass man die kaum in einem Artikel beschreiben kann. Deshalb möchte ich heute auf die Änderungen eingehen, die mit Drupal Blöcken und der Blockverwaltung zu tun haben.
+
+  Wenn man die Blockverwaltung aufsucht "Struktur/Blöcke" fällt als erstes auf, dass die gelben Markierungen für die Regionen verschwunden sind. Will man sich ansehen, wie die Regionen aufgeteilt sind, muss man auf den Link "Block Regionen veranschaulichen" klicken. (Siehe Screenshot oben rechts)
+
+  Die Konfiguration eines einzelnen Blocks ist um Einiges verbessert worden. So kann die Sichtbarkeit eines Blocks jetzt auf Inhaltstypen bezogen werden. Außerdem kann ein Block jetzt für ein oder mehrere Themes einfach in verschiedene Regionen platziert werden. Ein Beispiel soll verdeutlichen, wann das sinnvoll sein kann.
+
+  Es gibt einen neuen Block "Sprachumschalter (Benutzeroberflächentext)". Der kann recht nützlich sein. Ich arbeite z.B. bevorzugt mit der englischen Oberfläche. Wenn ich aber einen Artikel schreibe, ist es besser dort deutsche Begriffe zu verwenden, da die meisten Leser ihre Benutzeroberfläche wahrscheinlich auf Deutsch eingestellt haben. Wenn ich dann schnell nachschauen möchte wie ein bestimmter Begriff, nehmen wir mal an "Dashboard", auf Deutsch genannt wird, kann ich das schnell überprüfen. (Wird dort "Übersicht" genannt) Und diesen Block benötige ich nur im Adminbereich, aktiviere ihn also nur für das Theme "Seven".
+
+  Der Block "Sprachumschalter" hat noch eine kleine Besonderheit. Wenn er aktiviert wurde, erscheint er nicht. Ja, ja auch Drupal 7 "versteckt" noch ein paar Dinge.
+
+  Unter "Konfiguration/Sprachen/Erkennung und Auswahl" muss man noch die Erkennungsmethode URL aktivieren. Erst danach steht der Block zur Verfügung und man kann bequem zwischen allen installierten Sprachen wechseln. Die beschriebenen Änderungen des Blocksystems reichen zwar nicht an die Funktionalität und den Erweiterungen von Modulen wie "Context" heran, bieten aber in vielen alltäglichen Situationen doch genügend Vorteile gegenüber Drupal 6.
+
+  Erläuterungen für Einsteiger
+
+  Ein Drupal Block bietet zusätzliche kleine Informationseinheiten, die zusätzlich zum eigentlichen Seiteninhalt, in einer Region platziert werden können. Blöcke können von Modulen bereit gestellt werden oder aber auch aus statischen Inhalt bestehen, den man selber anlegen kann.
+
+  Regionen sind vom benutzten Theme festgelegte HTML Elemente, die mit einer bestimmten CSS Technik in einem Layout Raster an einer bestimmten Stelle positioniert werden. Beispiele für Regionen sind der Kopf- und der Fußbereich oder ein seitlich angeordneter Bereich. (sidebar-first, sidebar-second)
+
+  Inhaltstypen stellen verschiedene Ausprägungen vom Drupal Objekt "Node" dar. Aktiviert man bspw. das Modul "Blog" verfügt man über einen neuen Inhaltstyp "Blogeintrag".

@@ -1,0 +1,18 @@
+---
+:id: yoZw4bS0ak8aWQ2wogYUA
+:title: Die Magie von Views und Argumenten
+:url: die-magie-von-views-und-argumenten
+:body: |-
+  Wer sich schon mit Views und Argumenten beschäftigt hat, weiß dass Argumente Filter sind, die direkt aus der URL kommen. Solche Argumente können eine Node ID, eine Taxonomie Term ID oder auch ein Datum sein.
+  Was ist aber mit einer View, wie bspw. dem Blog-Archiv hier auf dieser Site? Dort ist als Argument 'Node: Jahr + Monat' angegeben und als 'Display Value' 'Summary Sorted Descending'.
+  Aber wie wir alle sehen können, gibt es in der URL kein Argument als Datum.
+  Was passiert hier?
+
+  Views kennt so etwas wie einen 'Summary Mode'. Eigentlich macht das Views Modul in Fällen wo es keine Argumente über die URL bekommt, nicht anderes als alle Nodes aufzulisten.
+  Nur die Konfiguration des Display Values auf 'Summary Sorted Descending' macht hieraus einen sinnvollen Block.
+
+  Das Views Modul sortiert das Ergebnis nach den nicht vorhandenen Argumenten - es nimmt als Filter einfach Jahr/Datum und ermittelt im SQL per count() die Anzahl.
+
+  Mithilfe weiterer Filter und/oder Argumenten kann man sich sehr leicht eine Vielzahl anderer Archiv-Blöcke vorstellen.
+
+  Z.B. ein Tag Archiv. Hier werden alle Nodes aus einer Kategorie gezählt. Das Argument ist hierbei auf 'Node: term name' eingestellt. Display Value diesmal auf 'Summary sorted ascending', Option auf 0 (vollständige Term Namen) werden von der View benutzt. Mit Option auf 1 könnte man es alphabetisch (A-Z) zusammenfassen lassen.

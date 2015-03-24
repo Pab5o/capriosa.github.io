@@ -1,0 +1,43 @@
+---
+:id: 2BiXUQz0SoEasQUGWGKqyq
+:title: CSS Power
+:body: |-
+  Heute war ich nach langer, langer Zeit mal wieder im altehrwürdigen CSS Zen Garden und dachte mir das einige Erläuterungen dazu, auch in einem Drupal Magazin, durchaus angebracht sind.
+
+  Zur Erinnerung oder für die, die den Zen Garden gar nicht kennen:
+
+  Der CSS Zen ist so etwas wie ein Showroom für Webdesigner mit guten CSS Kenntnissen. Das Besondere ist, dass mit einer HTML Vorlage gearbeitet werden muss, die nicht verändert werden darf.
+  Das neue Design entsteht ausschliesslich durch Änderungen am CSS und durch neue Hintergrundbilder und Grafiken.
+
+  Was bedeutet das für einen Drupal Anwender?
+  Nun, zuerst einmal die Erkenntnis das offensichtlich jeder saubere HTML Output nur durch CSS komplett geändert werden kann. Also auch jede Drupal Seite, deren HTML Output durch die verschiedensten Templates (page, node, block usw.) generiert wird.
+
+  I.d.R. stehen im Body Tag verschiedene classes zur Verfügung mit denen man eine Seite oder einen Site-Bereich genau ermitteln kann, z.B. section-forum.
+  Damit kann man nun jedes Element im Forum verändern.
+
+  .section-forum td {
+  /* irgendwelche Angaben */
+  background-color:#efefef;
+  }
+
+  Wer die verschiedensten CSS Möglichkeiten kennt, mit denen man nicht nur Formatierungen und Farben, sondern auch das Layout ändern kann, ist also auch auf Drupal Sites in der Lage ähnliches wie im Zen Garden zu erreichen.
+
+  Einige Beispiele um Layouts zu ändern:
+  Floats ändern
+  Margins ändern. Mit margin-top:-12px kann ich ein Element nach oben ziehen. Oder auch mit position:relativ; top:-12px
+  Alle Elemente mit position:relativ versehen, versetzt uns in die Lage alle Elemente innerhalb dieser Elemente absolut zu Positionieren.
+
+  Gerade die letzte Möglichkeit gibt uns enorme Möglichkeiten Seiten anders zu gestalten.
+
+  Jetzt sind wir ja zum Glück bei Drupal nicht gezwungen den HTML Output nicht zu ändern. Im Gegenteil die PHP Template Engine gibt uns die Möglichkeit beinahe jeden HTML Output mittels Templates zu verändern.
+
+  Wenn ich z.B. die Suchergebnisse so ändern möchte, dass der Autor direkt unter dem Titel erscheint, kopiere ich mir einfach die search-result.tpl.php in mein Theme und ändere darin das HTML nach meinen Vorstellungen.
+
+  Es wäre Quatsch das mit CSS zu machen, obwohl es gehen würde.
+
+  Es gibt aber einige komplexere Dinge. Z.B. das Überschreiben von Themable Functions in der template.php. Für Designer mit nur CSS Kenntnissen sehr schwierig. Je nach Ziel kann hier die Veränderung mittels CSS durchaus angebracht sein.
+
+  Aber auch Programmierer werden häufig Probleme finden, die sich durch den geschickten Einsatz von CSS, wesentlich schneller und eleganter lösen lassen, als durch die Veränderung des HTML Output.
+
+  Auch sog. Theme Switching Module lassen sich hierdurch vermeiden.
+:url: css-power

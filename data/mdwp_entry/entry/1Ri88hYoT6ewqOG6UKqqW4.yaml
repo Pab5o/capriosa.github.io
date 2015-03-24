@@ -1,0 +1,98 @@
+---
+:id: 1Ri88hYoT6ewqOG6UKqqW4
+:title: Top Drupal Module
+:url: top-drupal-module
+:body: |-
+  Ansicht(aktiver Reiter)
+      Bearbeiten
+      Beiträge
+
+  Startseite
+
+  Tel.: 02331 3 96 16 91
+  Drupal Entwicklung
+  Archiveintrag
+
+  Dies ist ein älterer Artikel, der von das-drupal-magazin.de importiert wurde.
+
+  mdwp* ist eine Drupal Agentur - für Beratung, Konzeption, Drupal SEO, Website-Entwicklung, Projektmanagement und Drupal Hosting. Drupal Consulting und Fullservice seit 2005. Geprüfte Acquia Partner.
+  Wir stellen sicher, dass Ihre Websites auch auf mobilen Geräten optimal dargestellt werden.
+  Site durchsuchen
+  Suche
+  Top Drupal Module
+
+  Hier finden Sie eine Liste der Drupal Module, welche Sie auf nahezu jeder Drupal Site benötigen. Es ist keine Top 10 oder Top 25 Liste, wie man sie häufig findet, sondern einfach eine Liste aller wichtigen Module. Die meisten dieser Module setzen wir erfolgreich in Kundenprojekten ein und viele sind auch in der Acquia Distribution zu finden.
+
+  Module, die sehr speziellen Zwecken dienen, sind hier bewusst nicht aufgeführt. Dazu gehören Module wie Organic Groups, "Buddy"-Module oder Content Profile.
+
+  Ich habe jetzt doch auch die Module die ich bisher in meinen http://mdwp.de/blog/modul-merkzettel aufgelistet hatte, an das Ende dieser Liste hier gepackt.
+
+  Da ist so ziemlich alles drin, was mir an Modulen nützlich erscheint und in einigen Projekten verwendet wird.
+
+      Admin
+      Schauen Sie sich einfach die Screenshots oben an. So kann die Verwaltungsoberfläche von Drupal aussehen.
+      Administration Menu
+      Ein absolutes Muss. Dieses Modul erspart viele Klicks bei der Administration einer Drupal Site. Das Modul generiert ein dynamisches Drop-Down Menü mit allen Menüeinträgen aus dem Admin Menü.
+      Advanced Help
+      Einige Module wie Views und CCK bieten eine umfangreiche Hilfe an. Um in deren Genuss zu kommen, benötigen Sie dieses Modul.
+      Autocomplete Widgets
+      Mit diesem Modul können Sie endlich auf lange Drop-Downs für CCK Auswahllisten verzichten und statt dessen auf Autocomplete-Felder zurückgreifen. Die Werte für das Autocomplete können aus einer statischen Liste kommen, aber auch dynamisch per PHP generiert werden.
+      Automatic Nodetitles
+      Der Titel eines Drupal Beitrags (node) ist erforderlich. D.h. Sie müssen einen Titel eingeben auch wenn Sie diesen gar nicht benötigen. Z.B. bei einem eigenen Inhaltstyp. Dieses Modul schafft Abhilfe.
+      CCK
+      Zu diesem Modul ist nur soviel zu sagen: Sie brauchen es. Mit dem CCK können Sie sehr leicht strukturierte Datentypen anlegen. Egal ob Adressen, Personaldaten oder eine einfache Seite, bei der Sie nicht nur einen Titel und Seitentext, sondern noch andere Textfelder benötigen.
+      Devel
+      Auch wenn Sie kein Entwickler sind, installieren Sie sich einfach dieses Modul. Es hilft Ihnen Geschwindigkeitsprobleme zumindest aufzuspüren und wenn Sie bestimmte Drupal Cache-Tabellen leeren müssen, erspart Devel richtig viel Zeit.
+      Feedback
+      Jede Site hat ein Kontaktformular, aber wenn Sie Ihren Besuchern eine zusätzliche Möglichkeit bieten möchten ein Feedback zu hinterlassen, dann ist dieses Modul die erste Wahl. Klein, schnell und handlich (per Ajax) ist es nicht so eine große Hürde, wie das klassische Kontaktformular.
+      Flag
+      Mit dem Flag Modul können Sie sich so ziemlich alles auf einer Drupal Site markieren und merken. Seiten, User, Termine, Spam usw. Was es eben so alles gibt. Und dieses Feature können Sie natürlich auch bestimmten Benutzergruppen anbieten oder allen angemeldeten Benutzern zur Verfügung stellen. Flag macht einige andere Module überflüssig, die für nur einen Zweck ausgelegt waren.
+      Filefield
+      Flexifield
+      Global redirect
+      Sie möchten nicht mehr schlecht schlafen, weil Sie sich um 'Duplicated Content' sorgen. Dann installieren Sie einfach dieses Modul. Wenn Sie mit Drupal URL-Aliase benutzen ist eine Seite immer mit zwei verschiedenen URL's zu erreichen. Beispiel: node/1 - URL Alias: 'meine-startseite'. Dies kann zu schlechteren Ergebnissen in Suchmaschinen führen, weil diese das als doppelten Inhalt interpretieren können.
+      Imagecache
+      Imagecache profiles
+      Imagefield
+      JQuery Media
+      Lightbox2
+      Mollom
+      Pathauto
+      Path redirect
+      Sie haben sich bei der Eingabe eines URL-Alias vertippt und bemerken diesen Fehler erst viel später? Die Suchmaschinen haben Ihren Inhalt bereits mit dieser fehlerhaften URL gespeichert? Dann ist dieses Modul genau das Richtige. URL-Alias korrigieren und dann mit diesem Modul ein Redirect zum neuen Alias anlegen.
+      Print
+      Eigentlich braucht man heutzutage ja keinen Link 'Seite drucken' mehr. Einfach ein Style Sheet für den Druck anlegen und Ihre Besucher können doch einfach die Browser Druckfunktion nutzen. Aber wenn Sie mal an all die Benutzer denken, die diese Funktion überhaupt nicht kennen, ist so ein Link vielleicht doch ganz sinnvoll. Außerdem bietet dieses Modul noch eine 'Sende per Mail' Funktion und die Möglichkeit aus einer Seite ein PDF zu erzeugen. Dies aber leider nur auf eigenen Servern.
+      Private Upload
+      Sie können mit Drupal für Datei-Downloads die Sie Ihren Besuchern anbieten entweder eine private oder öffentliche Methode anbieten. Wenn Ihre Dateien nur über den entsprechenden Link und nicht per Browser erreichbar sein sollen, denken Sie über Drupals private Methode nicht einmal nach. Die ist zu langsam. Benutzen Sie einfach dieses Modul.
+      Token
+      Views
+      Views Bulk Operations
+      Webform
+
+  Hier die vollkommen unsortierte und unkommentierte Liste, die bisher auf meinem Modul Merkzettel zu finden war:
+
+  http://drupal.org/project/override_node_options
+  http://drupal.org/project/collapse_text
+  http://drupal.org/project/image_fupload
+  http://drupal.org/project/embed_gmap
+  http://drupal.org/project/homebox
+  http://drupal.org/project/interface
+  http://drupal.org/project/viewfield
+  http://drupal.org/project/menu_attributes
+  http://drupal.org/project/tw
+  http://drupal.org/project/insert
+  http://drupal.org/project/viewslivefilters
+  http://drupal.org/project/viewsdisplaytabs
+  http://drupal.org/project/views_or
+  http://drupal.org/project/privatemsg_limits
+  http://drupal.org/project/outline_designer
+  http://drupal.org/project/csshover
+  http://drupal.org/project/eldorado_superfly
+  http://drupal.org/project/blockqueue
+  http://drupal.org/project/web_widgets
+  http://drupal.org/project/ajax
+  http://drupal.org/project/ddblock
+  http://drupal.org/project/drupalforfirebug
+
+  Das ist erst der Anfang einer langen langen Liste.
+  Die Anzahl der Drupal Module nimmt ständig zu. Und darunter sind natürlich auch Module, die Ihr spezielles Problem lösen. Allerdings reicht es manchmal nicht aus nur zu wissen, dass es ein Modul gibt. Konfiguration, Schnittstellen zu anderen Modulen, Probleme, Patches u.v.m. machen es häufig nicht leicht zum gewünschten Ergebnis zu kommen.

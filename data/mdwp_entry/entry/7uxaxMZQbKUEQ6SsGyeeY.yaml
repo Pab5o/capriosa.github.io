@@ -1,0 +1,30 @@
+---
+:id: 7uxaxMZQbKUEQ6SsGyeeY
+:title: So kann man irren
+:url: so-kann-man-irren
+:body: |-
+  So kann man irren
+
+  Heute möchte ich mich mit einer optimalen Drupal Installation beschäftigen.
+  Diese muss meines Erachtens eines der besten Drupal Features nutzen:
+  die Multisite Installation.
+  Was bedeutet Multisite Installation. Nun, ganz einfach. Wir installieren Drupal in unser Server Root und finden danach in diesem Verzeichnis ein Unterverzeichnis mit dem Namen 'sites'. Darunter befindet sich das Verzeichnis 'default' mit der Datei 'settings.php'. Standardmäßig tragen wir in diese Datei unsere Datenbankeinstellungen ('mysql://username:password@localhost/databasename') und die base URL unseres Servers ein.
+  Möchten wir nun mit einer Drupal Installation weitere Sites betreiben, müssen wir nur folgendes tun:
+  Unterhalb des Verzeichnisses 'sites' richten wir für jede andere Domain, Subdomain oder Unterverzeichnis der Hauptdomain Verzeichnisse nach folgendem Muster ein.
+  otherdomain.com - für eine andere Domain
+  subdomain.example.com - für eine Subdomain
+  example.com.sandbox - für ein Unterverzeichnis
+  In jedem dieser Verzeichnisse muss sich eine Datei 'settings.php' mit den entsprechenden Einträgen für die Datenbank und die jeweilige 'base url' befinden. Um die Dinge einfach zu halten, gehe ich von einer Datenbank pro Site aus. Andere Varianten sind aber auch möglich.
+  Eine Multisite Installation hat folgende Vorteile:
+  * Wir können uns eine Sandbox zum ausprobieren einrichten
+  * Bei einem Drupal-Upgrade (problematisch sind ja immer Änderungen an der DB) können wir dieses zuerst hier testen
+  * Unseren Kunden können wir schnell Prototypen (Wireframes) zur Verfügung stellen
+  * Auf einer Project-Site können wir mit Kunden über das Projekt diskutieren
+  In meinem Blogeintrag Wasserdichte Drupal Updates habe ich Vorgehensweisen für Drupal Updates beschrieben.
+  Wie führen wir aber Updates einer Multisite-Installation durch?
+
+  Und jetzt kommt der Haken
+
+  Ganz einfach: das update.php Script aus dem Drupal Root Verzeichnis kopieren wir in das jeweilige 'sites/unterverzeichnis' und rufen es dann im Browser auf. Beispiel für eine Subdomain:subdomain.example.com/update.php.
+
+  **Das war natürlich Quatsch was ich damals geschrieben habe**. Die update.php muss nicht kopiert werden! Man kann natürlich für jede Domain oder Subdomain einer Drupal Multisite Installation, immer die update.php aus dem Drupal Root aufrufen. Durch die Angaben in der settings.php weiß Drupal, welche Datenbank zu aktualisieren ist

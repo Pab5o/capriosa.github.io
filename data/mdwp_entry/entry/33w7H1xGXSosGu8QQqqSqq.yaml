@@ -1,0 +1,69 @@
+---
+:id: 33w7H1xGXSosGu8QQqqSqq
+:title: Flexible Grid Layouts mit Panels erstellen
+:url: flexible-grid-layouts-mit-panels-erstellen
+:body: |-
+  Mit dem Panels Modul lassen sich Layouts für Drupal Seiten auf eine vollkommen andere Weise erzeugen, als mit den Drupal Core Möglichkeiten mittels Regions und Blöcken.
+
+  Regions sind für den Endbenutzer schwierig zu handhaben. Er muss die Theme Info Datei auf dem Server bearbeiten und dort die Regions deklarieren, mindestens das Seitentemplate (page.tpl.php) bearbeiten und später über die Block Konfiguration die zur Verfügung stehenden Blöcke den Regions zuweisen und auch noch angeben auf welchen Seiten diese Blöcke angezeigt werden sollen.
+  Insbesondere der letzte Punkt kann manchmal überaus schwierig werden. Gelegentlich lässt sich das nur mit PHP Code für die Sichtbarkeitseinstellungen bewirken.
+
+  Das Panels Modul ändert hier die gesamte Vorgehensweise. In diesem Artikel möchte ich mich ausschließlich mit den Layout Möglichkeiten von Panels beschäftigen. Panels sind viel, viel mehr als ein Layout Werkzeug, aber das sei anderen Artikeln vorbehalten.
+
+  Wenn Sie Panels installiert haben, wählen Sie in Ihrem Navigationsmenü - PANELS - DASHBOARD. Geben Sie dann die erforderlichen Konfigurationseinstellungen ein und klicken auf FORTFAHREN.
+
+  Jetzt können Sie eine Layout Vorlage wählen. Wie Sie sehen decken die vorhandenen Vorlagen nicht unbedingt alle Wünsche ab. Es gibt aber eine Vorlage Namens FLEXIBLE, mit welcher Sie ohne Drupal Theming und CSS Kenntnisse sehr komplexe Grid Layout erstellen können.
+
+  Das von Panels generierte HTML mag Markup-Puristen nicht gefallen. Es ist allerdings Valide und tabellenfrei.
+
+  Wählen Sie also FLEXIBLE als Layout aus und klicken auf FORTFAHREN.
+
+  Klicken Sie auf der nächsten Seite auf SHOW LAYOUT DESIGNER.
+  Jetzt sehen Sie merkwürdige Dinge wie CANVAS, COLUMN, ROW und REGION. Um hier genau zu verstehen was gemeint ist, wollen wir ganz am Anfang beim CANVAS anfangen. Löschen Sie also der Reihe nach die CENTER REGION, ROW und COLUMN. Klicken Sie dazu jeweils einfach auf den entsprechenden Link und dann REMOVE bis nut noch der Canvas übrig bleibt
+
+  Schauen wir uns jetzt einmal genau an, was wir mit dem Canvas anfangen können.
+
+  Folgendes fällt sofort auf:
+
+  Dem Canvas kann ausschließlich eine Column hinzugefügt werden.
+
+  Machen Sie genau das und fügen eine Spalte hinzu. Bevor wir jetzt weitermachen, lassen Sie uns kurz überlegen was für ein Layout wir erstellen möchten. Es sollte natürlich ein Layout sein, welches nicht schon bei den Standardvorlagen von Panels vorhanden ist.
+  Wir wäre es mit einem 25/25/50 Layout, wie in diesem Beispiel zu sehen?
+
+  Ok, dann klicken Sie auf den Link COLUMN und wie Sie dann sehen:
+
+  Einer Column kann man ausschliesslich eine Row hinzufügen.
+
+  Wenn Sie das tun, sehen Sie auf der nächsten Seite eine Auswahlbox mit dem Titel ENTHÄLT und zur Auswahl stehen dort REGIONS und COLUMNS.
+
+  Das ist die entscheidende Einstellung, um effiziente Layouts zu erstellen. Ganz wichtig ist folgende Tatsache:
+
+  Am Ende der Kette, der möglichen Elemente, muss immer eine Region stehen. Nur einer Region kann man später Inhalt hinzufügen.
+  Wählen Sie deshalb ROW ENTHÄLT COLUMN nur dann, wenn die Konstruktion des Layouts das zwingend erfordert. Entscheiden Sie sich immer für Regions, wenn Sie wissen, dass Sie später hier Inhalt hinzufügen wollen.
+
+  Schauen Sie sich dazu das Beispiel nochmal an. Sie sehen zwei Reihen mit 25/25/50 Regions. Jeder Region wurde Inhalt hinzugefügt. Die zweite Reihe ist allerdings keine Row. Sie entsteht vielmehr aus weiterem Inhalt, welcher einer Region hinzugefügt wurde.
+
+  Der Verzicht auf überflüssige Columns und Rows führt zu schlankerem Markup.
+
+  Fügen wir also jetzt unserer intitialen Column eine Row hinzu und wählen ENTHÄLT REGIONS. Fügen Sie danach 3 Regions hinzu und stellen die Regions, durch bewegen des Trenners mit der Maus auf die gewünschte Breite. Halten Sie dazu die SHIFT Taste gedrückt. So können Sie einfacher Ganzzahlen als Prozentwert einstellen.
+
+  Vergessen Sie zum Abschluss nicht AKTUALISIEREN und SPEICHERN zu klicken. Sonst gehen alle Änderungen verloren.
+
+  Sie können jetzt den 3 Regions beliebige Inhalte hinzufügen. Das Ergebnis sollte so aussehen wie unser Beispiel.
+
+  Wann braucht man denn nun, weitere Rows und möglicherweise Columns? Sehen Sie sich einmal die Standardvorlagen von Panels an. Da gibt es welche Namens stacked oder bricked.
+  Wenn wir aus unserem einfachen Beispiel ein bricked, also ein unterbrochenes Layout machen wollen, dann braucht die erste Columns mehrere Rows.
+  So könnte ein solches Layout aufgebaut sein:
+  25/25/50
+  100
+  25/25/50
+  100
+  25/25/50
+
+  Um ein solches Layout zu erzeugen, brauchen Sie für die erste Column 5 Rows. Jeder Row können Sie dann direkt Regions hinzufügen. Weitere Columns braucht man nur für noch komplexere Layouts.
+
+  Mit diesem Basiswissen versehen, sollte es Ihnen aber nicht mehr schwer fallen, sehr komplexe Layouts zu erstellen.
+
+  Wie schon erwähnt, wird das generierte Markup HTML-Puristen nicht überzeugen. Programmierer können für Panels auch Layout Plugins mit optimalem HTML erzeugen. Das ist zwar nicht sehr schwer, aber für viele eben doch eine unüberwindbare Hürde. Und genau für die ist das Flexible Layout gedacht.
+
+  Allerdings sollten wir uns als Programmierer auch fragen, ob und wann der Mehraufwand eines Plugins gerechtfertigt ist. Darüber hinaus kann man so sehr einfach Prototypen erstellen und das Ergebnis mit dem Kunden besprechen und einfach ändern, bevor man den endgültigen Entwurf als Plugin implementiert.

@@ -1,0 +1,10 @@
+---
+:id: 6gMLhAZSZUEC6ckMCMU2QG
+:title: Sexy Exposed
+:url: sexy-exposed
+:body: |-
+  Multiple Selectboxes sind hässlich, nehmen Platz weg, zerstören Layouts und sind für viele Benutzer schlecht zu bedienen. Nun braucht man diese allerdings hin und wieder. Insbesondere auch in Views als 'Exposed Filter'.
+
+  Das Modul Sexy Exposed schafft hier Abhilfe, indem es das JQuery Plugin Dropdown CheckList integriert und in einer View zur Verfügung stellt.
+
+  Die Dropdown Box wird dadurch einzeilig und die Mehrfachauswahl wird durch Checkboxen erreicht. Das ist für Benutzer viel intuitiver, als eine normale Mehrfachauswahl, wo er mit Maus und Tastatur hantieren muss.

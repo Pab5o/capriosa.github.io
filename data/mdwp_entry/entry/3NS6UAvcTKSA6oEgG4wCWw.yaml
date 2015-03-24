@@ -1,0 +1,32 @@
+---
+:id: 3NS6UAvcTKSA6oEgG4wCWw
+:title: Features
+:url: features
+:body: |-
+  Der Trend in der Drupal Welt, in den letzten Monaten waren sicherlich Features. Features? Was sind Features?
+  Nun, Features ist ein Modul und nicht wie man vermuten könnte irgendwelche Features von Drupal.
+
+  Features herunterladen
+
+  Sehr vereinfacht formuliert, kann man sich mit dem Features Modul Funktionalität, die man auf Site A erstellt hat, auf Site B importieren und wiederverwenden.
+
+  Jeder der mit einem CMS arbeitet kennt sicherlich die Situation, dass bestimmte Dinge die man macht nicht wiederverwendet werden können. Das liegt in der Natur der Sache, hier ein Klick, dort eine Eingabe, eine bestimmte Modulkonfiguration ... usw.
+
+  Und beim nächsten Projekt braucht man etwas Ähnliches und alles geht wieder von vorn los. Besonders ärgerlich und kostenintensiv ist das, wenn man bestimmte Dinge erst auf einem Entwicklungsserver macht.
+
+  Ein Szenario bei Drupal sieht z.B. so aus:
+  Man erstellt einen neuen Inhaltstyp mit vielen Feldern, jedes davon braucht bestimmte Konfigurationseinstellungen. Dann erstellt man eine View, die ein Monatsarchiv neuer Beiträge dieses Inhaltstyps darstellt. Vielleicht noch ein Flag und eine Rule, die dafür sorgen das irgendwas Entscheidenes passiert, wenn ein neuer Beitrag erstellt wurde.
+  Das ist alles nicht kompliziert, aber viel Arbeitet.
+
+  Und jetzt kommt das Features Modul ins Spiel. Features ist auf Site A und B aktiviert. Auf Site A, wo man die oben beschriebene Arbeit duchgeführt hat erzeugt man ein neues Feature. Diesem Feature fügt man mit wenigen Klicks den Inhaltstyp, die View, den Flag und die Rule hinzu und klickt auf Download.
+
+  Features erzeugt nun im Hintergrund ein echtes neues Drupal Modul, packt das in einen tarball und bietet diesen zum Downlaod an.
+
+  Damit macht man nun dasselbe, wie mit jedem anderen Drupal Modul. Auf dem Server entpacken und dann das Modul aktivieren.
+  Und schon steht Site B die gesamte oben beschriebene Funktionalität zur Verfügung. Die Features eben.
+
+  Die kann man jetzt auf Site B natürlich auch verändern und dort natürlich auch wieder in ein Features Paket packen.
+
+  Features funktioniert zusammen mit den wichtigsten Modulen, aber nicht mit allen. Diese Module implementieren sog. Exportables, ein Konzept, dass von Earl Miles für Views eingeführt wurde. Ich denke aber, dass in der Zukunft immer mehr Module Features unterstützen werden.
+
+  Auch viele Distributions Profile basieren mittlerweile auf Features. So kann man sich bspw. von der OpenPublish Distribution auch nur die Features und nicht die gesamte Installation herunterladen.

@@ -1,0 +1,13 @@
+---
+:id: 1klWsVAGZC82C4iiq0YMws
+:title: So war das früher
+:url: so-war-das-frueher
+:body: |-
+  Dieser Tipp gilt nur für Drupal 4.x Versionen und früher>
+  Oft sind die Headlines der Sidebar Blöcke unschön, unerwünscht oder einfach überflüssig. Ich mag es z.B. nicht, wenn über einem Navigationsblock "Navigation" steht. Eine Navigation erklärt sich doch selbst.
+
+  Hier habe ich einen Tip gefunden, wie die Headlines selbst erstellter Blöcke "versteckt" werden können.
+  Ganz einfach: man versieht den Titel des Blocks einfach mit HTML Kommentaren.
+  Was macht man aber mit den Standardblöcken von Drupal?
+  Hier kommt man nicht so einfach an den Titel.
+  Aber es geht trotzdem. Über den Menüpunkt "Spracheinstellungen" der Administration(ich verwende hier immer deutsche Übersetzungen)kann man nach diesen Titeln suchen. Also beispielsweise "Navigation" eingeben, dann auf bearbeiten klicken und den Begriff in der gewünschten Sprache auskommentieren.

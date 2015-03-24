@@ -1,0 +1,14 @@
+---
+:id: 1haSvlEGKwU2Ye8Q82yqM8
+:title: Auf die Schnelle
+:url: auf-die-schnelle
+:body: |-
+  Der folgende Tipp gilt nur für Drupal 4.x Versionen und früher.
+
+  Wer für seine Drupal-Site "mal eben" einen neuen Inhaltstyp (nodetype) benötigt, findet in dem Modul ContentO die geeignete Lösung.
+  Nach der Aktivierung des Moduls steht unter 'admin/settings/content-types' ein neuer Reiter 'add content type' zur Verfügung. Im entsprechendem Formular muss man eigentlich nur einen Namen für den neuen Inhaltstyp, bswp. 'Aktuelle News', vergeben.
+
+  Wozu können solche Clones gut sein?
+  Nun, die unterste Ebene aller Kategorien ist ein Inhaltstyp. Wenn uns mehr Typen zur Verfügung stehen, haben wir einfach mehr Möglichkeiten. Dies gilt auch für die Rechtevergabe. So können wir einen neuen Typen nur für bestimmte Rollen/Rechte freigeben. Nur mit dem Story-Nodetype geht das natürlich nicht.
+
+  Neue Inhaltstypen sind auch in Verbindung mit Views von unschätzbarem Vorteil. Also, einfach mal ausprobieren.

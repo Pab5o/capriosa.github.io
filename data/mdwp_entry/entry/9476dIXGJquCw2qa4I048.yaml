@@ -1,0 +1,13 @@
+---
+:id: 9476dIXGJquCw2qa4I048
+:title: Administrations Menü
+:url: administrations-menue
+:body: |-
+  Das Administrations Menü Modul ist unverzichtbar auf jeder Drupal Site. Es hilft Zeit und Kosten zu sparen und schont die Nerven.
+  Ohne das Admin Menü müssen Sie 2-3 mal irgendwelche Menüpunkte anklicken, wobei jeder Klick einen neuen Request zum Server erzeugt, bis Sie da sind wo Sie Ihre Arbeit erledigen können.
+
+  Außerdem ist es für Einsteiger eine bequeme Hilfe um die Sruktur von Drupal besser kennenzulernen. Man findet auch viel schneller einen Menüeintrag, den man nicht täglich braucht.
+
+  Suchen Sie mal ohne Admin Menü nach den 'Automatic alias settings' des Pathauto Moduls. Nicht so einfach, es sei denn Sie kennen die URL auswendig.
+
+  Und wenn Sie das devel Modul im Einsatz haben, werden dessen Menüpunkte auch im Admin Menü angezeigt. So kann man mit einem Klick die Theme Registry neu aufbauen lassen.

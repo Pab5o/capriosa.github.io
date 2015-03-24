@@ -1,0 +1,37 @@
+---
+:id: 10SbdJW4DSM6yYQCWOu6Gg
+:title: Der Wald und die Bäume
+:url: der-wald-und-die-baeume
+:body: |-
+  Ich halte ja nichts davon die Welt über Twitter mit allem Möglichen, was ich gerade tue, zu langweilen. Wenn ich aber einen Blogeintrag schreibe, halte ich es schon für ganz nützlich via Twitter andere darauf aufmerksam zu machen.
+
+  Das Drupal Twitter Modul ermöglicht genau das. Was mir aber nicht daran gefiel, war die Tatsache, dass nur die Tinyurl und der Titel gepostet wird .
+
+  Häh wird jetzt mancher denken. Genau, ich hab den Wald vor lauter Bäumen nicht gesehen. Aud die Idee, dass ich in das zusätzliche Feld, das mir das Twitter Modul im Node Formular bietet, reinschreiben kann was ich möchte, bin ich tatsächlich erst gestern gekommen!
+
+  So kann man z.B. schreiben "!user schreibt über "!title" !tinyurl". Oder was auch immer.
+
+  So kanns gehen. Wie gesagt, man sieht manchmal den Wald ...
+
+  Ein anderes Beispiel:
+
+  In einem CCK Feld möchte ich einen Wert aus dem Profil eines User vorgeben.
+  Hm, hm. Überlegt und auf die Idee gekommen, das mit Rules zu erledigen. Genau, wieder den Wald ...
+
+  Das würde zwar mit Rules gehen, ist aber vollkommen überflüssig. Die meisten CCK Felder bieten die Möglichkeit einen Default Value mit PHP-Code einzusetzen.
+
+  Also einfach so:
+
+  ```
+  <?php global $user;
+  $_user = user_load($user-?>uid);
+  return array(0 => array('value' => $_user->profile_firma));
+
+  ?>
+  ```
+
+  Zu beachten ist, dass das user_load notwendig ist, denn im global $user stehen nicht alle Werte zur Verfügung.
+
+  Tja, so ist das manchmal mit dem Wald ...
+
+  Richtig schlimm wird es dann, wenn aus Unkenntnis ein Haufen Extra Code programmiert wird, um ein vermeintliches Problem zu lösen. Zumindest das versuche ich immer zu vermeiden und überlege dreimal, bevor ich mich an zusätzliche Programmierung mache.

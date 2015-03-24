@@ -1,0 +1,27 @@
+---
+:id: 6OiZRpoed2sEAYUm6EeEgA
+:title: Schutz vor Spammern
+:url: schutz-vor-spammern
+:body: |-
+  Was passiert als Erstes, wenn Sie mit einer neuen Site Online gehen und diese über frei zugängliche Formulare verfügt?
+  Richtig, die Spam Robots sind schneller tätig, als irgendein Besucher.
+
+  Also muss ein Spamschutz her. Bekannt sind die Captchas als Lösung. Ein häufiges Problem ist jedoch, dass ein Besucher jedesmal die Eingabe machen muss. Und das lädt nicht gerade dazu ein z.B. Kommentare abzugeben.
+
+  Abhilfe schafft hier Mollom.
+  Mollom ist ein Projekt, ein Unternehmen und ein Webservice von Dries Buytaert, dem Project Lead von Drupal und Benjamin Schrauwen. Mollom gibt es seit 2008 und wird von vielen großen Unternehmen zum Schutz ihrer Sites eingesetzt.
+
+  Mollom verrichtet seinen Dienst vollkommen transparent und unbemerkt im Hintergrund. Es analysiert die abgesendeten Texte und generiert das Captcha nur, wenn der Text als möglicher Spam identifiziert wurde.
+
+  Das funktioniert ziemlich sicher und zuverlässig. Auf mollom.com wird eine Effizienz von 99,87% angegeben.
+
+  Was müssen sie tun, um Mollom für Ihre Drupal Site einzurichten.
+  Melden Sie sich zuerst bei Mollom an. Dort können Sie danach beliebig viele Sites anmelden.
+
+  Laden Sie sich dann das Mollom Modul herunter
+
+  Sie müssen dann noch zwei Schlüssel angeben, die Sie auf mollom.com für eine bestimmte Site bekommen haben.
+
+  Lehnen Sie sich zurück und beschäftigen sich mit wichtigeren Dingen.
+
+  Mollom gibt es auch für Joomla, Wordpress u.v.m.

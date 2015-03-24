@@ -1,0 +1,12 @@
+---
+:id: 4iETlFxio0WMEMgaMsquKE
+:title: Bloggen mit TextMate und Drupal
+:url: bloggen-mit-textmate-und-drupal
+:body: |-
+  Habe das vollkommen vergessene Blog-API Modul des Drupal Core aktiviert und konfiguriert, um zu testen ob ich für die DrupalCon mit TextMate meine Blog-Einträge schreiben kann. Das funktionierte leider nicht auf Anhieb. Eine kurze Suche brachte mich hierhin - http://feed2mobile.kaywa.com/202188990/e53f74
+
+  Dort wird beschrieben, wie man TextMate richtig einrichtet um via TextMate mit Drupal zu bloggen.
+  Hier die entscheidene Zeile:
+
+  blog http://md@www.mdwp.de/xmlrpc.php#blog
+  Wichtig ist das #blog am Ende. Sonst funktioniert es nicht. Hinter der Raute muss der Maschinen lesbare Name stehen. Richtet man einen anderen Inhaltstyp für die blogapi ein, muss dieser dort stehen.

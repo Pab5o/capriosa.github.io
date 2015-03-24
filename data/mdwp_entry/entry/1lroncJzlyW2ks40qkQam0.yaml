@@ -1,0 +1,47 @@
+---
+:id: 1lroncJzlyW2ks40qkQam0
+:title: Drupal als Portal Lösung
+:url: drupal-als-portal-loesung
+:body: |-
+  ## 30.08.2010
+
+  Sucht man im Netz nach Portal-Lösungen, Systemen, Software usw. stößt man so schnell nicht auf Drupal. Auch im Artikel über Portale bei Wikipedia sucht man Drupal vergeblich. Das verwundert einen nicht, wenn man sich die Definition der Architektur eines Portals dort anschaut:
+
+  Die generelle Architektur eines Portals sieht einen Server vor, der die Anfragen der Anwender entgegen nimmt und an die Portlet-Engine weiterleitet. Diese verwaltet den Lebenszyklus der Portlets und gibt die Aktions- und Renderanfragen an die einzelnen Portlets weiter, die in der nachgefragten Seite angezeigt werden sollen. Die Portlets suchen sich aus den dazugehörigen Datenquellen ihren Inhalt zusammen. Hierbei ist festzustellen, dass Datenquellen klassische Datenbanken sein können. Aber auch Web Services und Anwendungen können hier als Quellen eingesetzt werden. Die Portlets sind nicht darauf beschränkt, sich aus einer Datenquelle zu bedienen, sondern können ihren Inhalt aus mehreren Datentöpfen zusammenstellen.
+
+  Drupal basiert nicht auf solch einer spezialisierten Architektur, sondern auf einer weitaus flexibleren API. Drupal kennt auch keine Portlets, obwohl mit dem Homebox Modul etwas ähnliches leicht zu realisieren ist. Und natürlich verfügt Drupal auch nicht über eine Portlet-Engine und all die anderen Dingen, die bei den meistens Java basierten Lösungen eine Rolle spielen.
+  Einen Artikel zu Dashboards/Portlets finden Sie hier.
+
+  Vielleicht waren das Gründe, warum auch die Analysten von Gartner bei einem Vergleich von Portal Lösungen nicht auf Drupal stießen. Bei einem ebenfalls von Gartner durchgeführten Vergleich von Social Software wurde Drupal allerdings als visionäre Lösung eingestuft.
+
+  Bedeutet das, Drupal ist als Portal-Lösung ungeeignet?
+
+  Ganz im Gegenteil! Drupal bietet mit Modulen wie CCK, Views, Panels, Spaces, Context, Organic Groups und Homebox genügend Komponenten, um schnell und kostengünstig ein Portal zu realisieren. Es gibt allerdings auch eine "Out of the box" Lösung, um ein Portal mit Drupal realisieren zu können. Die Distribution Open Atrium. Darauf gehe ich weiter unten ein.
+
+  Die (nicht technische) Definition eines Portals lautet bei Wikipedia wie folgt:
+
+  "Ein Portal ist […] eine Applikation, die […] einen zentralen Zugriff auf personalisierte Inhalte sowie bedarfsgerecht auf Prozesse bereitstellt. Charakterisierend für Portale ist die Verknüpfung und der Datenaustausch zwischen heterogenen Anwendungen über eine Portalplattform. Eine manuelle Anmeldung an die in das Portal integrierten Anwendungen ist durch Single-Sign-On nicht mehr notwendig, es gibt einen zentralen Zugriff über eine homogene Benutzungsoberfläche. Portale bieten die Möglichkeit, Prozesse und Zusammenarbeit innerhalb heterogener Gruppen zu unterstützen."
+
+  Wenn man die Anbindung an Legacy-Anwendungen mal außer Acht lässt, stellen diese Anforderungen für Drupal kein Problem dar. Außerdem gibt es für Portale, die nicht nur in einer Unternehmensinfrastruktur eine Rolle spielen, auch andere Definitionen.
+
+  Und das Schöne ist, dass Sie ein mit Drupal entwickeltes Portal auch ohne ein hochspezialisiertes Team und teurer IT-Infrastruktur selber pflegen und weiterentwickeln können.
+
+  Vergleicht man viele der angebotenen Portal Systeme mit Drupal, stellt man Folgendes fest:
+
+      Häufig keine OpenSource
+      Proprietäre Systeme
+      Teuer
+      Besondere Server-Ausstattung erforderlich
+      Kompliziert in der Wartung
+
+  Das alles trifft auf Drupal nicht zu. Und hätten die Analysten von Gartner einen Blick auf Open Atrium geworfen, wären Sie vielleicht auch zu dem Ergebnis gekommen, dass Drupal auch als Portal Lösung in Frage kommt. Vielleicht haben sie aber auch Open Atrium nur als Projektmanagement-Lösung betrachtet. Einen sehr guten Artikel dazu gibt es hier zu lesen.
+
+  Development Seed, die Firma hinter Open Atrium, beschreibt die Distribution so: "Intranet and team portal package based on Drupal. It comes with a blog, a wiki, a calendar, a to do list, a shoutbox, and a dashboard to manage it all."
+
+  Und das ist nur ein Bruchteil der Möglichkeiten, die mit OA zur Verfügung gestellt werden. Zu OA gibt es eine eigene Community Site https://community.openatrium.com/ auf der Sie weitere Features entdecken können. Hier werden die Features von Open Atrium beschrieben.
+
+  Und wie jede Drupal Distribution ist auch OA beliebig erweiterbar. Die mehr als 5000 Module von Drupal lassen so gut wie keinen Wunsch offen.
+
+  Konzeptionell basiert OA auf Gruppen und frei konfigurierbaren Dashboards. Diese verfügen über ein Drag&Drop Interface und Inline Editing Möglichkeiten.
+
+  Technisch basiert OA auf vielen neuen Modulen und APIs von Development Seed. Diese gehen weit über eine Drupal Standard Installation hinaus und erfordern häufig ein Umdenken im Umgang mit Drupal und den gewohnten Herangehensweisen.

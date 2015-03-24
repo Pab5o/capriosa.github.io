@@ -1,0 +1,8 @@
+---
+:id: 5RLq6YlhHagkKuISOUya8Y
+:title: GoogleMaps einfach einbinden
+:url: googlemaps-einfach-einbinden
+:body: |-
+  Wer nach einer einfachen Möglichkeit sucht GoogleMaps auf Drupal Sites einzubinden, ist mit dem Modul - http://drupal.org/project/embed_gmap - gut beraten. Das Modul stellt ein neues CCK-Feld zur Verfügung. So kann man leicht Inhaltstypen erweitern. In dem Feld können Daten genau so eingegeben werden wie bei GoogleMaps. Adressdaten in beliebiger Reihenfolge oder Suchbegriffe wie z.B. Firmennamen können verwendet werden. Embed map arbeitet nicht mit der GoogleMaps API, sondern direkt mit GoogleMaps in einem Inline Frame.
+
+  Wer damit und der Tatsache, dass das Ergebnis einer Umkreissuche oder einer Routenberechnung, direkt bei GoogleMaps und nicht auf der Drupal-Seite angezeigt wird, erhält mit Embed Gmap eine gute Alternative zu den großen umständlichen. Modulen

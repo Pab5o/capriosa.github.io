@@ -1,0 +1,20 @@
+---
+:id: 1RPEykbbCEyeWeUkq0k6QI
+:title: Aktiven Menüpunkt ermitteln und als Headline ausgeben
+:url: aktiven-menuepunkt-ermitteln-und-als-headline-ausgeben
+:body: |-
+  ```
+  Kunden haben manchmal Wünsche, die schon überraschen. Aber das ist ja ihr gutes Recht. Aktuell wollte ein Kunde, dass in der Headline einer Seite, also da wo normalerweise print $title steht, nicht der Seitentitel sondern der aktive Menüpunkt ausgegeben wird.
+
+  Hintergrund ist, dass der Kunde im Titel eines nodes eine lange Beschreibung eingibt, die aber nicht im HTML body, sondern nur im head ausgegeben werden soll. (SEO)
+
+  Folgender Code an Stelle von print $title macht genau das.
+
+  <?php $arr = menu_get_active_trail(); //Das Menü Array holen
+   end($arr); //zum letzten Element im Array wechseln
+   $menu_item = current($arr); //Aktuellen Eintrag holen
+   print $menu_item['title'];
+  ?>
+
+  Man könnte natürlich in der page_preprocess Funktion in der template.php eine neue Variable erzeugen.
+  ```

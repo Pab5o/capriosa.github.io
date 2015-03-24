@@ -1,0 +1,20 @@
+---
+:id: 4TQl78ZeROOsy6oEku4E8o
+:title: Sweaver als Alternative zu Drupal Gardens
+:url: sweaver-als-alternative-zu-drupal-gardens
+:body: |-
+  Wer Drupal Gardens kennt, wird bei dem Screenshot oben rechts viele Ähnlichkeiten erkennen. Und ja, das Modul, welches ich heute kurz vorstellen möchte hat einige Ähnlichkeiten mit dem Theme Builder von Drupal Gardens. Es ist (noch) nicht ganz so mächtig, aber es hat den Vorteil, dass man es im Gegensatz zu Drupal Gardens, als Modul auf der eigenen Site einsetzen kann.
+
+  Was kann man mit Sweaver machen?
+  Wenn man das Modul installiert hat, gibt es am unteren Rand des Browsers, den in der Abbildung zu erkennenden neuen Bereich. Mit diesem neuen Werkzeug ist nun jeder in der Lage ohne CSS Kenntnisse das Design eine Website zu ändern.
+
+  Hierzu klickt man auf ein beliebiges Element einer Seite, z.B. einer Headline, und kann dann Font, Fontgröße, Art, Farbe, Abstände und Hintergründe per Schieberegler oder Colorpicker ändern. Sogar Hintergrundbilder lassen sich über diese Oberfläche hochladen und dann für bestimmte Elemente verwenden.
+
+  Hat man alles so gestylt wie gewünscht, sichert man diesen Style und aktiviert ihn. Voilá das neue Design ist Online. Falls etwas schiefgelaufen ist, kann man den Style einfach löschen und der alte Zustand ist wieder hergestellt.
+
+  Das Modul ist noch relativ neu, aber durchaus einsatzbereit.
+  Die Auswahl eines bestimmten Elements einer Seite müsste allerdings noch verbessert werden.
+
+  Der CSS Profi erledigt sicher vieles schneller und einfacher mit seinem bevorzugten Editor, aber für Sitebetreiber ohne diese Kenntnisse ist das Modul unbedingt empfehlenswert. Insbesondere da diese ja sehr häufig mit fertigen Themes arbeiten und sich oft schwertun Fonts, Farben und Hintergrundbilder schnell zu ändern.
+
+  Ich kann mir aber auch vorstellen, dass man das Modul fürs Prototyping und schnellen Produktion von Wireframes einsetzt, um Kunden sehr schnell verschiedene Designansätze präsentieren zu können. In Verbindung mit dem Fusion Theme und dem Skinr Modul sicherlich keine schlechte Idee.

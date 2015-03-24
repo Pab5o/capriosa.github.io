@@ -1,0 +1,41 @@
+---
+:id: 4s5ji2ppPqycWMeEgm6UO0
+:title: Site Navigation und Menüstrukturen
+:url: site-navigation-und-menuestrukturen
+:body: |-
+  Viele Benutzer die neu in Drupal einsteigen finden sich in dem wichtigsten Bestandteil einer Website, der Navigation, nicht sofort zurecht. Gemeint ist hier nicht die Backend Navigation, sondern die Navigation die ein Website-Betreiber seinen Benutzer(inne)n zur Verfügung stellt.
+
+  Die Einen vermissen einen Menübaum, die Anderen halten Drupal's Menüsystem für zu umständlich. Mit diesem Artikel versuchen wir diese Vorurteile aus dem Weg zu räumen.
+
+  Drupal verfügt nicht über EIN Menü oder EINEN Menübaum, sondern kann durchaus vollkommen verschiedene Menüstrukturen zur Verfügung stellen.
+
+  Aber gehen wir der Reihe nach vor.
+  Schauen uns wir zuerst mal im Web gängige Navigations-Menüs an. Die meisten Sites verfügen über eine horizontal angeordnete Menüleiste im Kopfbereich einer Seite. Diese wird manchmal im "Footer" wiederholt, manchmal erscheint im Footer aber auch ein weniger wichtiges Modul.
+
+  Das Menü im Kopfbereich verfügt gelegentlich über ein zweite Ebene, seltener - es sei denn als dymamisches CSS/JS Menü - über mehr Ebenen.
+  Mehrere Ebenen, also ein hierarchisches Menü, werden meist links oder rechts auf einer Seite angezeigt. Auf Grund des begrenzten horizontalen Platz allerdings selten über zwei Ebenen hinaus.
+
+  Das sind die gängigen Menüstrukturen einer Website und diese lassen sich sehr leicht mit Drupal erstellen. Fangen wir mit einem hierachischen, vertikalen Menü an. Rufen Sie dazu STRUKTURIERUNG/MENÜS/MENÜ HINZUFÜGEN auf. Füllen Sie die Felder auf der Seite z.B so aus:
+
+      Menüname: sitenavigation
+      Titel: Sitenavigation
+
+  Speichern Sie das neu angelegte Menü.
+  Danach könnten Sie auf der nächsten Seite diesem Menü neue Menüeinträge hinzufügen.
+
+  Tun Sie das nicht, denn Sie müssten dann den Pfad zu einer Seite angeben und eine Seite haben Sie ja noch gar nicht angelegt
+
+  Klicken Sie vielmehr auf den Reiter EINSTELLUNGEN. Wählen Sie dann in der Auswahlbox DAS STANDARDMENÜ FÜR INHALT, das gerade angelegte Menü SITENAVIGATION aus und speichern dann wieder. Der letzte Konfigurationspunkt erleichertert es Ihnen enorm beim Anlegen neuer Seiten, eine Site diesem Menü zuzuordnen.
+
+  Falls Ihnen während dieser Arbeiten oder auch vorher schon einmal, das Menü NAVIGATION aufgefallen ist und Sie in Versuchung geraten sind, dieses Standardmenü für die normale Sitenavigation zu benutzen - tun Sie das nicht
+
+  Das Drupal Standardmenü NAVIGATION wird von Drupal und von Modulen benutzt, um bestimmte Funktionen anzuzeigen, die i.d.R. nur bestimmten Besuchern (z.B. angemeldeten Benutzern) zugänglich sind. Wenn Sie diesem Menü andere Menüeinträge hinzufügen oder gar welche entfernen, kann schnell einiges durcheinander geraten.
+
+  Geben Sie das Menü NAVIGATION grundsätzlich nur für angemeldete Benutzer frei. Es sei denn Ihr spezieller Anwendungsfall, erfordert hier eine Ausnahme!
+
+  Wenn Sie jetzt neue Seiten erstellen, können Sie diese dem neuen Menü SITENAVIGATION sehr einfach hinzufügen.
+  Ein Menübaum, in dem Sie Menüeinträge per Drag & Drop verschieben können, steht Ihnen ab jetzt auch zur Verfügung.
+
+  Wenn Sie Seiten angelegt und dem Menü hinzugefügt haben, werden Sie sich, wenn Sie Drupal noch nicht kennen, verzweifelt fragen, wo das Menü denn auftaucht.
+
+  Sie müssen die Blockverwaltung aufrufen und den Block SITENAVIGATION einer Region, i.d.R. Sidebar Left oder Sidebar Right, zuordnen. Drupal generiert aus Menüs immer Blöcke und die erscheinen nur, wenn sie aktiviert wurden!

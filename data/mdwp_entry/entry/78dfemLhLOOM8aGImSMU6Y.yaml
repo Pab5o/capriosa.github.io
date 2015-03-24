@@ -1,0 +1,30 @@
+---
+:id: 78dfemLhLOOM8aGImSMU6Y
+:title: Webservices mit Drupal nutzen
+:url: webservices-mit-drupal-nutzen
+:body: |-
+  Wer mit Drupal einen Webservice nutzen möchte, kann als 'unterstützendes' Modul - http://drupal.org/project/soapclient - einsetzen.
+
+  Das Modul bietet eine einfache Konfiguration für unterschiedliche SOAP-Bibliotheken und ein kleines Testinterface. Dieses ist recht nützlich, um die Verbindung und einige Parameter zu testen, bevor es mit der eigentlichen Programmierung losgeht.
+
+  Für die beck-community habe ich es zweimal benutzt. Einmal, um einen Webservice von beck-online für ein Single-Sign-On für Drupal zu nutzen und ein weiteres Mal, um einem Service einen Drupal Node zu übergeben, welcher dann mit Links zu Fundstellen in der beck-online Datenbank zurückgeliefert wird.
+
+  Hierfür habe ich einen Drupal Filter entwickelt. Da Drupal UTF-8 baisert ist, trat hier ein Problem auf. Die nusoap Bibliothek, welche ich einsetzen musste hat ein kleines Problem ('by Design').
+
+  Um nusoap dazu zu bringen mit UTF-8 zu arbeiten, muss man in der nusoap.php (ist in einem extra Verzeichnis des soapclient Moduls) Folgendes ändern:
+
+  var $soap_defencoding = 'ISO-8859-1';
+
+  //var $soap_defencoding = 'UTF-8';
+  in:
+  var $soap_defencoding = 'UTF-8';
+  //var $soap_defencoding = 'ISO-8859-1';
+
+  und alle Vorkommnisse von:
+  var $decode_utf8 = true;
+  in:
+  var $decode_utf8 = false;
+
+  Außerdem die 'use' Option auf encoded einstellen.
+
+  Danach klappt es auch mit UTF-8.

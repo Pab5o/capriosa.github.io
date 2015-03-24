@@ -1,0 +1,52 @@
+---
+:id: 5Xt86JSBwsAgSEmSEiCyiO
+:title: Mit Plesk einen Cronjob für die cron.php von Drupal erstellen
+:url: mit-plesk-einen-cronjob-fuer-die-cronphp-von-drupal-erstellen
+:body: |-
+  Die cron.php übernimmt die Ausführung zentraler Wartungsarbeiten und sollte regelmäßig ausgeführt werden. Dieser Artikel zeigt, wie Sie mit Plesk einen Cronjob anlegen, der alle 15 Minuten die cron.php aktualisiert, unabhängig davon ob jemand die Seite besucht oder nicht.
+
+  Gerade Anfänger haben oft das Problem, dass sie nicht wissen wie man über die typische Administrationsfläche Plesk, die auf vielen virtuellen Servern läuft, einen Cronjob anlegen können, der genau dieses vornimmt. Ich zeige Ihnen hier Schritt für Schritt wie Sie dieses vornehmen können. Dabei gehe ich davon aus, dass Plesk installiert ist und ein Linux auf dem Server als Betriebssystem läuft.
+
+  Folgen Sie einfach den folgenden Schritten.
+  Anlage der Datei
+
+  Starten wir mit der Datei selber, diese benötigt ein wenig Code.
+
+  #!/bin/bash
+  lynx -dump http://www.der-domain-name.de/cron.php >/dev/null
+
+  Wir wollen uns an der Stelle nur soviel merken, dass Lynx ein Textbrowser ist, der sehr wahrscheinlich auf dem virtuellen Server installiert ist. Wir rufen also einfach diese cron.php mit Lynx auf, und schreiben die Ausgabe gleich ins Nirvana (das macht /dev/null).
+
+  Dann speichern wir uns die Datei unter einem beliebigen Namen, wie bspw. cron_job.sh. Dabei achten Sie darauf, dass unter Windows auch wirklich .sh abgespeichert wird und nicht .sh.txt. Das erreichen Sie in der Regel durch die Benutzung von Anführungszeichen im Texteditor Ihrer Wahl "cron_job.sh".
+
+  Damit haben Sie bereits alles an Dateivorarbeit erledigt was wir hier benötigen.
+  Datei auf den Server überspielen
+
+  Die meisten werden das Kopieren kennen, da Sie sehr wahrscheinlich auch schon die Drupalversion auf den Server kopiert haben. Nichts anderes wird hier auch gemacht.
+
+  In dem root Verzeichnis der Drupalinstallation gibt es ein Verzeichnis scripts. Dort könnte man das Script ablegen, allerdings muss man das dann im Kopf behalten, wenn man ein Update von Drupal macht und die Verzeichnisse löscht. Prinzipiell kann jedes Verzeichnis benutzt werden auf das der Benutzer unter dem der aufrufende Prozess läuft, auch Zugriffsrechte besitzt.
+
+  Sehr wahrscheinlich sieht ihr Verzeichnis dann so ähnlich aus.
+  /var/www/vhosts//httpdocs/scripts. Kopieren Sie in das Verzeichnis dann die oben erstellt Datei hinein. Jetzt fehlen nur noch die passenden Rechte, wobei hier ein 755 ausreichend ist. Wenn Sie bspw. SCP unter Windows nutzen können Sie über einen Rechtsklick und Properties das folgende Fenster aufrufen.
+
+  Aber auch praktisch jeder Dateimanager wie Nautilus kann die Verbindung zum Server aufbauen.
+  Plesk aufrufen
+
+  Die genaue URL zum Aufrufen von Plesk erhalten Sie von Ihrem Provider. Bei Auslieferung läuft Plesk oft auf dem Port 8443. Bei mir sieht das dann wie folgt aus
+
+  Nach dem Einloggen sehen Sie dann die Oberfläche von Plesk. Halten Sie dann Ausschau nach den Domains und anzeigen
+
+  Danach wählen Sie Ihre entsprechende Domain aus, ich habe hier meine eigene verwendet. Ein Klick genügt...
+
+  ... und Sie finden auf der rechten unteren Hälfte der Seite nun geplante Aufgaben welches Sie anklicken.
+
+  Das darauf folgende Menü mit dem Benutzer werden Sie in der Regel überspringen können, wenn Sie nur einen Systembenutzer haben. Nachdem Sie diesen angeklickt haben, finden Sie sich auf der Übersichtsseite aller geplanter Aufgaben wieder.
+
+  Über das neue Aufgabe planen am oberen Rand, können Sie eine neue Aufgabe erstellen. Klicken Sie den Button und Sie finden folgende Abbildung vor sich.
+
+  Dabei kann man nun alle Felder bis auf das erste Feld (Minute) kann mit "*" ausgefüllen. In dem ersten können wir eine Schrittweite angeben, die Info über Cron bei Wikipedia hilft, um zum folgenden Bild zu kommen (nach abspeichern):
+
+  Die letzte Zeile enthält nun den Pfad zu der Datei, die oben erstellt und auf den Server kopiert worden ist. /var/www/vhosts//httpdocs/scripts/cron_job.sh wäre die oben vorgestellte Variante. Abspeichern nicht vergessen - fertig.
+  Ausführung von Cron überprüfen
+
+  Natürlich will und sollte man auch überprüfen ob der Cronjob richtig ausgeführt wird. Dazu kann man unter der URL http://www.de/admin/reports/status prüfen, wann Cron zuletzt ausgeführt worden ist.

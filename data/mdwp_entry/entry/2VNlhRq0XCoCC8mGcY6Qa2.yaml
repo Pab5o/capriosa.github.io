@@ -1,0 +1,19 @@
+---
+:id: 2VNlhRq0XCoCC8mGcY6Qa2
+:title: Responsive Design - RESS
+:url: ress
+:body: |-
+  ## 30.12.2011
+
+  http://drupal.org/node/1388502/ - Responsive Design + Server-side Components - Gefunden im "Mobile Handbook" auf drupal.org
+
+  Bei RESS handelt es sich um eine Kombination aus der Responsive Design Methode und serverseitiger Geräteerkennung.
+  Meines Erachtens wird RESS letztlich die Vorgehensweise für die geräteunabhängige Entwicklung von Websites sein.
+  Responsive Design + Server-side Components
+  Mit "Responsive Design" erstellt man mittels CSS und Media Queries eine Layout Vorlage, welche auf die Breite des Ausgabegeräts reagiert und das HTML anders - i.d.R. nur mit einer Spalte für mobile Geräte - formatiert. Diese Technik hat sich mittlerweile auf breiter Basis durchgesetzt. Sie führt allerdings ohne serverseitiger Geräteerkennung dazu, dass auch HTML an mobile Geräte ausgeliefert wird, welches nicht dazu geeignet ist. Beispielsweise die Slideshow auf unserer Startseite oder auch die Facebook Box unten.
+
+  Zwar bieten einige Frameworks einfache Möglichkeiten dieses HTML per CSS auszublenden, das ist aber nur für wenige Fälle ausreichend. Hier kommt jetzt der zweite Ansatz von RESS ins Spiel - die serverseitige Erkennung des Ausgabegeräts. So kann man z.B. mittels einer Funktion in einem Drupal Modul das Gerät erkennen, das die Anfrage für die Website gesendet hat. In den Drupal Templates kann man dann mit einem einfachen Aufruf dieser Funktion - if(mobile()) … - das HTML eben nur generieren lassen, wenn die Anfrage von einem mobilen Gerät kam.
+
+  Wie genau die Geräteerkennung ist, hängt von der eingesetzen Technik bei der serverseitigen Erkennung ab. Wir setzen hier auf mdwp.de eine recht einfache, aber bisher sehr zuverlässige Technik ein.
+
+  Ich bin mir sicher, dass Drupal so etwas wie RESS in Zukunft recht zuverlässig unterstützen wird.

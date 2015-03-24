@@ -1,0 +1,14 @@
+<aside class="page-head">
+  <h2>Archiv</h2>
+  <p>In unserem Archiv finden Sie Beiträge aus den letzten 9 Jahren. Hauptsächlich zu Themen rund um Drupal</p>
+</aside>
+
+<% data.mdwp_entry.entry.sort_by {|k,v| v["title"]}.each do |entry| %>
+<section>
+  <header>
+  <h2><a href="<%= entry[1]['url'] %>.html">  <%= entry[1]["title"] %> </a></h2>
+  </header>
+
+
+</section>
+<% end %>

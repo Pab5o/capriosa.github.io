@@ -1,0 +1,23 @@
+---
+:id: 6o2iRd2ejYCG6qUmua6eiI
+:title: Dashboards
+:url: dashboards
+:body: |-
+  Wenn in nicht mehr ferner Zukunft, der Relaunch von http://drupal.org erfolgt ist, verfügt jeder angemeldete Benutzer über ein frei konfigurierbares personalisiertes Dashboard.
+
+  Hier http://redesign.drupal.org/ kann das jetzt schon getestet werden. [user:drupal, pass:drupal]
+
+  Das Dashboard wird druch Version 2 des Homebox Moduls generiert.
+  Die Neuentwicklung wurde u.A. wegen des Relaunchs angeregt. Aber Vorsicht, es gibt keinen Upgrade Pfad von der Version 1.
+
+  Mit dem Homebox Modul können beliebig viele Seiten (keine Nodes!) angelegt werden, auf welchen man in einem panelartigen Grid Blöcke (manchmal auch als Portlets bezeichnet) positionieren kann. Diese Blöcke können von Benutzern beliebig verschoben (Drag & Drop), verkleinert oder ausgeblendet werden. Angemeldete Benutzer können das Ergebnis speichern und ihre Seite so den eigenen Bedürfnissen anpassen.
+
+  Neu ist insbesondere, dass Admins ein fast beliebiges Layout sehr einfach generieren können. Hier muss sich Homebox kaum hinter Panels verstecken. Das Anlegen eines Layouts ist sogar einfacher.
+
+  Um z.B. folgendes Panel Layout zu erzeugen muss man nichts weiter tun, als die Homebox mit 5 Spalten zu versehen und den Spalten die Breiten 100%, 25%, 50%, 25%, 100% zu geben. Fertig.
+
+  Da Homebox ausschliesslich mit Drupal Blöcken arbeitet, macht der Einsatz fast nur mit Views Sinn. Der Einsatz von Ajax und Exposed Filtern in Views ist möglich.
+
+  Auf Profilseiten kann ein Reiter zu einer Homebox (Meine Startseite wäre ein sinnvolles Beispiel) zur Verfügung gestellt werden.
+
+  Als Fazit lässt sich sagen, dass Homebox ein sehr gutes Modul mit vielen Einsatzmöglichkeiten ist. Insbesondere auf Community Sites und Portalen kann man den Benutzern einen deutlichen Mehrwert bieten.

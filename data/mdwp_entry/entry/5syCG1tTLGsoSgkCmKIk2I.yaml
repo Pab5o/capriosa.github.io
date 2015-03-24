@@ -1,0 +1,42 @@
+---
+:id: 5syCG1tTLGsoSgkCmKIk2I
+:title: Optimieren Sie Ihre Sites für die sozialen Netze
+:url: site-content-in-social-nets
+:body: "## 18.09.2013\nIhre Inhalte in den sozialen Netzen\n\nDie Wege Ihrer Inhalte
+  in die sozialen Netze können recht unterschiedlich sein. Vielleicht geben Sie den
+  Besuchern Ihrer Site die Möglichkeit Blogbeiträge bei Facebook und/oder Google Plus
+  zu kommentieren. Aber selbst wenn nicht, kann jedes Mitglied z.B. bei Facebook eine
+  URL zu irgendeiner Seite Ihrer Website speichen und kommentieren. Facebook versucht
+  dann einen passenden Titel, eine kurze Beschreibung und ein Bild zu finden, um diese
+  dann in einem Teaser anzuzeigen.\nInsbesondere das Bild passt aber häufig nicht
+  zum Inhalt.\n\nUm sowas zu vermeiden sollten Sie etwas Arbeit investieren, um diese
+  Dinge effektiv zu kontrollieren. Für Drupal Sites ist das wie so oft sehr einfach.\n\nDrupal
+  Metatags Modul\nFalls Sie das Metatags Modul noch nicht nutzen, sollten Sie das
+  jetzt unbedingt tun. Es ist das wichtigste Werkzeug für SEO und sollte auf keiner
+  Site fehlen. Wenn Sie Metatags schon nutzen, sollten Sie zusätzlich das Submodul
+  Metatags Open Graph aktivieren. Hiermit lassen sich die oben beschriebenen Probleme
+  leicht lösen.\n\nOpen Graph Modul\n\"The Open Graph protocol enables any web page
+  to become a rich object in a social graph. For instance, this is used on Facebook
+  to allow any web page to have the same functionality as any other object on Facebook.\"\nMithilfe
+  des Open Graph Moduls fügen Sie Ihrer Site sehr einfach die OG Metatags hinzu. Wie
+  vom Metatags Modul bekannt, definieren Sie diese am Besten zuerst global für alle
+  Seiten und fügen bei Bedarf individuelle OG Metatags ausgewählten Seiten hinzu.\n\nBevor
+  Sie Ihre Website mit den Open Graph Einstellungen freigeben, sollten Sie diese unbedingt
+  hier - https://developers.facebook.com/tools/debug - testen. Erst, wenn der FB Debugger
+  keinen Fehler mehr anzeigt, sollten Sie die Änderungen online stellen. Der Debugger
+  kann auch dabei hilfreich sein, wenn Sie für das metatag og:image mal ein Bild austauschen
+  möchten. Facebook cached diese Bilder ziemlich hartnäckig. Wenn Sie Ihre Seite mit
+  einem neuen Bild vom Debugger prüfen lassen, wird der Cache geleert.\n\nDie Früchte
+  Ihrer Mühen\n\nIn den beiden Screenshots sehen Sie die Teaser bei Facebook von zwei
+  unserer eigenen Sites: capriosa.de und mdwp.de\n \nFür Capriosa haben wir noch keine
+  Open Graph Angaben vorgenommen. Das Ergebnis ist ein mehr oder weniger passender
+  Text für die Beschreibung und ein überhaupt nicht passendes Bild. Wenn Sie z.B.
+  eine Seite ohne Bild im Artikeltext haben, aber ein Bild in einem Block der Sidebar,
+  würde Facebook dieses Bild als Thumbnail nehmen, auch wenn es überhaupt nicht zu
+  Ihrem Text passt.\n \nAuf mdwp.de steuern wir mithilfe globaler und seitenspezifischer
+  OG Metatags sehr genau die Teaser. Der Benutzer kann nicht aus verschiedenen Bildern
+  wählen und  Facebook oder Google Plus nehmen nicht einfach irgendein Bild, welches
+  auf der Seite in einem ganz anderen Kontext z.B. der Sidebar auftaucht.\n\nUnd noch
+  ein Tipp: wenn Sie möchten, dass die Besucher Ihrer Sites Ihre Inhalte kommentieren,
+  bieten Sie dann auch echte Kommentarfelder (so wie hier auf mdwp) und nicht nur
+  irgendwelche \"Share This\" Widgets. So sieht der Besucher sofort war er tun kann."

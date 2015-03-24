@@ -1,0 +1,14 @@
+---
+:id: 3eeMr9DaVywcSQEuWiKGKM
+:title: CCK-Felder in Regionen ausgeben
+:url: cck-felder-in-regionen-ausgeben
+:body: |-
+  Bei den Arbeiten am Relaunch unserer mdwp* Firmensite, stieß ich auf ein immer wieder auftretendes Problem. Inhalte eines Nodes sollten nicht im üblichen Inhaltsbereich, sondern im Header ausgegeben werden. In unserem Fall sollte im Header der Inhalt eines Imagefields und eines extra Textfeldes ausgegeben werden.
+
+  Zur Lösung dieses Problems gibt es unzählige Varianten und die letztlich gewählte hängt von verschiedenen Faktoren ab. Benutzt man auf der Site Panels, bietet es sich an das Problem auch mit Panels zu lösen. Display Suite wäre auch ein geeignetes Modul, erscheint mir aber nur für diesen Zweck als zu groß.
+
+  Also habe ich mich für CCK-Blocks entschieden. Dieses Modul dient nur diesem einen Zweck und so ist die Bedienung auch in zwei Sätzen erklärt.
+
+  Man wählt den Inhaltstyp aus, der das Feld enthält dessen Inhalt in einer Region ausgegeben werden soll. Bei der Feldkonfiguration aktiviert man "Provide block for this field" und speichert den Inhaltstyp.
+
+  In der Blockkonfiguration steht danach ein neuer Block zur Verfügung. Um die Sichtbarkeit des Blocks muss man sich nicht kümmern, denn das übernimmt auch das Modul.

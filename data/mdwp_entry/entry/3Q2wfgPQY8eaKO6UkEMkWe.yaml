@@ -1,0 +1,47 @@
+---
+:id: 3Q2wfgPQY8eaKO6UkEMkWe
+:url: gleichlange-spalten-in-panels
+:body: |-
+  Habe mir gerade die Alpha 6 Version des Panels 2.0 Modul vom großartigen Earl Miles, der uns auch schon die Views beschert hat, runtergeladen.
+
+  Folgende neue Features gibt es u.a. in dieser Version:
+  Panels können Nodes sein.
+  AJAX zur Verwaltung und Bearbeitung eines Panels.
+  Ein Panel-Layout lässt sich nachträglich beliebig erweitern und ändern. Neue Rows können hinzugefügt werden. Die Breite einer Spalte lässt sich nachträglich ändern.
+
+  Sehr flexibel. Was braucht man mehr für CSS-Grids?
+  Hier eine soeben angelegte Testseite.
+  Zwei Punkte fallen auf:
+
+  * Die Spalten sind nicht gleichlang
+  * Im Quellcode findet man unschöne
+  Konstrukte.
+
+  Aber das können wir ja mittels Themeing ändern.
+
+  Gleichlange Spalten können über CSS so erzeugt werden:
+
+  ```
+  .panel-flexible, .panel-row-2 {
+    overflow:hidden;
+  }
+
+  .panel-row-2 .panel-col-1 {
+    background-color:#ccc;
+    padding-bottom:1000px !important;
+    margin-bottom:-1000px !important;
+  }
+
+  .panel-row-2 .panel-col-2 {
+    background-color:#999;
+    padding-bottom:1000px !important;
+    margin-bottom:-1000px !important;
+  }
+
+  .panel-row-2 .panel-col-3 {
+    background-color:#dadada;
+    padding-bottom:1000px !important;
+    margin-bottom:-1000px !important;
+  }
+  ```
+:title: Gleichlange Spalten in Panels

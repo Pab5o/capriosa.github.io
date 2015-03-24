@@ -1,0 +1,42 @@
+---
+:id: 1sa8nfPwFu8QWEeCAWym2U
+:title: Schreiben und Spaß haben
+:url: schreiben-und-spass-haben
+:body: |-
+  ## 03.12.2011
+
+  Mein erster Artikel, den ich mit [iaWriter](http://iawriter.com) schreibe, befasst sich, wie kaum anders zu erwarten, mit dem iaWriter.
+
+  Was ist iaWriter?
+
+  Bei iaWriter handelt es sich um ein auf das Wesentlichste reduzierte Programm, für den Mac und das iPad, zum schreiben von Texten. Es ist kein Texteditor für Programmierer, kein Editor für komplexes HTML und erst recht kein Schreibprogramm im Sinne von Word oder vergleichbarer Software.
+
+  Im Wesentlichen geht es um das Schreiben von Texten und die Konzentration auf das Wesentliche beim schreiben. Keine ausufernden Menüleisten, Toolbars, Funktionen, Einstellungen und Formatierungsmöglichkeiten. Man startet, ähnlich wie bei der Website-Entwicklung, mit einem weißen Screen. Und dann fängt man einfach an zu schreiben.
+
+  Die notwendigen Befehle zur Bedienung des iaWriter, Vollbildmodus, Autofocus (hebt die Zeile oder den Absatz, den ich gerade schreibe, besonders hervor) oder Navigation mit der Tastatur, hat man in 2 Minuten verinnerlicht. Die Maus werden Sie kaum benötigen. Auch das ist sehr gut, denn das dauernde Wechseln zwischen Tastatur und Maus bei anderen Programmen ist für den Schreibvorgang auch nicht förderlich.
+
+  iaWriter bietet ein herausragendes Erscheinungsbild mit einem überragend gutem Font, Schriftgröße und Farben. Diese lassen sich **nicht verändern**! Halt, wird jetzt der Eine oder Andere sagen. "Ich kann die Formatierung nicht ändern?" Richtig. **Beim Schreiben** bietet sich dem Schreibenden ein immer gleiches, sehr gut lesbares Erscheinungsbild an. Kein versehentliches Umformatieren auf Times New Roman, wie man es von Schreibprogrammen kennt. Man kann die Typografie des Editors schlicht und einfach nicht beeinflussen. Mit iaWriter schreiben Sie nur Text, alles Andere überlassen Sie dem Ausgabemedium. Das kann eine Website sein, wo die Formatierungen über CSS vorgenommen werden, aber auch Ihr Office-Programm, wofür iaWriter einen Export nach RTF anbietet.
+  ##Wirklich keine Formatierungen?
+  Was die Oberfläche des iaWriters betrifft stimmt das. Allerdings bietet iaWriter eine hervorragende "Markdown" Unterstützung. Markdown ist eine vereinfachte Syntax für HTML. Anstatt komplizierte Tags eingeben zu müssen, können Sie die meisten Auszeichnungen mit einfachen Zeichen vornemhen.
+
+  “#für eine h1“
+
+  "##für eine h2 usw."
+
+  "-für ein ungeordnetes Listenelement"
+
+  "1.für ein geordnetes Listenelement"
+
+  Befehle für fett, kursiv, unterstrichen, durchgestrichen und Kombinationen davon, gibt es natürlich auch-
+
+  Über die Markdown Syntax können Sie an anderen Stellen im Web genügend Informationen finden.
+
+  Viel mehr gibt es zum iaWriter eigentlich nicht zu sagen. Außer vielleicht, dass die neueste Version eine iCloud Unterstützung anbietet. Aber im Wesentlichen war es das.
+
+  iaWriter ist eine tolle Mac/iPad Software für Menschen, die viel Schreiben und sich beim Schreiben auf eben das konzentrieren möchten. Und auch beim Korrekturlesen ist diese Fokussierung enorm hilfreich.
+
+  Mir hat jedenfalls mein erster Artikel, den ich mit diesem tollen Tool geschrieben habe, sehr viel Spaß gemacht.
+
+  Was das alles mit Drupal zu tun hat folgt im nächsten Artikel. Dort wird es um die Probleme mit WYSIWYG-Editoren in CMS und die Möglichkeit mit iaWriter zu besseren Ergebnissen zu kommen, gehen. SEO wird auch behandelt werden.
+
+  Bleibt eine letzte Frage. Schreibt man mit solch einem Tool besser? Ich glaube schon. Wie gesagt, die Konzentration auf das Wesentliche und der Spaß beim Schreiben sind hier ausschlaggebend.

@@ -1,0 +1,187 @@
+---
+:id: 6PLDDdGme4UKmEWKooAewe
+:title: Drupal Theme und CSS Tutorial
+:url: drupal-theme-und-css-tutorial
+:body: |-
+  Drupal Theme und CSS Tutorial
+
+  Überarbeitete Version des Drupal Theme und CSS Tutorials, aus unserem alten Blog von 2005
+
+  Ohne Kenntnisse über CSS, insbesondere über moderne Techniken wie tabellenlose - CSS-Only Layouts - kommt man bei der Erstellung eines Drupal Themes nicht wirklich weiter. Und ein wenig PHP muss auch sein.
+  Deshalb werde ich in diesem Tutorial versuchen diese Bereiche einfach und verständlich - wirklich für Anfänger - zu erläutern.
+  Wir werden Schritt für Schritt ein Drupal Theme für die Drupal PHP-Template Engine entwickeln. Auf zwei sehr vereinfacht dargestellte Vorgehensweisen zur Erstellung eines 3-spaltigen Layouts möchte ich eingehen.
+  Diese werden auch die Fähigkeit von Drupal nutzen die linke und/oder rechte Spalte (nennen wir ab jetzt Sidebar) auszublenden - meint: nicht zu generieren.
+  Zwei Begriffe möchte ich vorher erläutern: Theme und Template.
+  Worin liegt der Unterschied?
+
+  Hier eine Definition:
+  Ein komplettes Drupal Theme besteht aus einem Verzeichnis unterhalb des Drupal Sites Verzeichnis - sites/all/themes. Darin befindet sich mindestens eine CSS Datei (style.css) und eine Datei page.tpl.php. Das ist ein Drupal Template. Drupal Templates, welche die Standardengine PHPTemplate Engine nutzen, müssen immer die endung tpl.php benutzen.
+
+  Letztere ist das eigentliche “Master-Template“ für eine oder viele Drupal Seiten. Die page.tpl.php kann die Vorlage für die gesamte Site sein, muss es aber nicht. So kann man z.B. für die Startseite eine page-front.tpl.php erstellen.
+
+  In der CSS Datei befinden sich alle Layoutangaben (Farben, Schriften, Formatierungen usw.)
+  Es können noch andere Template-Dateien (z.B. block.tpl.php und node.tpl.php) vorhanden sein. Dies sind Vorlagen für bestimmte Seitenbereiche oder Seitentypen (Inhaltstypen). So würde eine node-100.tpl.php von Drupal automatisch für die Generierung der Seite mit der Node id 100 herangezogen..
+
+  Drupal gewährleistet hierdurch die absolute Trennung von Layout und Inhalt.
+
+  Beginnen wir nun mit der Erstellung unseres Themes indem wir ein Verzeichnis "theme_tutorial" unterhalb von sites/all/themesl anlegen und dort zwei leere Dateien - style.css und page.tpl.php anlegen.
+  Damit haben wir das Minimum für ein Drupal Theme erzeugt. Jetzt versehen wir die Template-Datei "page.tpl.php" mit einem von Drupal benötigten Gerüst.
+
+  <?php print $head_title; ??>
+  <?php print $head; ??>
+  <?php print $styles; ??>/ie7-fixes.css" type="text/css">
+  /ie6-fixes.css" type="text/css">
+
+  <?php print $scripts; ??>
+
+  <?php print $closure ??>
+
+  Ich glaube kein Mensch schreibt das heutzutage noch selber. Die meisten Theme Entwickler nutzen ein sog. Starter Theme.
+
+  Zu beachten ist die Ausgabe der beiden PHP Variablen $body_classes und $closure. Die erste generiert uns prima classes im Body Tag, wie z.B. front und not-front, die man später im CSS sehr gut nutzen kann, um bestimmte Bereiche der Site anders zu stylen, die zweite wird benötigt damit Drupals JavaScipts funktionieren.
+  Alles was ich ab hier beschreibe, sollte man nur in einer Testumgebung tun!
+
+  Unser Theme können wir jetzt schon mal in Drupal benutzen. Dazu rufen wir admin/build/themes auf, aktivieren unser Theme und machen es zum Default-Theme.
+  Das Ergebnis: wir sehen nichts! Das ist ja auch klar, denn wir haben keinerlei Inhalt oder PHP-Code hinzugefügt.
+  Das holen wir jetzt nach.
+  Unterhalb des body Elements schreiben wir:
+  Dieser Text wird auf jeder Seite erscheinen
+  Speichern und unsere Site neu aufrufen bestätigt uns diesen Satz. Da wir keine Navigation sehen müssen wir uns über die Adresszeile des Browsers durch unsere Site navigieren. Also z.B. admin/build/themes oder ohne Clean URLs ?q=admin/build/themes eingeben. So können wir jede Seite aufrufen und sehen immer den selben Satz.
+  Na ja, wir haben es hier ja auch mit einem Template - also einer Vorlage - zu tun. Und die erzeugt für alle Seiten immer das was in ihr drin steht.
+  Damit wir jetzt aber mal echten Content zu sehen bekommen, geben wir jetzt folgendes ein:
+  <?php print $content ??>
+
+  So, jetzt wird für jede Seite der passende Content von Drupal generiert. Das ist doch toll, oder? Ein bisschen gewöhnlicher HTML-Code, eine PHP-Funktion - print - und die Angabe einer Variablen, welche die PHPTemplate Engine kennt, reichen aus um unsere Site zum Leben zu erwecken.
+
+  Wir möchten jetzt natürlich die Möglichkeit durch unsere Seiten zu navigieren wieder herstellen.
+  Auch das ist ganz einfach.
+  Über und unter unser div-Element fügen wir jeweils ein weiteres div-Element ein. Das Erste ist für die Ausgabe der linken Sidebar von Drupal, das Zweite für die Ausgabe der rechten Sidebar zuständig.
+  Das sieht dann so aus:
+
+  <?php
+
+  print "
+  $left
+
+  ";
+  print "
+  $content
+
+  ";
+  print "
+  $right
+
+  ";
+  ?>
+
+  Wieder reicht ein wenig PHP, um alles zu unserer Zufriedenheit zu erledigen.
+  Sehen wir uns einmal das Ergebnis im Browser an. Na ja. Die Sidebars sind nicht links und rechts vom Content ausgerichtet. Daraus können wir folgende Schlussfolgerung ziehen:
+
+  Für die Ausrichtung und/oder Anordnung der Elemente innerhalb eines Templates ist weder Drupal noch die Template-Datei verantwortlich.
+
+  Jetzt möchten wir erstmal etwas anderes ausprobieren. Wir entfernen die div-Elemente um die PHP-Anweisungen
+  sodas wir folgenden Code erhalten:
+
+  <?php
+
+  print $left;
+  print $content;
+  print $right;
+  ?>
+
+  Die Ausgabe im Browser ist etwas entäuschend. Sie unterscheided sich von der Version mit div-Elementen überhaupt nicht. Woran liegt das?
+  Nun, div-Elemente sind ohne "Styles", d.h. Regeln in einer StyleSheet-Datei, welche dem Browser mitteilen wie er ein div-Element darzustellen (zu rendern) hat, nahezu nutzlos. Wir müssen diesen Elementen in einer .css Datei irgendetwas zuweisen. Bevor wir dies tun und endlich zum Stylen kommen, hier noch zwei wichtige Informationen zum weiteren Verständnis:
+
+  div-Elemente sind sogenannte Block-Elemente. D.h. am Ende eines solchen Elements generiert der Browser automatisch einen Zeilenumbruch. Im Gegensatz dazu machen das Inline-Elemente nicht.
+  Beispiele für Block-Elemente sind:
+  div, p, img, ul, li
+  Beispiele für Inline-Elemente sind:
+  span, a
+
+  Mit diesem Wissen können wir unsere Elemente im Template so stylen, dass sie tun "was wir wollen".
+
+  In diesem Teil des Tutorial erstellen wir ein erstes, grobes Raster für unser Theme. D.h. wir wollen die 3 Blöcke, mit der wir unsere Drupal-Template Datei (page.tpl.php)versehen haben, irgendwie ausrichten oder anders ausgedrückt "layouten".
+
+  Jetzt wollen wir das Ganze aber endlich in Form bringen. Hierfür stehen uns 3 Möglichkeiten zur Verfügung:
+  1. Tabellen
+  2. Floats
+  3. Absolute Positionierung
+  Mischformen sind auch möglich. Die erste Möglichkeit - Tabellen - erwähne ich nur, weil es im Prinzip geht.. Als ernsthafte Möglichkeit zum Gestalten von Websites kommen sie für mich nicht in Betracht. Darüber ist schon viel geschrieben worden.
+  Die zweite Möglichkeit sind Floats. Hier ein sehr verinfachtes Beispiel für ein 3-spaltiges Layout mit Floats. Die Angaben gehören in die style.css.
+
+  .left {
+  width:18%;
+  float:left;
+  }
+  .content {
+  width:58%;
+  float:left;
+  padding:0 1em;
+  }
+  .right {
+  width:18%;
+  float:left;
+  }
+
+  Auch im Jahr 2010 bietet CSS keine absolut zuverlässige Layoutmethode. Wie Tabellen sind auch Floats eigentlich nicht zum Layouten vorgesehen.
+
+  Die einfachste Möglichkeit und von allen Browsern am besten unterstützte Methode besteht im Positionieren. Allerdings ist sie nicht für alle Layouts geeignet.
+  Hier erstmal das CSS für unsere Site:
+
+  .left {
+  position:absolute;
+  width:200px;
+  top:0;
+  left:0;
+  }
+  .content {
+  position:absolute;
+  width:580px;
+  top:0;
+  left:210px;
+  }
+  .right {
+  position:absolute;
+  width:200px;
+  top:0;
+  left:800px;
+  }
+
+  Jetzt wollen wir dieses ein wenig in "Form bringen".
+  Wir werden uns um gleichmäßige Abstände und genaue Breiten der Spalten kümmern. Ausserdem werden wir einen Container um die Spalten packen und diesen dann zentrieren. Dazu benutzen wir auch ein wenig relative Positionierung. Also, los geht's.
+  Um unsere div's in der page.tpl.php fügen wir diesen Code ein:
+
+  Um diesen Wrapper und damit unsere Seiteninhalte im Browser zentriert darzustellen ergaäzen wir unsere style.css um folgenden Code.
+
+  #wrapper {
+  position:relative;
+  width:980px;
+  margin:10px auto;
+  background-color:#f2f2f2;
+  border:1px solid #c2c2c2;
+  }
+
+  Um ein Element zu zentrieren, benötigt der Browser 2 Angaben:
+  Eine Breite für das Element und als zweite Angabe - in der CSS Kurzschreibweise - den Wert "auto".
+
+  Ich möchte hier mal kurz diese Kurzschreibweise erläutern. Meisten setzt man die bei margin und padding ein.
+  Margins kann man bspw. so angeben:
+  margin-top:10px;
+  margin-right:20px;
+  margin-bottom:10px;
+  margin-left:20px;
+  Möchte man sich diese Schreibarbeit ersparen kann man auch folgendes schreiben:
+  margin:10px 20px 10px 20px;
+  Die Reihenfolge für diese Werte ist:
+  top right bottom left
+  Da wir in diesem Beispiel jeweils für top/bottom und right/left die selben Werte haben, können wir das noch kürzer so schreiben:
+  margin:10px 20px;
+  Der erste Wert gibt jetzt den Abstand eines Elements für top und bottom an, der Zweite für right und left.
+
+  Warum haben wir für den Wrapper position:relative angegeben?
+  Da unsere Sidebars und der Inhaltsbereich eine absolute Positionierung haben, würden diese Elemente ohne die Angabe relativ für das umschließende Element, sich nicht an dessen Position ausrichten, sondern an der linken oberen Ecke des Browser Fensters. Sie würden also nicht mit zentriert.
+
+  position:relative übernimmt zwei Aufgaben. Es kann ein Element von seiner ursprünglichen Position verschieben. ZB. mit margin-top: -10px, 10 Pixel nach oben.
+  Es sorgt dafür, dass Elemente innerhalb eines relativ positionierten Elements, absolut positioniert werden können.
+
+  So, das war die adhoc Überarbeitung dieses in die Jahre gekommenen Tutorials. Ich hoffe dem einen oder anderen Drupal und CSS Anfänger hilft es bei den ersten Versuchen weiter.

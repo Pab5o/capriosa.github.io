@@ -1,0 +1,32 @@
+---
+:id: 6MHM1kC9UWMYWsMKsYEumY
+:title: 'Genial einfach: Blöcke, Nodes und Views mit AJAX und jQuery laden'
+:url: genial-einfach-bloecke-nodes-und-views-mit-ajax-und-jquery-laden
+:body: "Eigentlich wollte ich etwas zu den Modulen Flag und Rules schreiben.\n\nWährend
+  der dazugehörigen Recherche bin ich aber auf das Modul http://drupal.org/project/component
+  gestoßen. Und deshalb schreibe ich jetzt was zu diesem interessanten Modul.\n\nComponent
+  ist ein kleines Utility-Modul, mit dem es sehr einfach möglich ist einen Block,
+  eine View oder einen Node, irgendwo auszugeben. Ich weiß, dass es zu diesem Zweck
+  auch andere Möglichkeiten oder Module gibt. Component macht es aber wirklich sehr
+  einfach.\n\nZum Ausprobieren der folgenden Beispiele legen Sie in Ihrem Theme eine
+  script.js mit dem jeweiligen Code an. Einmal den Cache der Theme-Registry leeren
+  und los gehts.\n\nIn einem Node brauchen Sie noch einen div mit der id \"wrapper\"
+  und einen Link mit der id, welche im zugehörigen jQuery benutzt wird.\n\nBeispiel
+  um einen Block auszugeben:\n\n  //Block ausgeben\n  print component_get_block('block',3,'Extra
+  Block');\n  //der erste Parameter ist das Modul, welches den Block generiert\n  //der
+  zweite Parameter ist die Nummer (delta) des Blocks\n  //der dritte Parameter ist
+  ein neuer Titel für den Block\n\nDie Funktionen für Nodes und Views sind component_get_node(nid)
+  und component_get_view('name der view', 'display').\n\nDas alleine ist schon toll,
+  richtig interessant wird das Modul aber in Verbindung mit jQuery. Die jQuery Funktion
+  load() lädt per AJAX eine Datei vom Server.\n\nEinfaches Beispiel:\n\n```\n$(document).ready(function(){\n\t$('#block').click(function(){\n\t
+  \   \n\t  $('#wrapper').load('/info.php');\n\t\t\n\t  return false;\n\t});\n\n});\n```\n\nEinfaches
+  Beispiel mit dem Component Modul:\n\n```\n$(document).ready(function(){\n\t$('#block').click(function(){\n\t
+  \   \n\t  $('#wrapper').load('/component/block/block/3');\n\t\t\n\t  return false;\n\t});\n});\n```\n\nJetzt
+  kann man sich sehr einfach mit echten Drupal Daten mit den Vielfältigen Möglichkeiten
+  von jQuery vertraut machen:\n\nKomplexeres Beispiel:\n\n```\n$(document).ready(function(){\n\t$('#block').click(function(){\n\t
+  \   \n\t\t\t$('#wrapper').slideUp('slow').load('/component/block/block/3', function()
+  {\n\t\t      $(this).slideDown('slow');\n\t\t    });\n\t\t\n\t\treturn false;\n\t});\n\t\n\t$('#node').click(function(){\n\t
+  \   \n\t\t\t$('#wrapper').slideUp('slow').load('/component/node/15', function()
+  {\n\t\t      $(this).slideDown('slow');\n\t\t    });\n\t\t   \n\t   return false;\n\t});\n\t\n\t$('#view').click(function(){\n\t
+  \   \n\t\t\t$('#wrapper').slideUp('slow').load('/component/view/top_project', function()
+  {\n\t\t      $(this).slideDown('slow');\n\t\t    });\n\t\t    \n\t\treturn false;\n\t});\n\t\n});\n```"

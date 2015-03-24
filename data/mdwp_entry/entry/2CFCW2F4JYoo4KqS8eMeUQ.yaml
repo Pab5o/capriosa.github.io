@@ -1,0 +1,17 @@
+---
+:id: 2CFCW2F4JYoo4KqS8eMeUQ
+:title: Bewertungen in Views darstellen
+:url: bewertungen-in-views-darstellen
+:body: |-
+  Wer für seine Nodes ein Bewertungssystem zur Verfügung stellt, wird diese Bewertungen früher oder später auch in Views anzeigen wollen. Nehmen wir mal an Sie haben für einen Inhaltstyp Fivestars eingerichtet. Dann ist es kein Problem die Bewertungen in einer View anzuzeigen, wenn diese komplette Nodes anzeigt. Nicht aber, wenn Sie in der View Felder benutzen.
+  Hier ist die Vorgehensweise eine andere.
+
+  Zuerst müssen Sie den Inhaltstyp mit einem Fivestar Widget erweitern. Sie können jetzt aber immer noch nicht einfach der View dieses Feld hizufügen.
+
+  Die View braucht zuerst eine Relationship vom Typ: NODE: VOTE RESULTS. Geben Sie dort die Werte wie im nachfolgenden Screenshot ein.
+
+  Fügen Sie der View jetzt ein Feld aus der Gruppe Vote results hinzu und konfigurieren Sie dann das Erscheinungsbild des Fivestar Widgets.
+
+  Das war schon alles was Sie tun müssen, um in einer View die Ergebnisse von Bewertungen, die aus einem CCK Feld (Fivestar) stammen.
+
+  Ist eigentlich nicht schwer, man kann aber auch Stunden nach der richtigen Vorgehensweise suchen.

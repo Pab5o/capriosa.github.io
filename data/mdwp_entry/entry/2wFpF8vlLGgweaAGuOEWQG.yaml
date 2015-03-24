@@ -1,0 +1,15 @@
+---
+:id: 2wFpF8vlLGgweaAGuOEWQG
+:title: Taxonomy View in einem Block
+:url: taxonomy-view-in-einem-block
+:body: |-
+  Wahrscheinlich liegt es daran, dass man sowas nicht so häufig braucht. Jedes zweite oder dritte Mal mache ich es jedenfalls zuerst falsch.
+
+  Worum geht es?
+  Hin und wieder braucht man auf einer Taxonomie Auflistungsseite (Aggregatsseite) auch einen Block, der z.B. die meist gelesenen Beiträge aus dieser Kategorie auflistet.
+
+  Sofort ist klar, man braucht eine View mit Argumenten. Also schnell angelegt und oh Wunder, so funktioniert es nicht (siehe Screen 1). So würde es funktionieren, wenn es eine View mit einer Seitenansicht wäre, aber nicht für einen Block.
+
+  Und das vergesse ich eben hin und wieder: Ein Block erkennt Argumente nicht aus der URL. Die Argumente müssen als Standardargument i.d.R. per PHP Code übergeben werden
+
+  Ab jetzt wird das nicht mehr übersehen.

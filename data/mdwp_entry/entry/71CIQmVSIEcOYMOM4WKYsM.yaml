@@ -1,0 +1,15 @@
+---
+:id: 71CIQmVSIEcOYMOM4WKYsM
+:title: Drupal treibt Video Portal von O'Reilly Media an
+:url: drupal-treibt-video-portal-von-oreilly-media-an
+:body: |-
+  In nur 6 Wochen hat Lullabot ein Video Portal für O'Reilly Media entwickelt. IgniteShow.com ist ein Archiv von Videos der weltweit stattfindenden IgniteEvents.
+  Das Archiv kann nach Ort, Popularität, Datum oder Tags durchsucht und sortiert werden. Jede Stadt, in der ein IgniteEvent stattfindet, hat eine eigene Landing Page, die von Freiwilligen geflegt wird.
+  Die Site baut hauptsächlich auf Panels und Organic Groups Modulen auf. Videos werden bei YouTube gehosted und mit dem Embedded Media Field Modul auf IgniteShow.com angezeigt.
+
+  Drupal eignet sich hervorragend für Video Portale, Video Communities und Web-TV.
+
+  Hier ein paar von uns mit Drupal entwickelte Video Portale:
+  http://ehrensenf.de
+  http://4-seasons.tv
+  http://gartenfernsehen.de

@@ -1,0 +1,12 @@
+---
+:id: 3hN3QISgpGkiMG44qYUmmo
+:title: Fluidgrid Theme
+:url: fluidgrid-theme
+:body: |-
+  Das meiste was im Folgenden darüber zu lesen ist, habe ich Mitte letzten Jahres schon einmal über ein eigenes Theme hier - http://drupal-theming.de - beschrieben.
+
+  Dort habe ich über ein Theme von mir berichtet, welches viele Funktionen aus dem beliebten Drupal ZEN-Theme mit einem Grid Framework (Blueprint) kombiniert.
+
+  Fluidgrid bietet im Prinzip das Gleiche. Es basiert auf - http://drupal.org/project/basic - welches im Grunde eine abgespeckte Version vom ZEN-Theme ist und dem Blueprint Grid Framework.
+
+  Ein Fluidgrid Layout kann beliebige Breiten annehmen, fließende oder beliebige feste Breiten und man kann diese auf der Konfigurationseite des Themes einstellen. Das bietet hervorragende Möglichkeiten für Prototypen. Ich kann dem Kunden in Sekunden zeigen wie seine Site mit 100% oder 980px Breite aussieht.

@@ -1,0 +1,19 @@
+---
+:id: 4Sbd1wIFUIUUMIGWAYUmUi
+:title: Drupal Administration
+:url: drupal-administration
+:body: |-
+  Die Drupal Administrationsoberfläche, soweit man davon überhaupt sprechen kann, ist nicht besonders benutzerfreundlich. Mit der Version 4.7 ist zwar etwas besser geworden, aber gerade Um- und Einsteiger verirren sich oft im Dschungel der Menüenträge und Optionen.
+
+  Auch sind nicht alle Themes besonders gut geeignet. Insbesondere wenn man ein sehr spezielles Design für eine Corporate-Site erstellt hat, ergibt sich aus der nicht vorhandenen Trennung von Front- und Backend häufig ein Problem.
+
+  Durch eine Kombination folgender Module und eines Themes, das dem Mac GUI nachempfunden ist, lässt sich hier Abhilfe schaffen.
+
+  Administration: http://drupal.org/project/administration
+  Control panel: http://drupal.org/node/32400
+  Taxonomy theme: http://drupal.org/project/taxonomy_theme
+  Aqua-Soft theme: http://drupal.org/project/aquasoft
+
+  Das Modul Administration bringt für sich alleine schon viel, aber in Kombination mit dem Control panel wird es richtig prima.
+
+  Das Taxonomy-theme Modul erlaubt uns für den admin Bereich ein eigenes Theme anzugeben. Dafür kann man auch das Modul Manage - http://drupal.org/project/manage - benutzen. (Tipp von: www.drupalcenter.de)

@@ -1,0 +1,13 @@
+---
+:id: 1Ukzjh64QkSIamg6IuSUoS
+:title: Externe Seiten in Lightbox öffnen
+:url: externe-seiten-in-lightbox-oeffnen
+:body: "Manchmal benötigt man einen Link zu einer externen Site als normalen Drupal
+  Menüeintrag. Standardmäßig bietet Drupal allerdings keine Möglichkeit, [edit] diese
+  in einem neuen Fenster zu öffnen. Die Theme-Funktion hook_menu_item_link muss überschrieben
+  werden. Und wenn man das macht, kann man auch direkt auf das veraltete Attribut
+  'target' verzichten und die Seite in einer modernen 'Lightbox' öffnen. Das Modul
+  Lightbox2 muss natürlich installiert sein.\n\nFolgender Zweizeiler reicht dazu aus:\n\n\n```\nfunction
+  phptemplate_menu_item_link($link) \t\n\nif(strstr($link['href'],'http')) {\n\t\t
+  \n  $link['localized_options']['attributes']['rel'] = 'lightframe';\n\t \n}\n\n
+  \ return l($link['title'], $link['href'], $link['localized_options']);\n}\n```"

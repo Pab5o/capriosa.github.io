@@ -1,0 +1,36 @@
+---
+:id: 3OkQOOlwvSC4coag2e0msU
+:title: CSS Attributs Selektoren
+:url: css-attributs-selektoren
+:body: |-
+  ## 17.01.2012
+
+  Drupal ist ja dafür bekannt eher zu viel als zu wenig Markup - mit unzähligen Klassen und ID's - auszuliefern. In seltenen Fällen ist es aber auch zu wenig und dann kann man das Element nicht mehr so einfach im CSS ansprechen.
+
+  Nun kann man nach einem Template oder einer 'themable Function' schauen, um das Markup den eigenen Wünschen entsprechend zu erweitern.
+  Das kann aufwendig, umständlich oder auch gar nicht möglich sein.
+
+  Viel einfacher geht das meistens mit CSS Attributs Selektoren. Diese stehen seit CSS 2.1 zur Verfügung. Die Attributs Selektoren können benutzt werden, um mittels Wert eines Attributs ein oder mehrere HTML Elemente zu identifizieren.
+
+  Beispiel:
+  input[type="submit"]
+
+  Man schreibt also hinter dem Element in eckigen Klammer das Attribut, dann einen String Operator und dann einen Wert.
+  Weitere Operatoren sind:
+  *= enthält
+  ^= beginnt mit
+  src$= endet mit
+  ~= Kommt als Wort vor
+
+  So kann man mit - a[href^="http"] - alle externen Links ermitteln und entsprechend stylen. Und so auf ein extra Modul verzichten.
+  Oder die Navigationlinks zum Erzeugen von Inhalt, je nach Inhaltstyp mit einem anderen Icon versehen.
+
+  a[href*="add/page"]
+  a[href*="add/story"]
+
+  Oder Dateianhänge je nach Typ mit eigenem Icon:
+
+  a[href$=".pdf"]
+  a[href$=".doc"]
+
+  Und da CSS Attributs Selektoren heutzutage von allen wichtigen Browsern unterstützt werden, können wie sie bedenkenlos einsetzen und uns so den Umweg über Drupals Theming Methoden sparen.

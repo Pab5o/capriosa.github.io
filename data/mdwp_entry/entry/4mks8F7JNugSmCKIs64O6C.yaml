@@ -1,0 +1,12 @@
+---
+:id: 4mks8F7JNugSmCKIs64O6C
+:title: View Displays clonen
+:url: view-displays-clonen
+:body: |-
+  Wer in seinen Views mit vielen Displays arbeitet kennt sicherlich folgendes Problem. Man fängt mit dem Default Display an, fügt die Felder und Konfigurationen hinzu die benötigt werden und macht dann z.B. ein Page Display. Das ist ja kein Problem, denn das Page Display kann die Default-Einstellungen übernehmen.
+
+  Irgendwann kommt noch ein Display dazu, welches einige der Felder und Einstellungen übernimmt, aber auch neue hinzufügt. Tja und wenn man genau auf der Basis noch ein Display braucht, welches aber auch ein klein wenig anders ist, dann kommt das Modul Views clone display gerade recht.
+
+  Wie der Name erahnen lässt, kann man damit ein beliebiges Display clonen und als Basis für ein neues Display nehmen.
+
+  Das spart viel Zeit und schont die Nerven.
