@@ -124,4 +124,4 @@ data.mdwp.post.each do |id, post|
   proxy "/#{post["slug"]}.html", "proxy_template.html", :locals => { :post => post }, ignore: true
 end
 
-activate:alias
+activate :alias
