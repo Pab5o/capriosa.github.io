@@ -112,6 +112,7 @@ end
 #  h.content_types = { entry:'5qHZV696FiIkemEGcm2moe' }
 #end
 
+
 data.mdwp_entry.entry.each do |id, entry|
   # using its data as locals inside the template
   #:slug => post["slug"]
@@ -124,4 +125,7 @@ data.mdwp.post.each do |id, post|
   proxy "/#{post["slug"]}.html", "proxy_template.html", :locals => { :post => post }, ignore: true
 end
 
+set :url_root, 'http://mdwp.netlify.com'
+
+activate :search_engine_sitemap
 activate :alias
