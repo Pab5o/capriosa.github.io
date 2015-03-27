@@ -1,7 +1,20 @@
 .grid
   padding: 40px 20px 60px 20px
 
+.proxy-navigation
+  font-size: 11px
+  padding: 0 10px
+
+.nav-wrapper
+  display: none
+
+.sub-navigation
+  padding: 0 10px
+  font-size: 11px
+
 +susy-breakpoint($tab, 12)
+  .nav-wrapper
+    display: block
 
   footer
     background-color: rgba(0,0,0, 0.7)
@@ -38,6 +51,7 @@
 
   .proxy-navigation
     +span(7)
+    font-size: 1em
 
   .page
     +span(9)
