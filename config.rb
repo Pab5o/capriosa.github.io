@@ -125,6 +125,10 @@ data.mdwp.post.each do |id, post|
   proxy "/#{post["slug"]}.html", "proxy_template.html", :locals => { :post => post }, ignore: true
 end
 
+page "/404.html", :directory_index => false
+page "_redirects", :directory_index => false
+
+
 set :url_root, 'http://mdwp.netlify.com'
 
 activate :search_engine_sitemap
