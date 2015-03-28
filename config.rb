@@ -126,7 +126,6 @@ data.mdwp.post.each do |id, post|
 end
 
 page "/404.html", :directory_index => false
-page "_redirects", :directory_index => false
 
 
 set :url_root, 'http://mdwp.netlify.com'
