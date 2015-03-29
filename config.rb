@@ -66,7 +66,7 @@ end
 
 # Build-specific configuration
 configure :build do
-  activate :livereload, :host => '0.0.0.0', :apply_js_live => false, :apply_css_live => false
+
   # For example, change the Compass output style for deployment
   activate :minify_css
 
@@ -130,5 +130,14 @@ page "/404.html", :directory_index => false
 
 set :url_root, 'http://mdwp.netlify.com'
 
+# disable layout
+page "redirects", :layout => false
+
+# rename file after build
+after_build do
+  File.rename 'build/redirects', 'build/_redirects'
+end
+
+activate :livereload, :host => '0.0.0.0', :apply_js_live => false, :apply_css_live => false
 activate :search_engine_sitemap
 activate :alias
