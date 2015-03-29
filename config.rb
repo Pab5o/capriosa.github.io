@@ -126,6 +126,7 @@ data.mdwp.post.each do |id, post|
 end
 
 page "/404.html", :directory_index => false
+page "/301.html", :directory_index => false
 
 
 set :url_root, 'http://mdwp.netlify.com'
@@ -140,4 +141,3 @@ end
 
 activate :livereload, :host => '0.0.0.0', :apply_js_live => false, :apply_css_live => false
 activate :search_engine_sitemap
-activate :alias
