@@ -73,6 +73,7 @@ nav ul {
 
       &:hover {
         background:darken($menu-background,10%);
+        @include border-radius(0px 0px 6px 6px);
         color:$main-color;
         transition: all 0.2s ease;
       }

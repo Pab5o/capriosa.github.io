@@ -3,10 +3,11 @@
 :slug: beispiel-auf-github
 :title: Beispiel auf github
 :body: Hier - https://github.com/capriosa/capriosa.github.io - ist jetzt ein sehr
-  einfaches Beispiel einer mit Contentful und Middlesmith generierten Seite. In build/entries.html
+  einfaches Beispiel einer mit Contentful und Middleman generierten Seite. In build/
   sind alle meine Posts seit gestern zu finden. Dadurch sind meine Posts in die Social
   Nets ab jetzt mit git versioniert und immer in meinem Besitz und meiner Kontrolle.
 :Nw9j17g9iJMk8bDx: 'Simple blog sample with Contentful and Metalsmith blog: https://github.com/capriosa/capriosa.github.io'
 :author:
 - :id: 38dSdWDGswQGkU042ySgmA
   :name: Meinolf Droste
+:rid: 1

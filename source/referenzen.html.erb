@@ -6,11 +6,13 @@
 <% data.mdwp_project.project.sort_by {|k,v| v["rid"]}.reverse_each do |project| %>
 
 <section>
+
   <header>
-  <h2><%= project[1]["title"] %></h2>
-  <h2><%= project[1]["rid"] %></h2>
+  <h2><a href="<%= project[1]["url"] %>"><%= project[1]["title"] %></a></h2>
+
   </header>
-  <%= Kramdown::Document.new(project[1]["body"]).to_html %>
+  <%= Kramdown::Document.new(truncate(project[1]["body"],:length =>340)).to_html %>
+  <a href="<%= project[1]["url"] %>">Kompletten Artikel lesen</a>
 
 </section>
 <% end %>
