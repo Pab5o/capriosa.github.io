@@ -7,7 +7,7 @@ require 'compass'
 require 'compass-normalize'
 require 'susy'
 require 'breakpoint'
-
+require 'kramdown'
 require 'font-awesome-sass'
 
 # Change Compass configuration
@@ -138,6 +138,10 @@ page "redirects", :layout => false
 after_build do
   File.rename 'build/redirects', 'build/_redirects'
 end
+
+
+set :markdown_engine, :kramdown
+set :markdown, :layout_engine => :erb
 
 activate :livereload, :host => '0.0.0.0', :apply_js_live => false, :apply_css_live => false
 activate :search_engine_sitemap
