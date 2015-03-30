@@ -1,0 +1,4 @@
+<article>
+<h1><%= project["title"]%></h1>
+<%= Kramdown::Document.new(project["body"]).to_html %>
+</article>

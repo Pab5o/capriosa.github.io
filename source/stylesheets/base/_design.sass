@@ -6,6 +6,21 @@
   background-color: #fff
 
 
+.page
+  img
+    +border-radius(9px)
+    +box-shadow(2px 2px 6px #dedede)
+
+.referenzen .page
+  img
+    float: left
+    margin-right: 24px
+    margin-bottom: 60px
+  section
+    clear: left
+    padding-bottom: 24px
+
+
 nav
   //padding: $gutter-width
   background-color: #222
@@ -15,6 +30,7 @@ nav
 
 .nav-wrapper
   border-bottom: 30px solid $main-color
+
 
 
 .navigation
@@ -91,8 +107,10 @@ nav
     font-weight: 700
     font-size: pxtoem(18px)
     color: #fff
+    position: relative
+    top: -8px
   p
-    width: 66%
+    width: 80%
     text-align: justify
     margin-top: 26px
     line-height: 130%

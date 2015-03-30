@@ -1,0 +1,20 @@
+---
+:id: 1Px4PSaaYIokkkEyeQe0Wi
+:slug: 301-redirects-fuer-middleman-und-netlify
+:title: 301 redirects für middleman und netlify
+:body: |-
+  Manchmal gibt's Probleme für die es scheinbar keine Lösung gibt.
+  Folgende Situation: für meine neue statische Version von mdwp.de brauche ich 301 redirects. Auf netlify.com, wo ich die Site hoste, kann man im root eine _redirects Datei anlegen und dort die entsprechenden Pfade eintragen. Soweit so gut. Aber jetzt kommt middleman, mein static website generator ins Spiel. Dateien die mit einem Underscore beginnen werden beim build nicht ins source Verzeichnis übernommen. Und wenn ich die _redirects einfach im Source Verzeichnis anlege, wird diese beim nächsten build auf netlify gelöscht. Bamm! Lokal kann ich das Problem mit einem build --no-clean lösen, aber das nützt mir ja nichts. Was nun? Nach langer Suche habe ich dann eine Lösung, eigentlich für ein anderes Problem vorgesehen, gefunden:
+  Die Datei im Build Verzeichnis einfach 'redirects' nennen, also ohne Underscore. Middlman erzeugt diese dann auch im Source Verz.
+  Und dann folgende Zeilen in der config.rb von Middleman:
+  ----------------
+  # disable layout
+  page "redirects", :layout => false
+
+  # rename file after build
+  after_build do
+    File.rename 'build/redirects', 'build/_redirects'
+  end
+  ------------
+  Problem gelöst!
+:rid: 13
