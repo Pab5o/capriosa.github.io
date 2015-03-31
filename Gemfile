@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 
 gem "middleman", "~> 3.3.7"
 #gem "contentful_middleman"
-gem "middleman-blog"
 gem "middleman-livereload", "~> 3.3.0"
 gem "slim"
 gem "middleman-search_engine_sitemap"
