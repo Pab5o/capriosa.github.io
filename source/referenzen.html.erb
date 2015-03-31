@@ -11,7 +11,8 @@
   <h2><a href="<%= project[1]["url"] %>"><%= project[1]["title"] %></a></h2>
 
   </header>
-  <%= Kramdown::Document.new(truncate(project[1]["body"],:length =>340)).to_html %>
+  <%= Kramdown::Document.new(project[1]["summary"]).to_html %>
+  
   <a href="<%= project[1]["url"] %>">Kompletten Artikel lesen</a>
 
 </section>
