@@ -1,12 +1,10 @@
 ---
 :id: 4TYPmt8NCgEkgsIciMwO4w
 :body: |-
-  ![Scheidungsfix](//images.contentful.com/zlag77iul1ug/6csshQVICkkkKeyqcagOUi/394c85277270ff0bf98dd8bd7e227c61/6.png?w=380)
-
-
-
   Am 14.05.2010 war der offizielle Start von http://scheidungsfix.de
   Dieser Termin war gesetzt und das war einer der Gründe warum sich die e.consult AG für Drupal und mdwp* entschieden hat.
+
+  ![Scheidungsfix](//images.contentful.com/zlag77iul1ug/6csshQVICkkkKeyqcagOUi/394c85277270ff0bf98dd8bd7e227c61/6.png?w=790)
 
   Zuerst gab es eine Schulung der Entwickler von e.consult, dann haben wir in wenigen Tagen das Drupal Theme entwickelt, Panels für alle Seitenbereiche angelegt, benötigte Views hinzugefügt und einige individuelle Funktionen entwickelt.
 
@@ -16,3 +14,7 @@
 :title: Scheidungsfix
 :rid: 6
 :url: scheidungsfixde
+:summary: |-
+  ![Scheidungsfix](//images.contentful.com/zlag77iul1ug/6csshQVICkkkKeyqcagOUi/394c85277270ff0bf98dd8bd7e227c61/6.png?w=395)
+  Am 14.05.2010 war der offizielle Start von http://scheidungsfix.de
+  Dieser Termin war gesetzt und das war einer der Gründe warum sich die e.consult AG für Drupal und mdwp* entschieden hat.

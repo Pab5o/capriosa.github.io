@@ -20,7 +20,11 @@
   </url>
   <url>
     <loc>http://mdwp.netlify.com/about/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-29T19:05:05+02:00</lastmod>
+=======
+    <lastmod>2015-03-31T10:55:21+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -68,7 +72,11 @@
   </url>
   <url>
     <loc>http://mdwp.netlify.com/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-31T10:55:21+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -86,7 +94,11 @@
   </url>
   <url>
     <loc>http://mdwp.netlify.com/microblog/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -98,13 +110,21 @@
   </url>
   <url>
     <loc>http://mdwp.netlify.com/news/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-28T13:21:11+01:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/referenzen/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-31T00:27:06+02:00</lastmod>
+=======
+    <lastmod>2015-03-31T12:54:25+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -128,636 +148,1057 @@
   </url>
   <url>
     <loc>http://mdwp.netlify.com/der-wald-und-die-baeume/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/take-a-look/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/das-traumduo-drupal-und-komodo/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/drupal-commons/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/auf-die-schnelle/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/cck-und-views-workshop-im-php-user-magazin/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/so-war-das-frueher/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/panelized-drupal/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/mobile-business/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/drupal-als-portal-loesung/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/drupal/acquia-lift/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/drupal-slideshow-module/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/mehrere-argumente-mit-php-argumentcode-uebergeben/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/top-drupal-module/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/aktiven-menuepunkt-ermitteln-und-als-headline-ausgeben/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/schreiben-und-spass-haben/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/externe-seiten-in-lightbox-oeffnen/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/drupal-gewinnt-best-opensource-php-cms-award/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/drupal/hosting/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/screenshots-von-kompletten-seiten/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/drupal-artikel-im-phpuser-webtech-magazin/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/css-power/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/bewertungen-in-views-darstellen/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/drupal-distributionen/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/submit-button-mit-onclick-event-handler-ausstatten/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/drupal-dienstleister/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/ress/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/drupalcon-2009-paris/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/drupal/digital-alliance/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/taxonomy-view-in-einem-block/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/einfache-fehleranalyse/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/flexible-grid-layouts-mit-panels-erstellen/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/mehrfachwerte-in-einem-cck-feld-themen/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/drupal-und-ahah/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/drupal-buecher/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/tundra-startertheme/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/cck-felder-in-regionen-ausgeben/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/fluidgrid-theme/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/drupal-in-der-presse/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/features/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/erste-aufmerksamkeit/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/css-attributs-selektoren/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/gleichlange-spalten-in-panels/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/web-tvvideo-sites/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/drupal-7/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/alle-sessions-der-drupalcon-sf-als-video-verfuegbar/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/datum-und-uhrzeit-nach-din-5008/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/using-drupal/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/mdwp-ist-acquia-partner/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/bloggen-mit-textmate-und-drupal/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/view-displays-clonen/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/5-jahre-erfolgreiche-arbeit-mit-drupal/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/erfolg-im-mobilen-web/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/drupal-auf-der-opensrc-expo/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/site-navigation-und-menuestrukturen/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/drupal-administration/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/sweaver-als-alternative-zu-drupal-gardens/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/professioneller-chat-fuer-jede-website/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/drupal-auf-der-cebit-2009/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/drupal-snapshots/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/css-und-theme-tutorial/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/drupal-commons-0/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/ajax-ganz-einfach-digitaluhr-fuer-drupal/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/release-candidate-vom-fusion-starter-theme/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/das-blocksystem-von-drupal-7/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/hochwertige-themes/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/news-ueberaus-ihrem-unternehmen-verfolgen-und-auf-einer-karte-anzeigen/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/googlemaps-einfach-einbinden/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/eine-firmensite-erstellen-teil-4/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/site-content-in-social-nets/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/drupal/seo/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/mit-plesk-einen-cronjob-fuer-die-cronphp-von-drupal-erstellen/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/string-overrides/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/eherensenf-gewinnt-den-deutschen-iptv-zuschauerpreis-2009/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/mdwp-loest-auch-kleine-probleme/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/sexy-exposed/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/openscholar-full-featured-web-site-creation-package/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/genial-einfach-bloecke-nodes-und-views-mit-ajax-und-jquery-laden/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/dashboards/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/schutz-vor-spammern/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/drupal-starter-themes/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/drupal-theme-und-css-tutorial/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/mdwp-goes-mobile/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/basecamp-clone-mit-drupal/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/openscholar/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/drupal-fuer-die-komplette-kontrolle-ueber-ihre-firmen-website/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/teil-1-eine-firmen-website-mit-drupal-erstellen/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/drupal-treibt-video-portal-von-oreilly-media-an/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/webservices-mit-drupal-nutzen/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/drupal-2014/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/so-kann-man-irren/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/administrations-menue/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/drupal/firmen-websites/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/drupal-commons-die-community-distribution/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/drupal/consulting/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/drupal-theme-entwicklung/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/drupal-fuer-grosse-communities-und-netzwerke/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/portierung-einer-bestehenden-site-nach-drupal/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/managing-news/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/die-magie-von-views-und-argumenten/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/kp-international/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/nabu-tv/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/bike-channel-tv/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/spotlight-festival/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/tonhalle-duesseldorf/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/4-seasons/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -765,222 +1206,369 @@
   <url>
     <loc>http://mdwp.netlify.com/kraus-und-partnerfr/</loc>
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/4-seasonstv/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/media-consult-maier-partner/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/beck-aktuell/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/sport-id/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/globetrotter-events/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/gartenfernsehende/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/die-holzboerse/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/scheidungsfixde/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/die-referenz/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/nie-wieder-schiffe-versenken/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/kp-china-consulting/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/outdoorde/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/medical-onboarding-germany/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/meistertipp/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/medicaltopjobs/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/european-change-forum/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/beck-community/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/kraus-partner/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-30T23:20:36+02:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/static-cms/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-11T21:20:35+01:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/301-redirects-fuer-middleman-und-netlify/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-11T21:20:35+01:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/20000-founding-members-on-thrgrid-io/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-11T21:20:35+01:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/contentful-and-zapier-integration/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-11T21:20:35+01:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/caas/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-11T21:20:35+01:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/prototyp/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-11T21:20:35+01:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/automatische-deployments/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-11T21:20:35+01:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/mein-blog/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-11T21:20:35+01:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/contentful-api-cms-static-site/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-11T21:20:35+01:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/beispiel-auf-github/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-11T21:20:35+01:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/contentful-to-twitter/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-11T21:20:35+01:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/get-started/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-11T21:20:35+01:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/storageroom/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-11T21:20:35+01:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/form-generator/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-11T21:20:35+01:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/linkedin/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-11T21:20:35+01:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/automated-workflows/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-11T21:20:35+01:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/netlify/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-11T21:20:35+01:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://mdwp.netlify.com/about-static-pages/</loc>
+<<<<<<< HEAD
     <lastmod>2015-03-11T21:20:35+01:00</lastmod>
+=======
+    <lastmod>2015-03-30T18:00:51+02:00</lastmod>
+>>>>>>> 8692e2df004b344695b66b61ebdfc85e01434649
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
