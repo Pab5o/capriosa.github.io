@@ -13,5 +13,7 @@ description: 'Wir entwickeln Websites mit HTML5, CSS 3, jQuery, Drupal, Contentf
   <header>
   <h2><a href="<%= entry[1]['url'] %>">  <%= entry[1]["title"] %> </a></h2>
   </header>
+
+
 </section>
 <% end %>
