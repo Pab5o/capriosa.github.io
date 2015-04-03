@@ -22,10 +22,14 @@
 
     <link href="/favicon.ico" rel="icon" type="image/ico" />
 
-    <link href="/stylesheets/screen.css?1428004130" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/screen.css?1428086544" rel="stylesheet" type="text/css" />
     <script src="/javascripts/libs/jquery-1.9.0.min.js?1428004130" type="text/javascript"></script>
+    
 
     <script>
+    jQuery(document).ready(function () {
+      jQuery('header nav').meanmenu();
+    });
     $(window).scroll(function() {
       if ($(this).scrollTop() > 60){
         $('.proxy-navigation').show(300);
@@ -40,8 +44,10 @@
   <body class="middleman middleman_index">
 
   <header>
+
     <div class="sub-nav-wrapper">
     <div class="sub-nav">
+
       <ul class="proxy-navigation">
         <li><a href="/">mdwp.de</a></li>
         <li><a href="/about-us">Über Uns</a></li>
@@ -83,8 +89,101 @@
         <aside class="page-head">
   <h2>Middleman</h2>
   <h1>Static Website Engine</h1>
-  <p>....</p>
+  <p>Wir nutzen zur Erstellung statischer HTML Sites den Website Generator <i>Middleman</i>.
+  Lesen Sie hier, welche Vorteile ein <i>Static Website Generator</i> bietet und warum die Kosten
+  für Erstellung und Betrieb von Websites enorm reduziert werden können.
+  </p>
 </aside>
+
+<p>In letzter Zeit liest man immer wieder von einer Renaissance statischer HTML Sites.
+Schaut man sich Statistiken an, stimmt das nicht so richtig. Der Anteil statischer HTML Sites
+ist über all die Jahre nahezu gleich geblieben (ca. 60%).</p>
+
+<p>Allerdings gibt es eine Renaissance bei Entwicklern. Immer mehr setzen zum Schreiben ihrer Blogs
+sog. statische Website Generatoren ein. Der bekannteste ist Jekyll. Ich setze hier Middleman ein.
+Jekyll ist mehr für Blogs geeignet und eher nicht für normale Sites, wie z.B. eine Firmensite.</p>
+
+<p>Die Tatsache, dass solche Systeme von Programmierern genutzt werden, ist auch deren Nachteil -
+man muss zumindest über ein wenig technisches Verständnis verfügen und HTML und CSS beherschen.</p>
+
+<p>Falls Sie jetzt denken: <em>dann kommt das für mich nicht in Frage</em>, lesen Sie bitte weiter.
+Vielleicht kann ich Sie ja vom Gegenteil überzeugen.</p>
+
+<p>Schauen wir uns einmal die Vorteile an:</p>
+
+<ul>
+  <li>Höchstmögliche Geschwindigkeit - bei immer mehr Aufrufen von mobilen Geräten und der Tatsache, dass
+Google Geschwindigkeit, als Kriterium zur Bewertung von Websites nutzt, ist Geschwindigkeit ein wesentlicher Faktor.</li>
+  <li>geringe Server Last, keine Datenbank Abfragen, keine dynamische Generierung des ausgelieferten HTML.</li>
+  <li>einfacher zu erweitern und zu bedienen als traditionelle CMS</li>
+  <li>Höchste Sicherheit, da z.B. keine anfälligen, programmierte Formulare enthalten sind</li>
+  <li>keine serverseitige Anforderungen wie PHP, Java, Ruby, etc.</li>
+</ul>
+
+<p>Statische Website Generatoren funktionieren so:</p>
+
+<ul>
+  <li>man schreibt seine Inhalte und speichert diese in einem speziellen Verzeichnis auf dem eigenen Rechner.</li>
+  <li>ein einfacher Befehl muss im Terminal eingegeben werden und der Generator generiert das HTML in einem anderen speziellen Verzeichnis.</li>
+  <li>dieses könnte man jetzt per FTP auf den Online Server übertragen, aber es geht viel besser.</li>
+</ul>
+
+<p>Wahrscheinlich denken Sie jetzt: <em>immer noch zu kompliziert, interessiert mich nicht</em>.
+Aber was jetzt folgt, sollte Sie überzeugen.</p>
+
+<p>Wie zu Beginn dieses Artikels geschrieben, werden und wurden schon immer die meisten Websites als statisches HTML
+ausgeliefert. Aber schon immer war die Erstellung und Pflege höchst unkomfortabel. Eine Seitennavigation bspw. muss
+auf jeder Seite, meisten per Copy &amp; Paste, neu eingefügt werden. Möchte man einen Navigationspunkt ändern oder
+hinzufügen, muss man das auf jeder Seite durchführen. Das mag auf kleinen Sites mit 10 bis 20 Seiten noch möglich sein,
+aber irgendwann ist das nciht mehr machbar.</p>
+
+<p>Zwar gab es schon immer HTML Editoren, die hier mehr oder weniger komfortable Möglichkeiten boten das Problem
+zu lösen, aber wirklich befriedigend war das nie.</p>
+
+<p>Und tatsächlich wurden serverseitige Programmiersprachen u.A. eingeführt, um solche Problem zu lösen.
+Viele Sites werden heute noch mit PHP entwickelt und betrieben, um eben Sites auch ohne ein CMS pflegbar zu halten.
+Vielleicht auch nur, weil ihr Programmierer nichts anderes möchte.</p>
+
+<p>Wissen Sie, wie und womit Ihr Dienstleister Ihre Website entwickelt? Fühlt sich das Ergebnis eigentlich wie eine statische
+Website an? Hauptsächlich Inhalt, kaum Interaktionen, kein Kommentarsystemn und ein Kontaktformular?
+Dann sollten Sie wissen, ob dahinter eine serverseitige, eigentlich unnötige Serverprogrammierung steckt und dies
+vielleicht ändern lassen.</p>
+
+<p>Denn hier kommt die am Anfang genannte Renaissance statischer Websites ins Spiel. Viele Programmierer haben eben
+erkannt, dass in solchen Fällen ein statischer Website Generator, der sog. serverseitigen Programmierung vorzuziehen ist.</p>
+
+<p>Würden Sie mich z.B. mit der Erstellung einer statischen Site, Inhaltserstellung und weiteren Pflege beauftragen,
+würde ich den von mir bevorzugten Generator Middleman einsetzen. Für Sie gäbe es keine Unterschiede im Vergleich
+zu einer anderen Vorgehensweise. Das Ergebnis sind einfach eine bestimmte Menge von HTML Dateien.</p>
+
+<p>Mit mehreren wichtigen Unterschieden:</p>
+
+<ul>
+  <li>Die Erstellung geht schneller, einfacher und kostengünstiger</li>
+  <li>Die Veröffentlichung neuer oder geänderter Inhalte geschieht beinahe vollautomatisch</li>
+  <li>Ein Versionskontrollsystem wie git sichert alle Versionen der Inhalte</li>
+  <li>Man kann jederzeit zu einer vorherigen Version zurückkehren</li>
+  <li>Gleichzeitig kann mit git die Veröffentlichung der Inhalte im Live System angestossen werden</li>
+  <li>Das Hosting kann kostenlos sein</li>
+</ul>
+
+<p>Und last but not least können Sie die Inhalte Ihrer statischen Website mit einem CMS pflegen.
+Das mache ich hier auf mdwp* mit allen neuen Inhalten und zwar mit <a href="/contentful">Contentful</a>. Und obwohl die Site statisch ist, gibt es Kommentarmöglichkeiten
+für Besucher, ein Kontaktformular (auch eine Vielzahl von Kommentaren wäre möglich) und ein Teaser von jedem
+neuen Inhalt wird automatisch nach Facebook, Twitter und Linkedin gesendet.</p>
+
+<p>Alles ohne zusätzlichen Aufwand.</p>
+
+<p>In Zukunft können Sie hier, auf mdwp.de , über diese Möglichkeiten und den damit verbundenen neuen Technologien im Web, mehr erfahren.</p>
+
+<p>super-einfaches Kommentarsystem mit Disqus</p>
+
+<p>Nachteile:</p>
+
+<ul>
+  <li>Man benötigt Programmierkenntnisse</li>
+  <li>Dynamische serverseitige Features sind nicht möglich (zumindest nicht ohne Weiteres)</li>
+</ul>
 
       </div>
     <aside class="sidebar">

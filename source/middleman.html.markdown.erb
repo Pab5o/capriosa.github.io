@@ -5,5 +5,96 @@ description: 'Wir entwickeln Websites mit HTML5, CSS 3, jQuery, Drupal, Contentf
 <aside class="page-head">
   <h2>Middleman</h2>
   <h1>Static Website Engine</h1>
-  <p>....</p>
+  <p>Wir nutzen zur Erstellung statischer HTML Sites den Website Generator <i>Middleman</i>.
+  Lesen Sie hier, welche Vorteile ein <i>Static Website Generator</i> bietet und warum die Kosten
+  für Erstellung und Betrieb von Websites enorm reduziert werden können.
+  </p>
 </aside>
+
+In letzter Zeit liest man immer wieder von einer Renaissance statischer HTML Sites.
+Schaut man sich Statistiken an, stimmt das nicht so richtig. Der Anteil statischer HTML Sites
+ist über all die Jahre nahezu gleich geblieben (ca. 60%).
+
+Allerdings gibt es eine Renaissance bei Entwicklern. Immer mehr setzen zum Schreiben ihrer Blogs
+sog. statische Website Generatoren ein. Der bekannteste ist Jekyll. Ich setze hier Middleman ein.
+Jekyll ist mehr für Blogs geeignet und eher nicht für normale Sites, wie z.B. eine Firmensite.
+
+Die Tatsache, dass solche Systeme von Programmierern genutzt werden, ist auch deren Nachteil -
+man muss zumindest über ein wenig technisches Verständnis verfügen und HTML und CSS beherschen.
+
+Falls Sie jetzt denken: *dann kommt das für mich nicht in Frage*, lesen Sie bitte weiter.
+Vielleicht kann ich Sie ja vom Gegenteil überzeugen.
+
+Schauen wir uns einmal die Vorteile an:
+
+* Höchstmögliche Geschwindigkeit - bei immer mehr Aufrufen von mobilen Geräten und der Tatsache, dass
+  Google Geschwindigkeit, als Kriterium zur Bewertung von Websites nutzt, ist Geschwindigkeit ein wesentlicher Faktor.
+* geringe Server Last, keine Datenbank Abfragen, keine dynamische Generierung des ausgelieferten HTML.
+* einfacher zu erweitern und zu bedienen als traditionelle CMS
+* Höchste Sicherheit, da z.B. keine anfälligen, programmierte Formulare enthalten sind
+* keine serverseitige Anforderungen wie PHP, Java, Ruby, etc.
+
+Statische Website Generatoren funktionieren so:
+
+* man schreibt seine Inhalte und speichert diese in einem speziellen Verzeichnis auf dem eigenen Rechner.
+* ein einfacher Befehl muss im Terminal eingegeben werden und der Generator generiert das HTML in einem anderen speziellen Verzeichnis.
+* dieses könnte man jetzt per FTP auf den Online Server übertragen, aber es geht viel besser.
+
+Wahrscheinlich denken Sie jetzt: *immer noch zu kompliziert, interessiert mich nicht*.
+Aber was jetzt folgt, sollte Sie überzeugen.
+
+Wie zu Beginn dieses Artikels geschrieben, werden und wurden schon immer die meisten Websites als statisches HTML
+ausgeliefert. Aber schon immer war die Erstellung und Pflege höchst unkomfortabel. Eine Seitennavigation bspw. muss
+auf jeder Seite, meisten per Copy & Paste, neu eingefügt werden. Möchte man einen Navigationspunkt ändern oder
+hinzufügen, muss man das auf jeder Seite durchführen. Das mag auf kleinen Sites mit 10 bis 20 Seiten noch möglich sein,
+aber irgendwann ist das nciht mehr machbar.
+
+Zwar gab es schon immer HTML Editoren, die hier mehr oder weniger komfortable Möglichkeiten boten das Problem
+zu lösen, aber wirklich befriedigend war das nie.
+
+Und tatsächlich wurden serverseitige Programmiersprachen u.A. eingeführt, um solche Problem zu lösen.
+Viele Sites werden heute noch mit PHP entwickelt und betrieben, um eben Sites auch ohne ein CMS pflegbar zu halten.
+Vielleicht auch nur, weil ihr Programmierer nichts anderes möchte.
+
+Wissen Sie, wie und womit Ihr Dienstleister Ihre Website entwickelt? Fühlt sich das Ergebnis eigentlich wie eine statische
+Website an? Hauptsächlich Inhalt, kaum Interaktionen, kein Kommentarsystemn und ein Kontaktformular?
+Dann sollten Sie wissen, ob dahinter eine serverseitige, eigentlich unnötige Serverprogrammierung steckt und dies
+vielleicht ändern lassen.
+
+Denn hier kommt die am Anfang genannte Renaissance statischer Websites ins Spiel. Viele Programmierer haben eben
+erkannt, dass in solchen Fällen ein statischer Website Generator, der sog. serverseitigen Programmierung vorzuziehen ist.
+
+Würden Sie mich z.B. mit der Erstellung einer statischen Site, Inhaltserstellung und weiteren Pflege beauftragen,
+würde ich den von mir bevorzugten Generator Middleman einsetzen. Für Sie gäbe es keine Unterschiede im Vergleich
+zu einer anderen Vorgehensweise. Das Ergebnis sind einfach eine bestimmte Menge von HTML Dateien.
+
+Mit mehreren wichtigen Unterschieden:
+
+- Die Erstellung geht schneller, einfacher und kostengünstiger
+- Die Veröffentlichung neuer oder geänderter Inhalte geschieht beinahe vollautomatisch
+- Ein Versionskontrollsystem wie git sichert alle Versionen der Inhalte
+- Man kann jederzeit zu einer vorherigen Version zurückkehren
+- Gleichzeitig kann mit git die Veröffentlichung der Inhalte im Live System angestossen werden
+- Das Hosting kann kostenlos sein
+
+Und last but not least können Sie die Inhalte Ihrer statischen Website mit einem CMS pflegen.
+Das mache ich hier auf mdwp* mit allen neuen Inhalten und zwar mit [Contentful](/contentful). Und obwohl die Site statisch ist, gibt es Kommentarmöglichkeiten
+für Besucher, ein Kontaktformular (auch eine Vielzahl von Kommentaren wäre möglich) und ein Teaser von jedem
+neuen Inhalt wird automatisch nach Facebook, Twitter und Linkedin gesendet.
+
+Alles ohne zusätzlichen Aufwand.
+
+In Zukunft können Sie hier, auf mdwp.de , über diese Möglichkeiten und den damit verbundenen neuen Technologien im Web, mehr erfahren.
+
+
+
+
+
+
+
+ super-einfaches Kommentarsystem mit Disqus
+
+Nachteile:
+
+* Man benötigt Programmierkenntnisse
+* Dynamische serverseitige Features sind nicht möglich (zumindest nicht ohne Weiteres)

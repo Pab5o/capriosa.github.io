@@ -22,10 +22,14 @@
 
     <link href="/favicon.ico" rel="icon" type="image/ico" />
 
-    <link href="/stylesheets/screen.css?1428004130" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/screen.css?1428086544" rel="stylesheet" type="text/css" />
     <script src="/javascripts/libs/jquery-1.9.0.min.js?1428004130" type="text/javascript"></script>
+    
 
     <script>
+    jQuery(document).ready(function () {
+      jQuery('header nav').meanmenu();
+    });
     $(window).scroll(function() {
       if ($(this).scrollTop() > 60){
         $('.proxy-navigation').show(300);
@@ -40,8 +44,10 @@
   <body class="referenzen referenzen_index">
 
   <header>
+
     <div class="sub-nav-wrapper">
     <div class="sub-nav">
+
       <ul class="proxy-navigation">
         <li><a href="/">mdwp.de</a></li>
         <li><a href="/about-us">Über Uns</a></li>
@@ -82,7 +88,10 @@
       <div class="page">
         <aside class="page-head">
   <h2>Referenzen</h2>
-  <p>....</p>
+  <h1>Unsere Drupal Projekte</h1>
+  <p>Hier finden Sie eine Auswahl unserer Drupal Projekte der letzten Jahre. Die vielen unterschiedlichen
+  Website Typen zeigen die enorme Flexibilität von Drupal. Einige große internationale Projekte können wie hier nicht
+  nennen, in einem persönlichem Gespräch aber schon.</p>
 </aside>
 
 

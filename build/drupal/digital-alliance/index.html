@@ -22,10 +22,14 @@
 
     <link href="/favicon.ico" rel="icon" type="image/ico" />
 
-    <link href="/stylesheets/screen.css?1428004130" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/screen.css?1428086544" rel="stylesheet" type="text/css" />
     <script src="/javascripts/libs/jquery-1.9.0.min.js?1428004130" type="text/javascript"></script>
+    
 
     <script>
+    jQuery(document).ready(function () {
+      jQuery('header nav').meanmenu();
+    });
     $(window).scroll(function() {
       if ($(this).scrollTop() > 60){
         $('.proxy-navigation').show(300);
@@ -40,8 +44,10 @@
   <body class="drupal drupal_digital-alliance drupal_digital-alliance_index">
 
   <header>
+
     <div class="sub-nav-wrapper">
     <div class="sub-nav">
+
       <ul class="proxy-navigation">
         <li><a href="/">mdwp.de</a></li>
         <li><a href="/about-us">Über Uns</a></li>
