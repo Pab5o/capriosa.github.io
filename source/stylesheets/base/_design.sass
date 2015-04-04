@@ -1,6 +1,6 @@
 .grid
   font-size: 1.125em
-  line-heigth:  1.5em
+  line-height: 1.6em
   color: #666
   border-top: 30px solid #e3e3e3
   background-color: #fff
@@ -52,6 +52,10 @@ nav
     margin-right: 0.35em
     +transition(all,ease-in, 1s)
     font-weight: 700
+    &.inactive
+      background: none
+      &:hover
+        opacity: 0.5
 
 
 .proxy-navigation
