@@ -3,9 +3,11 @@ title: 'Über uns | mdwp - Web'
 description: 'Wir entwickeln Websites mit HTML5, CSS 3, jQuery, Drupal, Contentful und Middleman. Gerne beraten wir Sie auch vor und während -------------'
 ---
 <aside class="page-head">
-  <h2><%= post["title"]%></h2>
-  <p>truncate(post["body"],:length => 340)</p>
+  <h2>Microblog</h2>
+  <h1><%= post["title"]%></h1>
+  <p>In meinem Microblog finden Sie Beiträge von mir, die für Facebook, Linkedin und
+    Twitter geschrieben wurden, auf einen Blick.
+  Gerne können Sie mir dort folgen.</p>
 </aside>
 
-<%= post["title"]%>
 <%= Kramdown::Document.new(post["body"]).to_html %>

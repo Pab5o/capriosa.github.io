@@ -32,7 +32,7 @@
 
     <link href="/favicon.ico" rel="icon" type="image/ico" />
 
-    <link href="/stylesheets/screen.css?1428101400" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/screen.css?1428246568" rel="stylesheet" type="text/css" />
     <script src="/javascripts/libs/jquery-1.9.0.min.js?1428004130" type="text/javascript"></script>
 
 
@@ -59,7 +59,7 @@
     <div class="sub-nav">
 
       <ul class="proxy-navigation">
-        <li><a class="inactive" href="/">mdwp.de</a></li>
+        <li><a href="/">mdwp.de</a></li>
         <li><a href="/about-us">Über Uns</a></li>
         <li><a href="/referenzen">Referenzen</a></li>
         <li><a href="/kontakt">Kontakt</a></li>
@@ -81,7 +81,7 @@
       <div class="sub-nav">
 
       <ul class="navigation">
-        <li><a href="/"><img src="/images/mdwp-logo.png?1428004130" /></a></li>
+        <li><a class="inactive" href="/"><img src="/images/mdwp-logo.png?1428004130" /></a></li>
         <li><a href="/">mdwp.de</a></li>
         <li><a href="/about-us">Über Uns</a></li>
         <li><a href="/referenzen">Referenzen</a></li>
@@ -99,62 +99,40 @@
         <aside class="page-head">
   <h2>Microblog</h2>
   <h1>Social Networking</h1>
-  <p>In meinem Microblog Bereich finden Sie Beiträge von mir, die ich auf Facebook, Linkedin und Twitter geschrieben habe, auf einen Blick.
+  <p>In meinem Microblog finden Sie Beiträge von mir, die für Facebook, Linkedin und
+    Twitter geschrieben wurden, auf einen Blick.
   Gerne können Sie mir dort folgen.</p>
 </aside>
-
-<div class="attachment-top">
-
-
-
 
 <section>
   <header>
   <h2>20000+ founding members on thrgrid.io</h2>
   </header>
   Über 20.000 founding members auf thegrid.io
-
+  <a href="">Mehr lesen ... </a>
 </section>
-
 <section>
   <header>
   <h2>301 redirects für middleman und netlify</h2>
   </header>
   Manchmal gibt's Probleme für die es scheinbar keine Lösung gibt.
-Folgende Situation: für meine neue statische Version von mdwp.de brauche ich 301 redirects. Auf netlify.com, wo ich die Site hoste, kann man im root eine _redirects Datei anlegen und dort die entsprechenden Pfade eintragen. Soweit so gut. Aber jetzt kommt middleman, mein static website generator ins Spiel. Dateien die mit einem Underscore beginnen werden beim build nicht ins source Verzeichnis übernommen. Und wenn ich die _redirects einfach im Source Verzeichnis anlege, wird diese beim nächsten build auf netlify gelöscht. Bamm! Lokal kann ich das Problem mit einem build --no-clean lösen, aber das nützt mir ja nichts. Was nun? Nach langer Suche habe ich dann eine Lösung, eigentlich für ein anderes Problem vorgesehen, gefunden:
-Die Datei im Build Verzeichnis einfach 'redirects' nennen, also ohne Underscore. Middlman erzeugt diese dann auch im Source Verz.
-Und dann folgende Zeilen in der config.rb von Middleman:
-----------------
-# disable layout
-page "redirects", :layout =&gt; false
-
-# rename file after build
-after_build do
-  File.rename 'build/redirects', 'build/_redirects'
-end
-------------
-Problem gelöst!
-
+Folgende Situation: für meine neue statische Version von mdwp.de brauche ich 301 redirects. Auf netlify.com, wo ich die Site hoste, kann man im root eine _redirects Datei anlegen und dort die entsprechenden Pfade eintragen. Soweit s...
+  <a href="">Mehr lesen ... </a>
 </section>
-
 <section>
   <header>
   <h2>About static pages</h2>
   </header>
   Interessanter Artikel über die Vorteile von "statischen Websites", die man heutzutage allerdings sehr dynamisch machen kann.
 http://seesparkbox.com/foundry/feel_the_need_for_static_speed
-
+  <a href="">Mehr lesen ... </a>
 </section>
-</div>
-
-<hr />
-
 <section>
   <header>
   <h2>Automated workflows</h2>
   </header>
   https://www.contentful.com/blog/2015/02/27/zapier-automates-common-content-management-tasks-in-contentful-webinar-recap/ automated workflows for static websites with Contentful CMS and Zapier.
-
+  <a href="">Mehr lesen ... </a>
 </section>
 <section>
   <header>
@@ -166,19 +144,15 @@ http://seesparkbox.com/foundry/feel_the_need_for_static_speed
 - Ein git repo bei github
 - Middleman als static website generator
 - Ein Middleman Contenful gem einrichten
-- Ein account bei http://netlify.com 
-Dort das github repo eintragen.
-Beim nächsten git push bekommt netlify das mit und startet einen build Prozess. Wenige Sekunden später sind die statischen HTML Seiten Online.
-Mein Test ist hier zu erreichen: http://54f6f4a671f1c33954000012.postman-porcupine-73520.netlify.com/
-Nach dem nächsten Deployment sollte dieser Post hier, dort an erster Stelle erscheinen.
-
+- Ein account bei http://ne...
+  <a href="">Mehr lesen ... </a>
 </section>
 <section>
   <header>
   <h2>Beispiel auf github</h2>
   </header>
-  Hier - https://github.com/capriosa/capriosa.github.io - ist jetzt ein sehr einfaches Beispiel einer mit Contentful und Middleman generierten Seite. In build/ sind alle meine Posts seit gestern zu finden. Dadurch sind meine Posts in die Social Nets ab jetzt mit git versioniert und immer in meinem Besitz und meiner Kontrolle.
-
+  Hier - https://github.com/capriosa/capriosa.github.io - ist jetzt ein sehr einfaches Beispiel einer mit Contentful und Middleman generierten Seite. In build/ sind alle meine Posts seit gestern zu finden. Dadurch sind meine Posts in die Social Nets ab jetzt mit git versioniert und immer in meinem ...
+  <a href="">Mehr lesen ... </a>
 </section>
 <section>
   <header>
@@ -186,7 +160,7 @@ Nach dem nächsten Deployment sollte dieser Post hier, dort an erster Stelle ers
   </header>
   Content as a Service - CaaS als Alternative zu "normalen" CMS.
 http://ecmarchitect.com/archives/2014/10/27/3944
-
+  <a href="">Mehr lesen ... </a>
 </section>
 <section>
   <header>
@@ -194,14 +168,14 @@ http://ecmarchitect.com/archives/2014/10/27/3944
   </header>
   Contentful and Zapier Integration - awesome!
 https://www.contentful.com/blog/2014/09/16/Zapier-Integration/
-
+  <a href="">Mehr lesen ... </a>
 </section>
 <section>
   <header>
   <h2>Contentful to Twitter</h2>
   </header>
   Und dieser Post kommt von Contentful und wird gleichzeitig nach FB und Twitter geschickt.
-
+  <a href="">Mehr lesen ... </a>
 </section>
 <section>
   <header>
@@ -209,15 +183,15 @@ https://www.contentful.com/blog/2014/09/16/Zapier-Integration/
   </header>
   Die Zukunft der Webentwicklung
 Neue Tools und Systeme wie TheGrid.io, contentful.com und zapier.com werden die Zukunft des Webs bestimmen.
-Dieser Post ist ein kleines Beispiel dafür. Geschrieben habe ich ihn gerade in einem Space auf Contentful und eine Zap auf zapier.com, sorgt dafür, dass er hier in meiner Timeline auftaucht. Mal schauen was da noch alles geht. Auf jeden Fall ist so dafür gesorgt, dass ich der Inhaber und Verwalter meines Content und meiner Posts auf Facebook bin und bleibe. Also, alle Posts von mir hier in Zukunft werden auf diesem Weg geposted.
-
+Dieser Post ist ein kleines Beispiel dafür. Geschrieben habe ich ihn gerade in einem Space auf Contentful und eine Zap auf zapier.com, sorgt dafür, dass er hi...
+  <a href="">Mehr lesen ... </a>
 </section>
 <section>
   <header>
   <h2>Form generator</h2>
   </header>
   Great for static sites: https://formkeep.com/
-
+  <a href="">Mehr lesen ... </a>
 </section>
 <section>
   <header>
@@ -225,14 +199,14 @@ Dieser Post ist ein kleines Beispiel dafür. Geschrieben habe ich ihn gerade in 
   </header>
   https://contentful.wistia.com/medias/s5e9tr5wdi?vero_conv=502817577
 Eine Menge erinnert an Drupal.
-
+  <a href="">Mehr lesen ... </a>
 </section>
 <section>
   <header>
   <h2>LinkedIn</h2>
   </header>
   Jch habe bisher nie etwas bei Linkedin geschrieben. Dank meiner neuen "Write Once Publish Everywhere" Tech Combo von contentful.com und zapier.com, geschieht das jetzt automatisch. So muss social publishing funktionieren. Github, Asana, Jira, Slack könnte ich auch noch mit Posts versorgen lassen.
-
+  <a href="">Mehr lesen ... </a>
 </section>
 <section>
   <header>
@@ -240,7 +214,7 @@ Eine Menge erinnert an Drupal.
   </header>
   All das ist definitiv eine Alternative zu herkömmlichen CMS.
 https://www.netlify.com/
-
+  <a href="">Mehr lesen ... </a>
 </section>
 <section>
   <header>
@@ -249,7 +223,7 @@ https://www.netlify.com/
   Mein Prototyp einer statischen Version von mdwp.de ist jetzt hier erreichbar:
 http://mdwp.netlify.com
 Die Inhalte aus Drupal sind jetzt komplett migriert.
-
+  <a href="">Mehr lesen ... </a>
 </section>
 <section>
   <header>
@@ -257,14 +231,14 @@ Die Inhalte aus Drupal sind jetzt komplett migriert.
   </header>
   Besser kann man "es" nicht beschreiben. 
 Static CMS: http://carrot.is/coding/static_cms
-
+  <a href="">Mehr lesen ... </a>
 </section>
 <section>
   <header>
   <h2>Static site generator</h2>
   </header>
   https://www.contentful.com/learning/resources/contentful-api-cms-static-site-generators/
-
+  <a href="">Mehr lesen ... </a>
 </section>
 <section>
   <header>
@@ -272,7 +246,7 @@ Static CMS: http://carrot.is/coding/static_cms
   </header>
   Quasi der Vorläufer von Contentful: http://storageroomapp.com/
 Mit mehr Infos zum System als auf http://contentful.com ?!
-
+  <a href="">Mehr lesen ... </a>
 </section>
 
       </div>
@@ -281,8 +255,10 @@ Mit mehr Infos zum System als auf http://contentful.com ?!
         <header>
           <h2>Drupal</h2>
         </header>
+        <footer>
+          <img src="/images/drupal-community.jpg?1428246568" />
+        </footer>
         <ul class="side-navigation">
-
           <li><a href="/drupal">Drupal</a></li>
           <li><a href="/backdrop">Backdrop</a></li>
           <li><a href="/hosting">Hosting</a></li>
@@ -295,6 +271,9 @@ Mit mehr Infos zum System als auf http://contentful.com ?!
           <header>
             <h2>Statische Websites</h2>
           </header>
+          <footer>
+            <img src="/images/contentful.png?1428246568" />
+          </footer>
           <ul class="side-navigation">
 
             <li><a href="/contentful">Contentful CMS</a></li>
@@ -307,6 +286,9 @@ Mit mehr Infos zum System als auf http://contentful.com ?!
         <header>
           <h2>Mehr</h2>
         </header>
+        <footer>
+          <img src="/images/badge_partner_large.png?1428246568" />
+        </footer>
         <ul class="side-navigation">
 
           <li><a href="/m-droste">Über M. Droste</a></li>
@@ -317,7 +299,10 @@ Mit mehr Infos zum System als auf http://contentful.com ?!
 
       </section>
       <section>
-        <h2 id="recent">Recent</h2>
+        <h2 id="aktuell">Aktuell</h2>
+<header>
+  <img src="/images/mdwp-projekt-showroom-215.jpg?1428246568" />
+</header>
 <ul class="side-navigation">
 
   <li>
@@ -351,10 +336,13 @@ Mit mehr Infos zum System als auf http://contentful.com ?!
 
 </ul>
 
+        <footer>
+          <img src="/images/member.png?1428246568" />
+        </footer>
       </section>
     </aside>
   </div>
-  <footer>
+  <footer class="footer">
     <div class="footer-inner">
       <div class="footer-first">
         <img alt="mdwp - Web consulting and services" src="/images/mdwp.gif?1428004130" />

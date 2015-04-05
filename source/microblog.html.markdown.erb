@@ -5,34 +5,17 @@ description: 'Wir entwickeln Websites mit HTML5, CSS 3, jQuery, Drupal, Contentf
 <aside class="page-head">
   <h2>Microblog</h2>
   <h1>Social Networking</h1>
-  <p>In meinem Microblog Bereich finden Sie Beiträge von mir, die ich auf Facebook, Linkedin und Twitter geschrieben habe, auf einen Blick.
+  <p>In meinem Microblog finden Sie Beiträge von mir, die für Facebook, Linkedin und
+    Twitter geschrieben wurden, auf einen Blick.
   Gerne können Sie mir dort folgen.</p>
 </aside>
 
-
-<div class="attachment-top">
-
-
-
-<% data.mdwp.post.sort_by {|k,v| v["title"]}.first(3).each do |post| %>
-
+<% data.mdwp.post.sort_by {|k,v| v["title"]}.each do |post| %>
 <section>
   <header>
   <h2><%= post[1]["title"] %></h2>
   </header>
-  <%= post[1]["body"] %>
-
-</section>
-<% end %>
-</div>
-
-<hr>
-<% data.mdwp.post.sort_by {|k,v| v["title"]}.drop(3).each do |post| %>
-<section>
-  <header>
-  <h2><%= post[1]["title"] %></h2>
-  </header>
-  <%= post[1]["body"] %>
-
+  <%= truncate(post[1]["body"], :length => 190) %>
+  <p><a href="<%= post[1]["url"] %>">Mehr lesen</a></p>
 </section>
 <% end %>
