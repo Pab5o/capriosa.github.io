@@ -110,8 +110,10 @@
         <header>
           <h2>Drupal</h2>
         </header>
+        <footer>
+          <%=image_tag "drupal-community.jpg" %>
+        </footer>
         <ul class="side-navigation">
-
           <li><a href="/drupal">Drupal</a></li>
           <li><a href="/backdrop">Backdrop</a></li>
           <li><a href="/hosting">Hosting</a></li>
@@ -124,6 +126,9 @@
           <header>
             <h2>Statische Websites</h2>
           </header>
+          <footer>
+            <%=image_tag "contentful.png" %>
+          </footer>
           <ul class="side-navigation">
 
             <li><a href="/contentful">Contentful CMS</a></li>
@@ -136,6 +141,9 @@
         <header>
           <h2>Mehr</h2>
         </header>
+        <footer>
+          <%=image_tag "badge_partner_large.png" %>
+        </footer>
         <ul class="side-navigation">
 
           <li><a href="/m-droste">Über M. Droste</a></li>
@@ -147,10 +155,13 @@
       </section>
       <section>
         <%= partial "recent" %>
+        <footer>
+          <%=image_tag "member.png" %>
+        </footer>
       </section>
     </aside>
   </div>
-  <footer>
+  <footer class="footer">
     <div class="footer-inner">
       <div class="footer-first">
         <%= image_tag 'mdwp.gif', :alt => 'mdwp - Web consulting and services' %>
