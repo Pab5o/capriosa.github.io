@@ -111,7 +111,7 @@
           <h2>Drupal</h2>
         </header>
         <footer>
-          <%=image_tag "drupal-community.jpg" %>
+          <%=image_tag "drupal-community.jpg", :alt => 'mdwp - Teil der Drupal Community' %>
         </footer>
         <ul class="side-navigation">
           <li><a href="/drupal">Drupal</a></li>
@@ -127,8 +127,8 @@
             <h2>Statische Websites</h2>
           </header>
           <footer>
-            <%=image_tag "mm.png" %>
-            <%=image_tag "contentful.png" %>
+            <%=image_tag "mm.png", :alt => 'Static website generator Middleman' %>
+            <p><%=image_tag "contentful.png", :alt => 'Contentful CMS' %></p>
           </footer>
           <ul class="side-navigation">
 
@@ -143,21 +143,21 @@
           <h2>Mehr</h2>
         </header>
         <footer>
-          <%=image_tag "badge_partner_large.png" %>
+          <%=image_tag "badge_partner_large.png", :alt => 'mdwp - Acquia Partner' %>
         </footer>
         <ul class="side-navigation">
 
           <li><a href="/m-droste">Über M. Droste</a></li>
-          <li><a href="/news">News</a></li>
+          <!--<li><a href="/news">News</a></li>-->
           <li><a href="/microblog">Microblog</a></li>
-          <li><a href="/technik">Technik/Programmierung</a></li>
+          <!--<li><a href="/technik">Technik/Programmierung</a></li>-->
         </ul>
 
       </section>
       <section>
         <%= partial "recent" %>
         <footer>
-          <%=image_tag "member.png" %>
+          <%=image_tag "member.png", :alt => 'mdwp - Drupal Association Organization Member' %>
         </footer>
       </section>
     </aside>

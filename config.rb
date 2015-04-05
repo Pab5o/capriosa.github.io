@@ -9,6 +9,7 @@ require 'susy'
 require 'breakpoint'
 require 'kramdown'
 require 'font-awesome-sass'
+require "middleman-smusher"
 
 # Change Compass configuration
 compass_config do |config|
@@ -81,8 +82,8 @@ configure :build do
 
   # Compress PNGs after build
   # First: gem install middleman-smusher
-  # require "middleman-smusher"
-  # activate :smusher
+
+  activate :smusher
 
   # Or use a different image path
   # set :http_path, "/Content/images/"
