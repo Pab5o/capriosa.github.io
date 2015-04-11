@@ -16,6 +16,7 @@
     <% else %>
     <title><%= title %> Consulting & Services</title>
     <% end %>
+    <meta http-equiv="expires" content="432000">
     <meta name="description" content="Wir entwickeln Websites mit HTML5, CSS 3, jQuery, Drupal oder Contentful und Middleman.">
     <meta name="author" content="Meinolf Droste">
     <meta property="og:locale" content="de_DE" />
@@ -33,6 +34,8 @@
     <%= favicon_tag("favicon.ico") %>
 
     <%= stylesheet_link_tag "screen" %>
+    <%= stylesheet_link_tag "screen", media: "print" %>
+    
     <%= javascript_include_tag "libs/jquery-1.9.0.min.js" %>
 
 
