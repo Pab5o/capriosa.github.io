@@ -16,7 +16,7 @@ gem 'breakpoint', '~>2.0'
 gem "compass", "~> 1.0.0"
 gem 'compass-normalize'
 gem "kramdown"
-#gem 'middleman-alias'
+gem 'middleman-alias'
 
 # Javascript
 gem 'therubyracer'

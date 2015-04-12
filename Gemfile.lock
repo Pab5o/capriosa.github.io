@@ -68,6 +68,8 @@ GEM
       middleman-sprockets (>= 3.1.2)
       sass (>= 3.4.0, < 4.0)
       uglifier (~> 2.5)
+    middleman-alias (0.0.9)
+      middleman-core (~> 3.2)
     middleman-core (3.3.10)
       activesupport (~> 4.1.0)
       bundler (~> 1.1)
@@ -161,6 +163,7 @@ DEPENDENCIES
   font-awesome-sass (~> 4.3.0)
   kramdown
   middleman (~> 3.3.7)
+  middleman-alias
   middleman-livereload (~> 3.3.0)
   middleman-search_engine_sitemap
   middleman-smusher

@@ -16,6 +16,7 @@
     <% else %>
     <title><%= title %> Consulting & Services</title>
     <% end %>
+    <meta http-equiv="expires" content="432000" />
     <meta name="description" content="Wir entwickeln Websites mit HTML5, CSS 3, jQuery, Drupal oder Contentful und Middleman.">
     <meta name="author" content="Meinolf Droste" />
     <meta property="og:locale" content="de_DE" />
@@ -31,8 +32,9 @@
     <link rel="publisher" href="https://plus.google.com/112014641674548097292" />
 
     <%= favicon_tag("favicon.ico") %>
-
+    <%= stylesheet_link_tag "print", media: "print" %>
     <%= stylesheet_link_tag "screen" %>
+
 
     <%= javascript_include_tag "libs/jquery-1.9.0.min.js" %>
 
@@ -57,7 +59,8 @@
   <header>
 
     <div class="sub-nav-wrapper">
-      <div class="sub-nav">
+
+    <div class="sub-nav">
 
       <ul class="proxy-navigation">
         <li><a href="/">mdwp.de</a></li>
@@ -69,7 +72,7 @@
       </ul>
     <ul class="sub-navigation">
       <li><a href="https://github.com/capriosa/"><i class="fa fa-github"></i></a></li>
-      <li><a href="https://www.facebook.com/mdwp.de"><i class="fa fa-facebook"></i></a></li>
+      <li><a href="https://www.facebook.com/mdwp.de"><i class="fa fa-facebook"></i><</li>
       <li><a href="https://de.linkedin.com/pub/mdwp-meinolf-droste/50/430/707"><i class="fa fa-linkedin"></i></a></li>
       <li><a href="https://twitter.com/mdwp"><i class="fa fa-twitter"></i></a></li>
       <li><a href="https://plus.google.com/112014641674548097292"><i class="fa fa-google-plus"></i></a></li>
@@ -119,7 +122,21 @@
       </div>
     <aside class="sidebar">
       <section>
-
+        <p>
+      <script>
+(function() {
+  var cx = '000229437650945709010:kpij4p7napc';
+  var gcse = document.createElement('script');
+  gcse.type = 'text/javascript';
+  gcse.async = true;
+  gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+      '//www.google.com/cse/cse.js?cx=' + cx;
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(gcse, s);
+})();
+</script>
+<gcse:search></gcse:search>
+</p>
         <header>
           <%=image_tag "drupal-community.jpg", :alt => 'mdwp - Teil der Drupal Community' %>
         </header>
@@ -171,9 +188,9 @@
           <iframe width="215" src="//www.youtube.com/embed/NvJCDjfDvm4?rel=0" allowfullscreen=""></iframe>
         </footer>
       </section>
-      <div>
+      <section>
         <iframe src="https://www.socialmedia-toolset.de/newstool/301559699865722" width="215" height="450" scrolling="no" style="border: 0 !important; overflow: hidden !important"></iframe>
-      </div>
+      </section>
     </aside>
   </div>
   <footer class="footer">
@@ -197,5 +214,6 @@
   ga('send', 'pageview');
 
 </script>
-</body>
+<script src="//my.hellobar.com/6726d0e4b8b5218816d1aee11cb365799c8eaeda.js" type="text/javascript" charset="utf-8" async="async"></script>
+  </body>
 </html>
