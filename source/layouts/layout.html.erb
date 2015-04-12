@@ -33,7 +33,6 @@
     <%= favicon_tag("favicon.ico") %>
 
     <%= stylesheet_link_tag "screen" %>
-    <%= stylesheet_link_tag "screen", media: "print" %>
 
     <%= javascript_include_tag "libs/jquery-1.9.0.min.js" %>
 
@@ -120,21 +119,7 @@
       </div>
     <aside class="sidebar">
       <section>
-        <p>
-      <script>
-(function() {
-  var cx = '000229437650945709010:kpij4p7napc';
-  var gcse = document.createElement('script');
-  gcse.type = 'text/javascript';
-  gcse.async = true;
-  gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-      '//www.google.com/cse/cse.js?cx=' + cx;
-  var s = document.getElementsByTagName('script')[0];
-  s.parentNode.insertBefore(gcse, s);
-})();
-</script>
-<gcse:search></gcse:search>
-</p>
+
         <header>
           <%=image_tag "drupal-community.jpg", :alt => 'mdwp - Teil der Drupal Community' %>
         </header>
@@ -186,9 +171,9 @@
           <iframe width="215" src="//www.youtube.com/embed/NvJCDjfDvm4?rel=0" allowfullscreen=""></iframe>
         </footer>
       </section>
-      <section>
+      <div>
         <iframe src="https://www.socialmedia-toolset.de/newstool/301559699865722" width="215" height="450" scrolling="no" style="border: 0 !important; overflow: hidden !important"></iframe>
-      </section>
+      </div>
     </aside>
   </div>
   <footer class="footer">
@@ -212,6 +197,5 @@
   ga('send', 'pageview');
 
 </script>
-<script src="//my.hellobar.com/6726d0e4b8b5218816d1aee11cb365799c8eaeda.js" type="text/javascript" charset="utf-8" async="async"></script>
-  </body>
+</body>
 </html>
