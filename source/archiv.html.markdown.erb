@@ -11,7 +11,7 @@ description: 'Wir entwickeln Websites mit HTML5, CSS 3, jQuery, Drupal, Contentf
 <% data.mdwp_entry.entry.sort_by {|k,v| v["title"]}.each do |entry| %>
 <section>
   <header>
-  <h2><a href="<%= entry[1]['url'] %>">  <%= entry[1]["title"] %> </a></h2>
+  <h2><a href="/<%= entry[1]['url'] %>">  <%= entry[1]["title"] %> </a></h2>
   </header>
 </section>
 <% end %>

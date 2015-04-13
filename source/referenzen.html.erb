@@ -15,12 +15,12 @@ description: 'Wir entwickeln Websites mit HTML5, CSS 3, jQuery, Drupal, Contentf
 <section>
 
   <header>
-  <h2><a href="<%= project[1]["url"] %>"><%= project[1]["title"] %></a></h2>
+  <h2><a href="/<%= project[1]["url"] %>"><%= project[1]["title"] %></a></h2>
 
   </header>
   <%= Kramdown::Document.new(project[1]["summary"]).to_html %>
 
-  <a href="<%= project[1]["url"] %>">Kompletten Artikel lesen</a>
+  <a href="/<%= project[1]["url"] %>">Kompletten Artikel lesen</a>
 
 </section>
 <% end %>
