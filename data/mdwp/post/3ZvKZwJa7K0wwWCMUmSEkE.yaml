@@ -2,7 +2,7 @@
 :id: 3ZvKZwJa7K0wwWCMUmSEkE
 :slug: beispiel-auf-github
 :title: Beispiel auf github
-:body: Hier - https://github.com/capriosa/capriosa.github.io - ist jetzt ein sehr
+:body: Hier - (https://github.com/capriosa/capriosa.github.io) - ist jetzt ein sehr
   einfaches Beispiel einer mit Contentful und Middleman generierten Seite. In build/
   sind alle meine Posts seit gestern zu finden. Dadurch sind meine Posts in die Social
   Nets ab jetzt mit git versioniert und immer in meinem Besitz und meiner Kontrolle.
@@ -11,3 +11,8 @@
 - :id: 38dSdWDGswQGkU042ySgmA
   :name: Meinolf Droste
 :rid: 1
+:summary: Hier - (https://github.com/capriosa/capriosa.github.io) - ist jetzt ein
+  sehr einfaches Beispiel einer mit Contentful und Middleman generierten Seite. In
+  build/ sind alle meine Posts seit gestern zu finden. Dadurch sind meine Posts in
+  die Social Nets ab jetzt mit git versioniert und immer in meinem Besitz und meiner
+  Kontrolle.

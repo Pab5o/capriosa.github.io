@@ -86,7 +86,7 @@
   </url>
   <url>
     <loc>http://mdwp.netlify.com/microblog/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <lastmod>2015-04-16T12:09:11+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -883,6 +883,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://mdwp.netlify.com/contentful-to-zapier-to-buffer/</loc>
+    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://mdwp.netlify.com/301-redirects-fuer-middleman-und-netlify/</loc>
     <lastmod>2015-04-13T12:01:44+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -913,6 +919,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://mdwp.netlify.com/relaunch-von-mdwp/</loc>
+    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://mdwp.netlify.com/automatische-deployments/</loc>
     <lastmod>2015-04-13T12:01:44+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -937,13 +949,13 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/contentful-to-twitter/</loc>
+    <loc>http://mdwp.netlify.com/get-started/</loc>
     <lastmod>2015-04-13T12:01:44+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/get-started/</loc>
+    <loc>http://mdwp.netlify.com/tabs-auf-facebook-seiten/</loc>
     <lastmod>2015-04-13T12:01:44+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -956,12 +968,6 @@
   </url>
   <url>
     <loc>http://mdwp.netlify.com/form-generator/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://mdwp.netlify.com/linkedin/</loc>
     <lastmod>2015-04-13T12:01:44+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

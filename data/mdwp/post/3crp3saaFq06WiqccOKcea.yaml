@@ -1,0 +1,20 @@
+---
+:id: 3crp3saaFq06WiqccOKcea
+:slug: relaunch-von-mdwp
+:title: Relaunch von mdwp
+:rid: 25
+:body: |-
+  So, es ist "vollbracht", http://www.mdwp.de ist jetzt eine statische Website mit Contentful als CMS, Middleman als Generator, github als Repository und Netlify als CDN Host.
+  Möglicherweise ist mdwp.de damit eine der ersten Sites in Deutschland, die genau diesen Weg geht.
+  Es gibt noch einiges zu tun, aber ich wollte endlich den gesamten Deployment Prozess Live haben und habe deshalb einige Sachen noch nicht komplett fertig gestellt. Einiges musste für den DNS Switch und Google getan werden, aber das sollte jetzt alles passen. Ihr seit herzlichst eingeladen via Discus die Seiten zu kommentieren oder Fragen zu stellen.
+  Und dann geht's bald an neuen Inhalt.
+:summary: |-
+  So, es ist "vollbracht", http://www.mdwp.de ist jetzt eine statische Website mit Contentful als CMS, Middleman als Generator, github als Repository und Netlify als CDN Host.
+  Möglicherweise ist mdwp.de damit eine der ersten Sites in Deutschland, die genau diesen Weg geht.
+:fbLinkedin: |-
+  So, es ist "vollbracht", http://www.mdwp.de ist jetzt eine statische Website mit Contentful als CMS, Middleman als Generator, github als Repository und Netlify als CDN Host.
+  Möglicherweise ist mdwp.de damit eine der ersten Sites in Deutschland, die genau diesen Weg geht.
+  Es gibt noch einiges zu tun, aber ich wollte endlich den gesamten Deployment Prozess Live haben und habe deshalb einige Sachen noch nicht komplett fertig gestellt. Einiges musste für den DNS Switch und Google getan werden, aber das sollte jetzt alles passen. Ihr seit herzlichst eingeladen via Discus die Seiten zu kommentieren oder Fragen zu stellen.
+  Und dann geht's bald an neuen Inhalt.
+:Nw9j17g9iJMk8bDx: So, es ist "vollbracht", relaunch von http://www.mdwp.de
+:date: !ruby/object:DateTime 2015-04-16 02:00:00.000000000 +02:00

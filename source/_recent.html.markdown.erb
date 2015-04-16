@@ -3,10 +3,11 @@
   <%=image_tag "mdwp-projekt-showroom-215.jpg" %>
 </header>
 <ul class="side-navigation">
-<% data.mdwp.post.take(5).reverse_each do |id, post| %>
+
+<% data.mdwp.post.sort_by {|k,v| v["rid"]}.drop(15).reverse_each do |post| %>
 
   <li>
-    <a href='<%= post["slug"] %>'><%= post["title"] %></a>
+    <a href='/<%= post[1]["slug"] %>'><%= post[1]["title"] %></a>
   </li>
 
 
