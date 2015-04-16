@@ -136,7 +136,7 @@ page "/404.html", :directory_index => false
 page "/301.html", :directory_index => false
 
 
-set :url_root, 'http://mdwp.netlify.com'
+set :url_root, 'http://www.mdwp.de'
 
 # disable layout
 page "redirects", :layout => false
