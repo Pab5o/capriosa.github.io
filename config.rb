@@ -134,6 +134,7 @@ end
 
 page "/404.html", :directory_index => false
 page "/301.html", :directory_index => false
+page "/google0334405144ab11b4.html", :directory_index => false
 
 
 set :url_root, 'http://www.mdwp.de'

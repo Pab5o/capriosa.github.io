@@ -1,992 +1,998 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://mdwp.netlify.com/301.html</loc>
+    <loc>http://www.mdwp.de/301.html</loc>
     <lastmod>2015-04-13T12:01:44+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/404.html</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/404.html</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/about-us/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/about-us/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/about/</loc>
+    <loc>http://www.mdwp.de/about/</loc>
     <lastmod>2015-04-13T12:01:44+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/archiv/</loc>
-    <lastmod>2015-04-13T12:04:37+02:00</lastmod>
+    <loc>http://www.mdwp.de/archiv/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/backdrop/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/backdrop/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/consulting/</loc>
+    <loc>http://www.mdwp.de/consulting/</loc>
     <lastmod>2015-04-13T12:01:44+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/contentful/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/contentful/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/drupal/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/drupal/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/hosting/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/google0334405144ab11b4/</loc>
+    <lastmod>2015-04-17T10:09:06+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/impressum/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/hosting/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/impressum/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/kontakt/</loc>
-    <lastmod>2015-04-15T11:28:16+02:00</lastmod>
+    <loc>http://www.mdwp.de/</loc>
+    <lastmod>2015-04-17T10:19:31+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/m-droste/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/kontakt/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/microblog/</loc>
-    <lastmod>2015-04-16T12:09:11+02:00</lastmod>
+    <loc>http://www.mdwp.de/m-droste/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/middleman/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/microblog/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.mdwp.de/middleman/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/news/</loc>
+    <loc>http://www.mdwp.de/news/</loc>
     <lastmod>2015-04-13T12:01:44+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/referenzen/</loc>
-    <lastmod>2015-04-13T12:05:02+02:00</lastmod>
+    <loc>http://www.mdwp.de/referenzen/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/services/</loc>
+    <loc>http://www.mdwp.de/services/</loc>
     <lastmod>2015-04-13T12:01:44+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/static-hosting/</loc>
+    <loc>http://www.mdwp.de/static-hosting/</loc>
     <lastmod>2015-04-13T12:01:44+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/technik/</loc>
+    <loc>http://www.mdwp.de/technik/</loc>
     <lastmod>2015-04-13T12:01:44+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/der-wald-und-die-baeume/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/der-wald-und-die-baeume/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/take-a-look/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/take-a-look/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/das-traumduo-drupal-und-komodo/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/das-traumduo-drupal-und-komodo/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/drupal-commons/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/drupal-commons/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/auf-die-schnelle/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/auf-die-schnelle/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/cck-und-views-workshop-im-php-user-magazin/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/cck-und-views-workshop-im-php-user-magazin/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/so-war-das-frueher/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/so-war-das-frueher/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/panelized-drupal/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/panelized-drupal/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/mobile-business/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/mobile-business/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/drupal-als-portal-loesung/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/drupal-als-portal-loesung/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/drupal/acquia-lift/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/drupal/acquia-lift/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/drupal-slideshow-module/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/drupal-slideshow-module/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/mehrere-argumente-mit-php-argumentcode-uebergeben/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/mehrere-argumente-mit-php-argumentcode-uebergeben/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/top-drupal-module/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/top-drupal-module/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/aktiven-menuepunkt-ermitteln-und-als-headline-ausgeben/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/aktiven-menuepunkt-ermitteln-und-als-headline-ausgeben/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/schreiben-und-spass-haben/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/schreiben-und-spass-haben/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/externe-seiten-in-lightbox-oeffnen/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/externe-seiten-in-lightbox-oeffnen/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/drupal-gewinnt-best-opensource-php-cms-award/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/drupal-gewinnt-best-opensource-php-cms-award/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/drupal/hosting/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/drupal/hosting/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/screenshots-von-kompletten-seiten/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/screenshots-von-kompletten-seiten/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/drupal-artikel-im-phpuser-webtech-magazin/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/drupal-artikel-im-phpuser-webtech-magazin/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/css-power/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/css-power/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/bewertungen-in-views-darstellen/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/bewertungen-in-views-darstellen/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/drupal-distributionen/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/drupal-distributionen/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/submit-button-mit-onclick-event-handler-ausstatten/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/submit-button-mit-onclick-event-handler-ausstatten/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/drupal-dienstleister/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/drupal-dienstleister/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/ress/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/ress/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/drupalcon-2009-paris/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/drupalcon-2009-paris/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/drupal/digital-alliance/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/drupal/digital-alliance/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/taxonomy-view-in-einem-block/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/taxonomy-view-in-einem-block/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/einfache-fehleranalyse/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/einfache-fehleranalyse/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/flexible-grid-layouts-mit-panels-erstellen/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/flexible-grid-layouts-mit-panels-erstellen/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/mehrfachwerte-in-einem-cck-feld-themen/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/mehrfachwerte-in-einem-cck-feld-themen/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/drupal-und-ahah/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/drupal-und-ahah/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/drupal-buecher/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/drupal-buecher/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/tundra-startertheme/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/tundra-startertheme/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/cck-felder-in-regionen-ausgeben/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/cck-felder-in-regionen-ausgeben/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/fluidgrid-theme/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/fluidgrid-theme/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/drupal-in-der-presse/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/drupal-in-der-presse/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/features/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/features/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/erste-aufmerksamkeit/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/erste-aufmerksamkeit/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/css-attributs-selektoren/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/css-attributs-selektoren/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/gleichlange-spalten-in-panels/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/gleichlange-spalten-in-panels/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/web-tvvideo-sites/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/web-tvvideo-sites/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/drupal-7/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/drupal-7/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/alle-sessions-der-drupalcon-sf-als-video-verfuegbar/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/alle-sessions-der-drupalcon-sf-als-video-verfuegbar/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/datum-und-uhrzeit-nach-din-5008/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/datum-und-uhrzeit-nach-din-5008/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/using-drupal/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/using-drupal/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/mdwp-ist-acquia-partner/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/mdwp-ist-acquia-partner/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/bloggen-mit-textmate-und-drupal/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/bloggen-mit-textmate-und-drupal/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/view-displays-clonen/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/view-displays-clonen/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/5-jahre-erfolgreiche-arbeit-mit-drupal/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/5-jahre-erfolgreiche-arbeit-mit-drupal/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/erfolg-im-mobilen-web/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/erfolg-im-mobilen-web/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/drupal-auf-der-opensrc-expo/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/drupal-auf-der-opensrc-expo/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/site-navigation-und-menuestrukturen/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/site-navigation-und-menuestrukturen/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/drupal-administration/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/drupal-administration/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/sweaver-als-alternative-zu-drupal-gardens/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/sweaver-als-alternative-zu-drupal-gardens/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/professioneller-chat-fuer-jede-website/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/professioneller-chat-fuer-jede-website/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/drupal-auf-der-cebit-2009/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/drupal-auf-der-cebit-2009/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/drupal-snapshots/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/drupal-snapshots/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/css-und-theme-tutorial/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/css-und-theme-tutorial/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/drupal-commons-0/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/drupal-commons-0/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/ajax-ganz-einfach-digitaluhr-fuer-drupal/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/ajax-ganz-einfach-digitaluhr-fuer-drupal/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/release-candidate-vom-fusion-starter-theme/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/release-candidate-vom-fusion-starter-theme/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/das-blocksystem-von-drupal-7/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/das-blocksystem-von-drupal-7/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/hochwertige-themes/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/hochwertige-themes/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/news-ueberaus-ihrem-unternehmen-verfolgen-und-auf-einer-karte-anzeigen/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/news-ueberaus-ihrem-unternehmen-verfolgen-und-auf-einer-karte-anzeigen/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/googlemaps-einfach-einbinden/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/googlemaps-einfach-einbinden/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/eine-firmensite-erstellen-teil-4/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/eine-firmensite-erstellen-teil-4/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/site-content-in-social-nets/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/site-content-in-social-nets/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/drupal/seo/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/drupal/seo/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/mit-plesk-einen-cronjob-fuer-die-cronphp-von-drupal-erstellen/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/mit-plesk-einen-cronjob-fuer-die-cronphp-von-drupal-erstellen/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/string-overrides/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/string-overrides/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/eherensenf-gewinnt-den-deutschen-iptv-zuschauerpreis-2009/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/eherensenf-gewinnt-den-deutschen-iptv-zuschauerpreis-2009/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/mdwp-loest-auch-kleine-probleme/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/mdwp-loest-auch-kleine-probleme/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/sexy-exposed/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/sexy-exposed/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/openscholar-full-featured-web-site-creation-package/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/openscholar-full-featured-web-site-creation-package/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/genial-einfach-bloecke-nodes-und-views-mit-ajax-und-jquery-laden/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/genial-einfach-bloecke-nodes-und-views-mit-ajax-und-jquery-laden/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/dashboards/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/dashboards/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/schutz-vor-spammern/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/schutz-vor-spammern/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/drupal-starter-themes/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/drupal-starter-themes/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/drupal-theme-und-css-tutorial/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/drupal-theme-und-css-tutorial/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/mdwp-goes-mobile/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/mdwp-goes-mobile/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/basecamp-clone-mit-drupal/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/basecamp-clone-mit-drupal/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/openscholar/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/openscholar/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/drupal-fuer-die-komplette-kontrolle-ueber-ihre-firmen-website/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/drupal-fuer-die-komplette-kontrolle-ueber-ihre-firmen-website/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/teil-1-eine-firmen-website-mit-drupal-erstellen/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/teil-1-eine-firmen-website-mit-drupal-erstellen/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/drupal-treibt-video-portal-von-oreilly-media-an/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/drupal-treibt-video-portal-von-oreilly-media-an/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/webservices-mit-drupal-nutzen/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/webservices-mit-drupal-nutzen/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/drupal-2014/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/drupal-2014/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/so-kann-man-irren/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/so-kann-man-irren/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/administrations-menue/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/administrations-menue/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/drupal/firmen-websites/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/drupal/firmen-websites/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/drupal-commons-die-community-distribution/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/drupal-commons-die-community-distribution/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/drupal/consulting/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/drupal/consulting/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/drupal-theme-entwicklung/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/drupal-theme-entwicklung/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/drupal-fuer-grosse-communities-und-netzwerke/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/drupal-fuer-grosse-communities-und-netzwerke/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/portierung-einer-bestehenden-site-nach-drupal/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/portierung-einer-bestehenden-site-nach-drupal/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/managing-news/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/managing-news/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/die-magie-von-views-und-argumenten/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/die-magie-von-views-und-argumenten/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/kp-international/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/kp-international/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/nabu-tv/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/nabu-tv/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/bike-channel-tv/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/bike-channel-tv/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/spotlight-festival/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/spotlight-festival/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/tonhalle-duesseldorf/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/tonhalle-duesseldorf/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/4-seasons/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/4-seasons/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/kraus-und-partnerfr/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/kraus-und-partnerfr/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/4-seasonstv/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/4-seasonstv/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/media-consult-maier-partner/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/media-consult-maier-partner/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/beck-aktuell/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/beck-aktuell/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/sport-id/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/sport-id/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/globetrotter-events/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/globetrotter-events/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/gartenfernsehende/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/gartenfernsehende/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/die-holzboerse/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/die-holzboerse/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/scheidungsfixde/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/scheidungsfixde/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/die-referenz/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/die-referenz/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/nie-wieder-schiffe-versenken/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/nie-wieder-schiffe-versenken/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/kp-china-consulting/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/kp-china-consulting/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/outdoorde/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/outdoorde/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/medical-onboarding-germany/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/medical-onboarding-germany/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/meistertipp/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/meistertipp/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/medicaltopjobs/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/medicaltopjobs/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/european-change-forum/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/european-change-forum/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/beck-community/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/beck-community/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/kraus-partner/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/kraus-partner/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/static-cms/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/static-cms/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/contentful-to-zapier-to-buffer/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/contentful-to-zapier-to-buffer/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/301-redirects-fuer-middleman-und-netlify/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/301-redirects-fuer-middleman-und-netlify/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/20000-founding-members-on-thrgrid-io/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/20000-founding-members-on-thrgrid-io/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/contentful-and-zapier-integration/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/contentful-and-zapier-integration/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/caas/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/caas/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/prototyp/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/prototyp/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/relaunch-von-mdwp/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/relaunch-von-mdwp/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/automatische-deployments/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/automatische-deployments/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/mein-blog/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/mein-blog/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/contentful-api-cms-static-site/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/contentful-api-cms-static-site/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/beispiel-auf-github/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/beispiel-auf-github/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/get-started/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/get-started/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/tabs-auf-facebook-seiten/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/tabs-auf-facebook-seiten/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/storageroom/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/storageroom/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/form-generator/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/form-generator/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/automated-workflows/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/automated-workflows/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/netlify/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/netlify/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mdwp.netlify.com/about-static-pages/</loc>
-    <lastmod>2015-04-13T12:01:44+02:00</lastmod>
+    <loc>http://www.mdwp.de/about-static-pages/</loc>
+    <lastmod>2015-04-17T10:10:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
