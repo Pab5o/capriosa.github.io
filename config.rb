@@ -9,7 +9,7 @@ require 'susy'
 require 'breakpoint'
 require 'kramdown'
 require 'font-awesome-sass'
-require "middleman-smusher"
+
 
 # Change Compass configuration
 compass_config do |config|
