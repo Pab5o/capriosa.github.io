@@ -89,6 +89,8 @@ configure :build do
   # set :http_path, "/Content/images/"
   activate :directory_indexes
 
+  activate :imageoptim
+
 
 end
 

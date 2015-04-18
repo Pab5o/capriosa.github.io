@@ -5,7 +5,7 @@ gem "middleman", "~> 3.3.7"
 gem "middleman-livereload", "~> 3.3.0"
 gem "slim"
 gem "middleman-search_engine_sitemap"
-gem "middleman-smusher"
+gem "middleman-imageoptim"
 
 
 # Compass plugins
