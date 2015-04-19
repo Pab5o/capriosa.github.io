@@ -26,25 +26,10 @@
 
     <link href="/favicon.ico" rel="icon" type="image/ico" />
     <link href="/stylesheets/print.css" rel="stylesheet" type="text/css" media="print" />
-    <link href="/stylesheets/screen.css?1429259180" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/screen.css?1429469475" rel="stylesheet" type="text/css" />
 
 
-    <script src="/javascripts/libs/jquery-1.9.0.min.js?1428919303" type="text/javascript"></script>
 
-
-    <script>
-    jQuery(document).ready(function () {
-      jQuery('header nav').meanmenu();
-    });
-    $(window).scroll(function() {
-      if ($(this).scrollTop() > 60){
-        $('.proxy-navigation').show(300);
-      }
-      else{
-        $('.proxy-navigation').hide(300);
-      }
-    });
-    </script>
   </head>
 
   <body class="backdrop backdrop_index">
@@ -79,7 +64,7 @@
       <div class="sub-nav">
 
       <ul class="navigation">
-        <li><a class="inactive" href="/"><img src="/images/mdwp-logo.png?1428919303" /></a></li>
+        <li><a class="inactive" href="/"><img src="/images/mdwp-logo.png?1429132618" /></a></li>
         <li><a href="/">mdwp.de</a></li>
         <li><a href="/about-us">Über Uns</a></li>
         <li><a href="/referenzen">Referenzen</a></li>
@@ -115,6 +100,41 @@
   <li>Ein besseres CMS als Drupal 7</li>
   <li>Eine Alternative zu Drupal 8</li>
 </ul>
+
+<h2>Was spricht für Backdrop?</h2>
+<h3><i class="fa fa-mobile"></i> Backdrop ist durch und durch Responsive. Auch das Backend.</h3>
+<p>Backdrop vereinfacht die Erstellung neuer responsive Themes.
+Ein einfach zu bedienender Layout Manager gibt Ihnen unbegrenzte Möglichkeiten,
+um unterschiedliche Layouts, auf verschiedenen Seiten oder Site sections, einzurichten.
+Responsive <i>out of the box.</i></p>
+<h3><i class="fa fa-cogs"></i> Konfigurationsverwaltung im Core.</h3>
+<p>Drupal speichert alle Konfigurationen in der Datenbank.
+Das ändert sich erst mit Drupal 8. Backdrop bietet schon jetzt ein dateibasiertes
+Management der Konfiguration. Dadurch lassen sich Konfigurationen sehr einfach von
+einem Staging Server auf den Live Server deployen. Und Konfigurationen können
+in einer Versionsverwaltung wie git abgelegt werden. So kann man jederzeit zu einer
+vorherigen Version zurückkehren.</p>
+<h3><i class="fa fa-rocket"></i> Backdrop ist schneller als Drupal.</h3>
+<p>Backdrop ist optimiert für MySQL, dem Datenbanksystem, das auf fast jeder
+Drupal Installation zu finden ist. Backdrop ist schmal und auf das Wesentliche reduziert.
+Für den Core überflüssige Module, wie das Forum, sind rausgeflogen.</p>
+<h3><i class="fa fa-drupal"></i> Ein einfacher Umstieg von Drupal 7 ist gewährleistet.</h3>
+<p>Wenn Sie Drupal 7 kennen, wird Ihnen der Umstieg auf Backdrop leicht fallen.
+Die selbe PHP Architektur, eine vertraute Inhaltsverwaltung und vieles mehr, das Sie
+von Drupal 7 kennen, sorgt für einen sorgenfreien Umstieg. Viele Drupal 7 Module
+lassen sich sehr einfach nach Backdrop portieren.</p>
+<h3><i class="fa fa-star"></i> Weitere Verbesserungen:</h3>
+<ul>
+<li>Wer Drupal kennt, kennt Views. Backdrop hat Views im Core.</li>
+<li>Backdrop ist komplett in HTML5.</li>
+<li>Filtersystem der Modulverwaltung</li>
+<li>AJAX Dialoge</li>
+<li>Responsive Adminsitration</li>
+<li>Layouts für Templates.</li>
+<li>Einfaches UI für Layouts, als Alternative zu Panels.</li>
+<li>Einfache Dateiverwaltung.</li>
+</ul>
+
 <p>
 Als Drupal Agentur mit über 10-jähriger Erfahrung in der Entwicklung von Drupal Sites, beraten wir Sie auch gerne, wenn Sie mehr Informationen zu Backdrop benötigen. Kommt dieses CMS für Sie in Frage?
 </p>
@@ -132,6 +152,10 @@ mdwp* gehört zu den internationalen Supporter von Backdrop
         <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
+    if (navigator.userAgent.match(/Mobi/)) {
+    // mobile!
+    }
+    else {
     var disqus_shortname = 'mdwp';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
@@ -140,28 +164,15 @@ mdwp* gehört zu den internationalen Supporter von Backdrop
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
+    }
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
       </div>
     <aside class="sidebar">
       <section>
-        <div>
-      <script>
-(function() {
-  var cx = '000229437650945709010:kpij4p7napc';
-  var gcse = document.createElement('script');
-  gcse.type = 'text/javascript';
-  gcse.async = true;
-  gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-      '//www.google.com/cse/cse.js?cx=' + cx;
-  var s = document.getElementsByTagName('script')[0];
-  s.parentNode.insertBefore(gcse, s);
-})();
-</script>
-<gcse:search></gcse:search>
-</div>
+
         <header>
-          <img alt="mdwp - Teil der Drupal Community" src="/images/drupal-community.jpg?1428919303" />
+          <img alt="mdwp - Teil der Drupal Community" src="/images/drupal-community.jpg?1429132618" />
         </header>
         <ul class="side-navigation">
           <li><a href="/drupal">Drupal</a></li>
@@ -177,8 +188,8 @@ mdwp* gehört zu den internationalen Supporter von Backdrop
             <h2>Statische Websites</h2>
           </header>
           <footer>
-            <img alt="Static website generator Middleman" src="/images/mm.png?1428919303" />
-            <p><img alt="Contentful CMS" src="/images/contentful.png?1428919303" /></p>
+            <img alt="Static website generator Middleman" src="/images/mm.png?1429132618" />
+            <p><img alt="Contentful CMS" src="/images/contentful.png?1429132618" /></p>
           </footer>
           <ul class="side-navigation">
 
@@ -193,7 +204,7 @@ mdwp* gehört zu den internationalen Supporter von Backdrop
           <h2>Mehr</h2>
         </header>
         <footer>
-          <img alt="mdwp - Acquia Partner" src="/images/badge_partner_large.png?1428919303" />
+          <img alt="mdwp - Acquia Partner" src="/images/badge_partner_large.png?1429132618" />
         </footer>
         <ul class="side-navigation">
 
@@ -207,7 +218,7 @@ mdwp* gehört zu den internationalen Supporter von Backdrop
       <section>
         <h2 id="aktuell">Aktuell</h2>
 <header>
-  <img src="/images/mdwp-projekt-showroom-215.jpg?1428919303" />
+  <img src="/images/mdwp-projekt-showroom-215.jpg?1429132618" />
 </header>
 <ul class="side-navigation">
 
@@ -238,26 +249,33 @@ mdwp* gehört zu den internationalen Supporter von Backdrop
 </ul>
 
         <footer>
-          <p><img alt="mdwp - Drupal Association Organization Member" src="/images/member.png?1428919303" /></p>
-          <iframe width="215" src="//www.youtube.com/embed/NvJCDjfDvm4?rel=0" allowfullscreen=""></iframe>
+          <p><img alt="mdwp - Drupal Association Organization Member" src="/images/member.png?1429132618" /></p>
+          <script>
+          if (navigator.userAgent.match(/Mobi/)) {
+            // mobile!
+          }
+          else
+          {
+          document.write('<iframe width="215" src="//www.youtube.com/embed/NvJCDjfDvm4?rel=0" allowfullscreen=""></iframe>')
+          }
+          </script>
+
         </footer>
       </section>
-      <section>
-        <iframe src="https://www.socialmedia-toolset.de/newstool/301559699865722" width="215" height="450" scrolling="no" style="border: 0 !important; overflow: hidden !important"></iframe>
-      </section>
+
     </aside>
   </div>
   <footer class="footer">
     <div class="footer-inner">
       <div class="footer-first">
-        <img alt="mdwp - Web consulting and services" src="/images/mdwp.gif?1428919303" />
+        <img alt="mdwp - Web consulting and services" src="/images/mdwp.gif?1429132618" />
       </div>
       <div class="footer-second">
         &copy 2005 - 2015 mdwp: Web Consulting und Services
       </div>
     </div>
   </footer>
-    <script src="/javascripts/plugins.js?1428919303" type="text/javascript"></script><script src="/javascripts/script.js?1428919303" type="text/javascript"></script>
+    <script src="/javascripts/plugins.js?1429132618" type="text/javascript"></script><script src="/javascripts/script.js?1429132618" type="text/javascript"></script>
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -268,6 +286,27 @@ mdwp* gehört zu den internationalen Supporter von Backdrop
   ga('send', 'pageview');
 
 </script>
-<script src="//my.hellobar.com/6726d0e4b8b5218816d1aee11cb365799c8eaeda.js" type="text/javascript" charset="utf-8" async="async"></script>
+<script
+if (navigator.userAgent.match(/Mobi/)) {
+src="//my.hellobar.com/6726d0e4b8b5218816d1aee11cb365799c8eaeda.js" type="text/javascript" charset="utf-8" async="async">
+}
+</script>
+
+<script src="/javascripts/libs/jquery-1.9.0.min.js?1429132618" type="text/javascript"></script>
+
+
+<script>
+jQuery(document).ready(function () {
+  jQuery('header nav').meanmenu();
+});
+$(window).scroll(function() {
+  if ($(this).scrollTop() > 60){
+    $('.proxy-navigation').show(300);
+  }
+  else{
+    $('.proxy-navigation').hide(300);
+  }
+});
+</script>
   </body>
 </html>
