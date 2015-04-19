@@ -161,7 +161,16 @@
         <%= partial "recent" %>
         <footer>
           <p><%=image_tag "member.png", :alt => 'mdwp - Drupal Association Organization Member' %></p>
-          <iframe width="215" src="//www.youtube.com/embed/NvJCDjfDvm4?rel=0" allowfullscreen=""></iframe>
+          <script>
+          if (navigator.userAgent.match(/Mobi/)) {
+            // mobile!
+          }
+          else
+          {
+          document.write('<iframe width="215" src="//www.youtube.com/embed/NvJCDjfDvm4?rel=0" allowfullscreen=""></iframe>');
+          }
+          </script>
+
         </footer>
       </section>
 
