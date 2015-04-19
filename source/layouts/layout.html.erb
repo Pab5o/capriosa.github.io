@@ -36,22 +36,7 @@
     <%= stylesheet_link_tag "screen" %>
 
 
-    <%= javascript_include_tag "libs/jquery-1.9.0.min.js" %>
 
-
-    <script>
-    jQuery(document).ready(function () {
-      jQuery('header nav').meanmenu();
-    });
-    $(window).scroll(function() {
-      if ($(this).scrollTop() > 60){
-        $('.proxy-navigation').show(300);
-      }
-      else{
-        $('.proxy-navigation').hide(300);
-      }
-    });
-    </script>
   </head>
 
   <body class="<%= page_classes %>">
@@ -174,7 +159,7 @@
           <iframe width="215" src="//www.youtube.com/embed/NvJCDjfDvm4?rel=0" allowfullscreen=""></iframe>
         </footer>
       </section>
-      
+
     </aside>
   </div>
   <footer class="footer">
@@ -199,5 +184,22 @@
 
 </script>
 <script src="//my.hellobar.com/6726d0e4b8b5218816d1aee11cb365799c8eaeda.js" type="text/javascript" charset="utf-8" async="async"></script>
+
+<%= javascript_include_tag "libs/jquery-1.9.0.min.js" %>
+
+
+<script>
+jQuery(document).ready(function () {
+  jQuery('header nav').meanmenu();
+});
+$(window).scroll(function() {
+  if ($(this).scrollTop() > 60){
+    $('.proxy-navigation').show(300);
+  }
+  else{
+    $('.proxy-navigation').hide(300);
+  }
+});
+</script>
   </body>
 </html>
