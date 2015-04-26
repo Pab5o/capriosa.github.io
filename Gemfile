@@ -7,6 +7,7 @@ gem "slim"
 gem "middleman-search_engine_sitemap"
 gem "middleman-imageoptim"
 gem 'middleman-minify-html'
+gem 'middleman-inliner'
 
 
 # Compass plugins
