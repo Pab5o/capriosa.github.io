@@ -69,15 +69,13 @@ end
 configure :build do
 
   # For example, change the Compass output style for deployment
-  activate :minify_css,
-    :inline=>true
+  activate :minify_css,inline:true
   activate :minify_html
   #activate :inliner
   activate :gzip
 
   # Minify Javascript on build
-  activate :minify_javascript,
-    :inline=>true
+  activate :minify_javascript,inline:true
 
   # Enable cache buster
   activate :cache_buster
