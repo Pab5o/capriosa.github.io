@@ -94,26 +94,26 @@ configure :build do
 
 end
 
-#activate :contentful do |f|
-#  f.space         = { mdwp:'zlag77iul1ug' }
-#  f.access_token  = '40e963dfce9e6bc216d6624cd39c0be5a32bd89e29eee07a1e49a8d30b51bfd6'
-#  f.cda_query     = { content_type:'2wKn6yEnZewu2SCCkus4as', include: 1 }
-#  f.content_types = { post:'2wKn6yEnZewu2SCCkus4as' }
-#end
+activate :contentful do |f|
+  f.space         = { mdwp:'zlag77iul1ug' }
+  f.access_token  = '40e963dfce9e6bc216d6624cd39c0be5a32bd89e29eee07a1e49a8d30b51bfd6'
+  f.cda_query     = { content_type:'2wKn6yEnZewu2SCCkus4as', include: 1 }
+  f.content_types = { post:'2wKn6yEnZewu2SCCkus4as' }
+end
 
-#activate :contentful do |g|
-# g.space         = { mdwp_project:'zlag77iul1ug' }
-# g.access_token  = '40e963dfce9e6bc216d6624cd39c0be5a32bd89e29eee07a1e49a8d30b51bfd6'
-# g.cda_query     = { content_type:'3yXXZj2Yyk0USyQyka2O0C', include: 1 }
-# g.content_types = { project:'3yXXZj2Yyk0USyQyka2O0C' }
-#end
+activate :contentful do |g|
+ g.space         = { mdwp_project:'zlag77iul1ug' }
+ g.access_token  = '40e963dfce9e6bc216d6624cd39c0be5a32bd89e29eee07a1e49a8d30b51bfd6'
+ g.cda_query     = { content_type:'3yXXZj2Yyk0USyQyka2O0C', include: 1 }
+ g.content_types = { project:'3yXXZj2Yyk0USyQyka2O0C' }
+end
 
-#activate :contentful do |h|
-#  h.space         = { mdwp_entry:'zlag77iul1ug' }
-#  h.access_token  = '40e963dfce9e6bc216d6624cd39c0be5a32bd89e29eee07a1e49a8d30b51bfd6'
-#  h.cda_query     = { content_type:'5qHZV696FiIkemEGcm2moe', include: 1 }
-#  h.content_types = { entry:'5qHZV696FiIkemEGcm2moe' }
-#end
+activate :contentful do |h|
+  h.space         = { mdwp_entry:'zlag77iul1ug' }
+  h.access_token  = '40e963dfce9e6bc216d6624cd39c0be5a32bd89e29eee07a1e49a8d30b51bfd6'
+  h.cda_query     = { content_type:'5qHZV696FiIkemEGcm2moe', include: 1 }
+  h.content_types = { entry:'5qHZV696FiIkemEGcm2moe' }
+end
 
 
 data.mdwp_entry.entry.each do |id, entry|
