@@ -9,6 +9,7 @@ require 'susy'
 require 'breakpoint'
 require 'kramdown'
 require 'font-awesome-sass'
+require 'contentful_middleman'
 
 
 # Change Compass configuration
