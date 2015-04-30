@@ -7,7 +7,7 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
-    addressable (2.3.7)
+    addressable (2.3.8)
     breakpoint (2.5.0)
       sass (~> 3.3)
       sassy-maps (< 1.0.0)
@@ -36,7 +36,7 @@ GEM
     contentful (0.5.0)
       http (~> 0.6)
       multi_json (~> 1)
-    contentful_middleman (1.0.3)
+    contentful_middleman (1.1.0)
       contentful
       middleman-blog (~> 3.5)
       middleman-core (~> 3.3)
@@ -58,10 +58,11 @@ GEM
     hooks (0.4.0)
       uber (~> 0.0.4)
     htmlcompressor (0.1.2)
-    http (0.7.2)
-      http-form_data (~> 1.0.0)
+    http (0.8.4)
+      addressable (~> 2.3)
+      http-form_data (~> 1.0.1)
       http_parser.rb (~> 0.6.0)
-    http-form_data (1.0.0)
+    http-form_data (1.0.1)
     http_parser.rb (0.6.0)
     i18n (0.7.0)
     image_optim (0.20.2)
@@ -189,7 +190,7 @@ DEPENDENCIES
   breakpoint (~> 2.0)
   compass (~> 1.0.0)
   compass-normalize
-  contentful_middleman
+  contentful_middleman (~> 1.1.0)
   font-awesome-sass (~> 4.3.0)
   kramdown
   middleman (~> 3.3.7)
