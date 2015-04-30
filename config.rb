@@ -9,7 +9,7 @@ require 'susy'
 require 'breakpoint'
 require 'kramdown'
 require 'font-awesome-sass'
-require 'contentful_middleman'
+
 
 
 # Change Compass configuration
@@ -70,13 +70,13 @@ end
 configure :build do
 
   # For example, change the Compass output style for deployment
-  activate :minify_css,inline:true
+  activate :minify_css
   activate :minify_html
   #activate :inliner
-  activate :gzip
+  #activate :gzip
 
   # Minify Javascript on build
-  activate :minify_javascript,inline:true
+  activate :minify_javascript
 
   # Enable cache buster
   activate :cache_buster
@@ -90,7 +90,7 @@ configure :build do
   # set :http_path, "/Content/images/"
   activate :directory_indexes
 
-  activate :imageoptim
+  #activate :imageoptim
 
 
 end
@@ -154,5 +154,5 @@ end
 set :markdown_engine, :kramdown
 set :markdown, :layout_engine => :erb
 
-activate :livereload, :host => '0.0.0.0', :apply_js_live => false, :apply_css_live => false
+#activate :livereload, :host => '0.0.0.0', :apply_js_live => false, :apply_css_live => false
 activate :search_engine_sitemap
