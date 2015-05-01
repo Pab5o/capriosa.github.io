@@ -1,0 +1,12 @@
+---
+:id: 6FxzCmPvKEwOa2CkSeIYOc
+:slug: webhooks
+:title: Webhooks
+:body: |-
+  Dieser Post ist ein Test.
+  Ziel: ein neuer Eintrag bei Contentful triggert via Webhook einen neuen Build Prozess bei netlify an. Kurz danach sollte der Artikel auf mdwp.de erscheinen. Mal schauen.
+  Erster Fehler: aus welchem Grund auch immer funktionierte der Build auf Netlify nicht mit middleman_contentful. Nach einem Update des gem ging es dann doch.
+:summary: |-
+  Dieser Post ist ein Test.
+  Ziel: ein neuer Eintrag bei Contentful triggert via Webhook einen neuen Build Prozess bei netlify an. Kurz danach sollte der Artikel auf mdwp.de erscheinen. Mal schauen.
+:rid: 27
