@@ -14,11 +14,10 @@ description: 'In meinem Microblog finden Sie Beiträge von mir, die für Faceboo
 <% data.mdwp.post.sort_by {|k,v| v["date"]}.reverse_each do |post| %>
 <section>
   <header>
-  <h2><%= post[1]["title"] %></h2>
+  <h2><a href="/<%= post[1]["slug"] %>"><%= post[1]["title"] %></a></h2>
   <%= post[1]["date"].strftime("%d.%m.%Y") %>
   </header>
-  <%= Kramdown::Document.new(truncate(post[1]["body"], :length => 190)).to_html %>
-
+  <%= Kramdown::Document.new(post[1]["summary"]).to_html %>
   <p><a href="/<%= post[1]["slug"] %>">Mehr lesen</a></p>
 </section>
 <% end %>
