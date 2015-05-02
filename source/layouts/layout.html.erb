@@ -31,11 +31,6 @@
     <link rel="publisher" href="https://plus.google.com/112014641674548097292" />
 
     <%= favicon_tag("favicon.ico") %>
-    <%= stylesheet_link_tag "print", media: "print" %>
-    <%= stylesheet_link_tag "screen" %>
-
-
-
   </head>
 
   <body class="<%= page_classes %>">
@@ -201,3 +196,5 @@ $(window).scroll(function() {
 </script>
   </body>
 </html>
+<%= stylesheet_link_tag "print", media: "print" %>
+<%= stylesheet_link_tag "screen" %>
