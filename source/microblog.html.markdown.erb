@@ -10,8 +10,9 @@ description: 'In meinem Microblog finden Sie Beiträge von mir, die für Faceboo
     Twitter geschrieben wurden, auf einen Blick.
   Gerne können Sie mir dort folgen.</p>
 </aside>
-
-<% data.mdwp.post.sort_by {|k,v| v["date"]}.reverse_each do |post| %>
+<% arr = data.mdwp.post
+   arr.delete(nil) %>
+<% arr.sort_by {|k,v| v["rid"]}.reverse_each do |post| %>
 <section>
   <header>
   <h2><%= post[1]["title"] %></h2>
