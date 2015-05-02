@@ -10,5 +10,5 @@ description: 'In meinem Microblog finden Sie Beiträge von mir, die für Faceboo
     Twitter geschrieben wurden, auf einen Blick.
   Gerne können Sie mir dort folgen.</p>
 </aside>
-
+<%= <h3>post["date"].strftime("%d". "%B" "%Y")</h3>
 <%= Kramdown::Document.new(post["body"]).to_html %>
