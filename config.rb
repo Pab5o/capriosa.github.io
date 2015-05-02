@@ -73,7 +73,7 @@ configure :build do
   activate :minify_css
   activate :minify_html
   #activate :inliner
-  #activate :gzip
+  activate :gzip
 
   # Minify Javascript on build
   activate :minify_javascript
