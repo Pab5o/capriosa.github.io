@@ -5,3 +5,4 @@
 :title: Form generator
 :rid: 4
 :summary: 'Great for static sites: (https://formkeep.com/)'
+:date: !ruby/object:DateTime 2015-04-01 02:00:00.000000000 +02:00

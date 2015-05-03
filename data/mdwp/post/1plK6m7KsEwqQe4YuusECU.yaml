@@ -6,3 +6,4 @@
 :body: |-
   Ich hatte mir bei Zapier zaps eingerichtet, die einen neuen Post den ich auf Contentful veröffentliche nach Facebook, Twitter usw. sendet.
   Aber wie immer: es geht noch besser und zwar mit http://buffer.com
+:date: !ruby/object:DateTime 2015-04-30 02:00:00.000000000 +02:00

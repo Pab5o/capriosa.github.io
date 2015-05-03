@@ -2,11 +2,20 @@
 :id: 6FxzCmPvKEwOa2CkSeIYOc
 :slug: webhooks
 :title: Webhooks
-:body: |-
-  Dieser Post ist ein Test.
-  Ziel: ein neuer Eintrag bei Contentful triggert via Webhook einen neuen Build Prozess bei netlify an. Kurz danach sollte der Artikel auf mdwp.de erscheinen. Mal schauen.
-  Erster Fehler: aus welchem Grund auch immer funktionierte der Build auf Netlify nicht mit middleman_contentful. Nach einem Update des gem ging es dann doch.
+:body: "Dieser Post ist ein Test.\n\nZiel: ein neuer Eintrag bei Contentful triggert
+  via Webhook einen neuen Build Prozess bei netlify an. Kurz danach sollte der Artikel
+  auf mdwp.de erscheinen. Mal schauen.\n\nErster Fehler: aus welchem Grund auch immer
+  funktionierte der Build auf Netlify nicht mit middleman_contentful. Nach einem Update
+  des gem ging es dann doch.\n\n![Netlify](//images.contentful.com/zlag77iul1ug/4j7ZWmkqvYiiYKQGWc64om/da7de0044788c21a061b657ed76b19ba/netlify.png)\n\n*middleman
+  contentful --rebuild;middleman build*  \nDiese Zeile fehlte gestern noch, um mein
+  Ziel zu erreichen. Die Pflege statischer Websites mit dem [Contentful CMS](contentful)
+  und ein automatisierter Deployment Prozess. Wenn ich bei Contentful \"Publish\"
+  oder \"Republish\" anklicke, ist kurze Zeit später eine statische HTML Seite auf
+  [Netlify](http://netlify.com) generiert und dann auf mdwp.de erreichbar. Perfekt!\n\nNachdem
+  dieses System jetzt aufgebaut ist und stabil läuft, kann ich mich darauf konzentrieren
+  hier in Zukunft über die Details zu schreiben."
 :summary: |-
   Dieser Post ist ein Test.
   Ziel: ein neuer Eintrag bei Contentful triggert via Webhook einen neuen Build Prozess bei netlify an. Kurz danach sollte der Artikel auf mdwp.de erscheinen. Mal schauen.
 :rid: 27
+:date: !ruby/object:DateTime 2015-05-01 02:00:00.000000000 +02:00

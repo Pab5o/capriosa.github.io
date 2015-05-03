@@ -4,14 +4,15 @@
 :title: Zapier
 :rid: 28
 :body: |-
-  Mit (Zapier)[http://zapier.com] lassen Sie das Internet für sich arbeiten. Und das geht so: Sie melden sich bei Zapier an und erstellen eine neue Zap. Das geht mit wenigen Klicks. Es arbeiten immer zwei Services im Netz zusammen. Wenn bei Service A etwas passiert, soll bei Service B eine ganz bestimmte Aktion durchgeführt werden.
+  Mit [Zapier](http://zapier.com) lassen Sie das Internet für sich arbeiten. Und das geht so: Sie melden sich bei Zapier an und erstellen eine neue Zap. Das geht mit wenigen Klicks. Es arbeiten immer zwei Services im Netz zusammen. Wenn bei Service A etwas passiert, soll bei Service B eine ganz bestimmte Aktion durchgeführt werden.
 
   Aus ca. 400 Services im Web wählt man den Services aus der etwas **triggern** soll und dann den Service der eine bestimmte Aktion ausführen soll.
 
   Zwei Beispiele verdeutlichen das Vorgehen:
 
-  1. Wenn ich für mdwp.de einen Artikel auf Contentful schreibe und veröffentliche, wird automatisch ein Teaser bei Facebook, Twitter und Linkedin geposted.
+  1. Wenn ich für mdwp.de einen Artikel auf Contentful schreibe und veröffentliche, wird automatisch ein Teaser bei Facebook, Twitter und Linkedin geposted. Gleichzeitig wird der komplette Artikel über Webhooks als neue statische HTML Seite bei Netlify generiert und ist kurze Zeit später auf mdwp.de erreichbar.
   2. Wenn auf Product Hunt ein neues Produkt 100 Votes erreicht, wird dieses Produkt als neuer Artikel in unserem Contentful Space eingetragen und erscheint somit auf mdwp.de, Facebook, Twitter und Linkedin.
 :summary: 'Mit Zapier lassen Sie das Internet für sich arbeiten. Und das geht so:
   Es arbeiten immer zwei Services im Netz zusammen. Wenn bei Service A etwas passiert,
   soll bei Service B eine ganz bestimmte Aktion durchgeführt werden.'
+:date: !ruby/object:DateTime 2015-05-01 02:00:00.000000000 +02:00
