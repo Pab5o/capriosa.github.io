@@ -16,7 +16,7 @@
     <% else %>
     <title><%= title %> Consulting und Services</title>
     <% end %>
-    <meta http-equiv="expires" content="432000" />
+    <meta http-equiv="Refresh" content="432000"> 
     <meta name="description" content="<%= description %>" />
     <meta name="author" content="Meinolf Droste" />
     <meta property="og:locale" content="de_DE" />
@@ -33,6 +33,7 @@
     <%= favicon_tag("favicon.ico") %>
 
     <%= stylesheet_link_tag "screen" %>
+    <%= stylesheet_link_tag "print", media: "print" %>
 
 
 
@@ -175,7 +176,7 @@
         <%= image_tag 'mdwp.gif', :alt => 'mdwp - Web consulting and services' %>
       </div>
       <div class="footer-second">
-        &copy 2005 - 2015 mdwp: Web Consulting und Services
+        &copy; 2005 - 2015 mdwp: Web Consulting und Services
       </div>
     </div>
   </footer>
@@ -195,4 +196,3 @@ $(window).scroll(function() {
 </script>
   </body>
 </html>
-<%= stylesheet_link_tag "print", media: "print" %>
