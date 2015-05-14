@@ -7,38 +7,21 @@ description: 'Wir entwickeln Websites mit HTML5, CSS 3, jQuery, Drupal, Contentf
   <h1>Web Consulting und Services.</h1>
   <p>
 Als Internet Agentur und Dienstleister produzieren wir für Ihr Unternehmen, in Zusammenarbeit mit starken Partnern,
-kundenorientierte zukunftssichere Lösungen für das Web, mit modernster Technik und höchsten Qualitätsansprüchen.</p>
+kundenorientierte zukunftssichere Lösungen für das Web, mit modernster Technik und höchsten Qualitätsansprüchen.
+Nutzen Sie die Disqus-Kommentarfunktion am Ende jeder Seite, wenn Sie Anmerkungen oder Fragen zu einem Thema haben.</p>
 </aside>
 <article markdown="1">
-###Drupal Services
-
 Seit fast 10 Jahren entwickeln wir für unsere Kunden Websites mit dem CMS Drupal.
-Dabei sind ca. [40 Drupal Sites](/referenzen) enstanden.
+Und in dieser Zeit haben wir hier fast ausschliesslich über Drupal geschrieben und
+nur mit Drupal gearbeitet. Dabei sind ca. [40 Drupal Sites](/referenzen) enstanden.
 
-Seit dem Relaunch von mdwp.de am 15.04.2015 hat sich einiges bei uns getan. Wir haben neue Techniken
+Mit dem Relaunch von mdwp.de am 15.04.2015 ändert sich das. Wir haben neue Techniken
 zur Erstellung von Websites im Angebot. Diese Techniken nutzen wir auch zur Entwicklung
 und Pflege unserer Firmensite.
 Und über diese Techniken werden wir Sie hier in Zukunft laufend informieren.
 
 Natürlich wird Drupal auch in Zukunft eine wichtige Rolle für uns spielen.
 Wir haben lediglich unser Angebot erweitert.
-
-###Sie suchen eine Alternative zu Drupal oder Wordpress?
-
-**Sie möchten eine schnelle, sichere, statische HTML Site haben, die Inhalte aber trotzdem
-mit einem Content Management System erfassen und pflegen, dann könnte unser neues Angebot für Sie passen.**
-
-####Contentful, Middleman und Netlify
-
-Für unsere neue Website nutzen wir [Contentful](http://contentful.com) als dezentrales CMS. Wird dort eine Seite
-neu erstellt oder aktualisiert, wird diese Änderung dem Hosting System bei [Netlify](http://netlify.com) gemeldet
-und dort wird automatisch ein Build Prozess des Website Generators **Middleman** angestossen.
-
-Kurze Zeit später sind die Inhalte aus unserem CMS, als statische HTML Seiten auf mdwp.de zu erreichen.
-Das ist genau so komfortabel wie Sie dies von CMS wie z.B. Drupal oder Wordpress kennen, mit dem Unterschied, dass
-statische HTML Seiten wesentlich schneller und sicherer sind.
-
-**Und das Hosting ist kostenlos.**
 
 ###Web Automation Services
 Ist ein Begriff, der die neuen Techniken und Methoden, die wir nutzen und empfehlen,
@@ -65,7 +48,19 @@ Umfangreiche Recherchen und Tests führten zu folgenden Systemkomponenten:
 - Ein Middleman/Contentful Plugin
 - Github oder Bitbucket als entferntes Git Repository
 - Netlify zum Hosting und Continous Deployment
-- [Zapier](/zapier) für weitere automatisierte Workflow-Prozesse
+- Zapier für weitere automatisierte Workflow-Prozesse
+
+Mit Zapier lassen Sie das Internet für sich arbeiten. Und das geht so:
+Es arbeiten immer zwei Services im Netz zusammen. Wenn bei Service A etwas passiert soll bei Service B
+eine ganz bestimmte Aktion durchgeführt werden.
+
+Zwei Beispiele verdeutlichen das Vorgehen:
+
+1. Wenn ich für mdwp.de einen Artikel auf Contentful schreibe und veröffentliche, wird automatisch ein Teaser
+bei Facebook, Twitter und Linkedin geposted.
+2. Wenn auf [Product Hunt](http://www.producthunt.com/) ein neues Produkt 100 Votes erreicht, wird dieses Produkt
+als neuer Artikel in unserem Contentful Space eingetragen und erscheint somit auf mdwp.de, Facebook, Twitter und Linkedin.
+
 
 [Kontaktieren Sie uns](/kontakt) gerne, wenn Sie mehr über dieses System-Setup, die damit verbundenen Möglichkeiten und Vorteile,
 aber auch Grenzen, erfahren möchten.
