@@ -4,7 +4,7 @@
 </header>
 <ul class="side-navigation">
 
-<% data.mdwp.post.sort_by {|k,v| v["rid"]}.drop(15).reverse_each do |post| %>
+<% data.mdwp.post.sort_by {|k,v| v["date"]}.drop(15).reverse_each do |post| %>
 
   <li>
     <a href='/<%= post[1]["slug"] %>'><%= post[1]["title"] %></a>

@@ -19,6 +19,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://www.mdwp.de/about/</loc>
+    <lastmod>2015-04-15T23:16:58+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://www.mdwp.de/archiv/</loc>
     <lastmod>2015-04-16T23:21:30+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -127,12 +133,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.mdwp.de/netlify/</loc>
-    <lastmod>2015-05-02T22:29:37+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://www.mdwp.de/automated-workflows/</loc>
     <lastmod>2015-05-02T22:29:37+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -140,6 +140,12 @@
   </url>
   <url>
     <loc>http://www.mdwp.de/form-generator/</loc>
+    <lastmod>2015-05-02T22:29:37+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.mdwp.de/storageroom/</loc>
     <lastmod>2015-05-02T22:29:37+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -895,7 +901,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.mdwp.de/storageroom/</loc>
+    <loc>http://www.mdwp.de/webhooks/</loc>
     <lastmod>2015-05-02T22:29:37+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -949,6 +955,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://www.mdwp.de/netlify/</loc>
+    <lastmod>2015-05-02T22:29:37+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://www.mdwp.de/automatische-deployments/</loc>
     <lastmod>2015-05-02T22:29:37+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -986,12 +998,6 @@
   </url>
   <url>
     <loc>http://www.mdwp.de/tabs-auf-facebook-seiten/</loc>
-    <lastmod>2015-05-02T22:29:37+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.mdwp.de/webhooks/</loc>
     <lastmod>2015-05-02T22:29:37+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

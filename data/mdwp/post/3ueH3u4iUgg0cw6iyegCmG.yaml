@@ -1,0 +1,42 @@
+---
+:id: 3ueH3u4iUgg0cw6iyegCmG
+:slug: netlify
+:title: Netlify
+:date: !ruby/object:DateTime 2015-05-16 02:00:00.000000000 +02:00
+:body: |-
+  [Netlify](https://www.netlify.com/) spielt eine besondere Rolle in unserem Static Content Management System. Der Slogan von Netlify ist:
+  > Because static sites are safer, faster, cheaper & simpler
+
+  Dem kann ich mich nur anschließen.
+
+  Netlify ist der erste *Automation Service* für statische HTML Sites und sogenannte Static Website Generators. Webhooks ermöglichen die Anbindung von Cloud Content Management Systemen und damit die Möglichkeit statische HTML Seiten mit einem CMS zu erstellen und zu pflegen.
+
+  Netlify ändert die Art und Weise wie statische HTML Seiten erstellt und betrieben werden. Kostenloses oder sehr preiswertes Hosting, sehr gute Geschwindigkeit der Seiten, die von einem globalen CDN ausgeliefert werden und eine ausgezeichnete API für Entwickler, machen Netlify zu einem der besten Hosting Provider für statische Websites.
+
+  Netlify ist aber nicht einfach nur ein Hosting Provider für statische Websites, sondern ein SaaS-System zum *Build and Deploy* für statische Website Generatoren wie Jekyll, Middleman, Metalsmith oder Roots. Außerdem arbeitet Netlify mit dezentralen Git Repositories, wie Github oder Bitbucket, zusammen. Und Netlify ist das einzige System, welches von einem CMS wie Contentful über neuen oder geänderten Inhalt benachrichtigt wird und dadurch den Build und Deploy Prozess bei Netlify anstösst.
+  Damit steht uns das perfekte *Static Content Management System* zur Verfügung.
+
+  mdwp.de ist eine der ersten deutschen Websites, die mit diesem Systemaufbau erstellt und betrieben wird. Und mdwp ist eine der ersten Internetagenturen, die die Erstellung von Websites mit einem CMS für statische HTML Seiten anbietet.
+  Statische HTML Sites im Netlify CDN sind darüberhinaus atemberaubend schnell.
+
+  ![mdwp-pagespeed-test](//images.contentful.com/zlag77iul1ug/3WArCgenYQaQ4gmqQqIKqw/03664f2ea26464b6352cb167e08d0203/mdwp-pagespeed-test.png)
+
+
+  So sieht das System im Detail aus:
+
+  - [Contentful](/contentful) als CMS
+  - [Middleman](/middleman) als statischer Website Generator
+  - [Netlify](https://www.netlify.com) für das Hosting und dem *Continuous Deploy and Delivery*
+:summary: Netlify ändert die Art und Weise wie statische HTML Seiten erstellt und
+  betrieben werden. Kostenloses oder sehr preiswertes Hosting, sehr gute Geschwindigkeit
+  der Seiten, die von einem globalen CDN ausgeliefert werden und eine ausgezeichnete
+  API für Entwickler, machen Netlify zu einem der besten Hosting Provider für statische
+  Websites.
+:subtitle: Static Content Management System
+:header: |
+  Netlify ist der erste *Automation Service* für statische HTML Sites und sogenannte Static Website Generators. Webhooks ermöglichen die Anbindung von Cloud Content Management Systemen und damit die Möglichkeit statische HTML Seiten mit einem CMS zu erstellen und zu pflegen.
+:fbLinkedin: |-
+  Netlify ist der erste *Automation Service* für statische HTML Sites und sogenannte Static Website Genarators. Webhooks ermöglichen die Anbindung von Cloud Content Management Systemen und damit die Möglichkeit statische HTML Seiten mit einem CMS zu erstellen und zu pflegen.
+  Netlify ändert die Art und Weise wie statische HTML Seiten erstellt und betrieben werden. Kostenloses oder sehr preiswertes Hosting, sehr gute Geschwindigkeit der Seiten, die von einem globalen CDN ausgeliefert werden und eine ausgezeichnete API für Entwickler, machen Netlify zu einem der besten Hosting Provider für statische Websites.
+  Mehr lesen auf http://www.mdwp.de/netlify
+:Nw9j17g9iJMk8bDx: Static Content Management System. http://www.mdwp.de/netlify
