@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem "middleman", "~> 3.3.7"
 gem "contentful_middleman", "~> 1.1.0"
 #gem "middleman-livereload", "~> 3.3.0"
-#gem "slim"
+gem "slim"
 gem "middleman-search_engine_sitemap"
 #gem "middleman-imageoptim"
 gem 'middleman-minify-html'
