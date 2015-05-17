@@ -17,7 +17,7 @@ description: 'In meinem Microblog finden Sie Beiträge von mir, die für Faceboo
   <h2><a href="/<%= post[1]["slug"] %>"><%= post[1]["title"] %></a></h2>
   <%= post[1]["date"].strftime("%d.%m.%Y") %>
   </header>
-  <%= Kramdown::Document.new(truncate(post[1]["body"], :length=>200)).to_html %>
+  <%= Kramdown::Document.new(post[1]["summary"]).to_html %>
   <a href="/<%= post[1]["slug"] %>">Mehr lesen ... </a>
 </section>
 <% end %>
