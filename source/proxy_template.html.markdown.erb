@@ -14,4 +14,4 @@ description: 'In meinem Microblog finden Sie Beiträge von mir, die für Faceboo
 <h1><%= post["subtitle"]%></h1> 
 <%= post["date"].strftime("%d.%m.%Y") %>
 <%= Kramdown::Document.new(post["body"]).to_html %>
-</arricle>
+</article>
