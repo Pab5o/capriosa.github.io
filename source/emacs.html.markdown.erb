@@ -1,0 +1,111 @@
+---
+title: 'Emacs | mdwp - Web'
+description: 'Texte mit Emacs schreiben, im org-mode gliedern und nach markdown exportieren.'
+---
+
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1. Text mit Outliner strukturieren</a>
+<ul>
+<li><a href="#sec-1-1">1.1. Outliner</a>
+<ul>
+<li><a href="#sec-1-1-1">1.1.1. Emacs</a></li>
+<li><a href="#sec-1-1-2">1.1.2. Middleman</a></li>
+<li><a href="#sec-1-1-3">1.1.3. Contentful</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<aside class="page-head">
+  <h2>Emacs</h2>
+  <h1>Org-Mode</h1>
+  <p>Im Emacs Org-Mode kann man sehr einfach Texte strukturieren, gliedern und exportieren. Man kann HTML oder Markdown
+     erzeugen lassen und so sehr schön und einfach Texte für Webseiten schreiben, ohne einmal an HTML zu denken.
+  </p>
+</aside>
+
+<article markdow="1">
+
+# Text mit Outliner strukturieren<a id="sec-1" name="sec-1"></a>
+
+Wer Texte schreibt, weiß wie wichtig eine gute Strukturierung des Texts, am Anfang aber auch eine Strukturierung der Gedanken und Ideen
+, die man im Text formulieren möchte. Hierbei können sogenannte Outliner helfen.
+
+## Outliner<a id="sec-1-1" name="sec-1-1"></a>
+
+Outliner sind Programme, die helfen sollen Texte zu strukturieren und zu gliedern. Das können Aufgabenlisten, Termine oder jede andere Art
+von Daten sein, die sich gliedern lassen. Dazu gehören auch Texte, die mit Überschriften, Absätzen und Listen gegliedert werden.  
+Wozu braucht man da Software? Nun, die größte Schwierigkeit beim Schreiben ist eben die Gedanken zu ordnen, dem Text eine geeignete Struktur
+zu geben. Und dabei helfen Outliner.
+
+Man erstellt zuerst einfach Überschriften. Diese kann man beliebig nach Oben oder Unten verschieben, indem man den Cursor auf die Zeile setzt und dann mit einer bestimmten Tastenkombination die Überschrift verschiebt.
+
+So ergibt sich eine erste Gliederung. Wie wir es von HTML kennen, können die Überschriften eine bestimmte Wichtigkeit im Text haben und
+entsprechend markiert werden. (h1 - h6 im HTML) Outliner benutzen hierfür einfache Zeichen z.B. ein Sternchen (\*).
+Ähnliches kennen wir bei Markdown, auch da werden die 'komplizierten' h1-h6 Tags durch ein einfaches Zeichen (#) ersetzt.
+
+Als nächstes fügen wir unseren Überschriften, Text in Form von Absätzen oder Listen hinzu. Auch Listen werden einfach durch das
+Voranstellen eines Zeichens (-) erstellt.
+
+Alles was sich innerhalb eines Gliedrungsbereichs bedindet, lässt sich weiterhin im gesamten Dokument einfach verschieben.
+Mir hilft das alles sehr beim Schreiben von Text.
+
+### Emacs<a id="sec-1-1-1" name="sec-1-1-1"></a>
+
+Emacs ist ein Texteditor mit sehr vielen Möglichkeiten, die u.A. durch sog. Modes angeboten werden. Es gibt Modes für unterschiedliche
+Programmiersprachen, HTML, CSS oder Sass. Aber auch Modes für eine unzählige Anzahl anderer Aufgaben.  
+Mit dem Org-Mode lässt sich Emacs wie eine Outline Software verwenden.
+
+Dadurch ist es möglich diese tolle Möglichkeit zum Schreiben von Texten für HTML-Seiten, direkt in meiner HTML oder Markdown Datei zu nutzen.
+Nur wenige 'extra' Zeichen lenken so die Aufmerksamkeit vom Inhalt ab.
+
+Der Clou sind allerdings die Export Möglickeiten von Emacs im Org-Mode wie z.B.
+
+-   Markdown
+-   HTML
+-   Latex
+-   PDF
+
+Es spielt also keine Rolle für welches Medium man Texte schreibt, für beinahe alles gibt es eine Export Möglichkeit.  
+Und wie alle Funktionen im Emacs, geschieht der Export rasend schnell. So schnell, dass ich diese Funktion sogar für eine Voransicht
+der späteren Datei, in unserem Fall der späteren HTML Datei.
+
+Mein Workflow hier:
+
+-   Text schreiben im Org-Mode
+-   Export nach Markdown
+-   Einsatz dieses Markdowns in eine Middleman Datei
+
+Natürlich macht dieser Workflow nur Sinn, wenn man wirklich Gebrauch von der Gliederungsfunktion macht und vermutlich auch nur
+für längere Text, an denen man möglicherweise etwas länger feilt. Für mich macht sich der Einsatz schon deshalb bezahlt, weil ich
+mit dem Org-Mode auch Todo Listen u.Ä. erstelle.
+	
+### Middleman<a id="sec-1-1-2" name="sec-1-1-2"></a>
+
+Was hat Middleman mit dem Beschriebenen zu tun? Nun, Middleman nutze ich für mdwp.de als Website Generator für statische HTML Seiten. Inhalte die ich nicht mit Contentful (s.u.) erfasse, erstelle ich also direkt im Middleman Source Verzeichnis in erb Templates. Und die Möglichkeit, dass ich dort im Org-Mode arbeiten kann, um an meinen Seiteninhalten zu feilen ist schon ne tolle Sache.
+	
+	
+### Contentful<a id="sec-1-1-3" name="sec-1-1-3"></a>
+	
+Als Entwickler würde ich zur Erstellung statischer HTML Seiten kein CMS benötigen. Diese Site mache ich eigentlich nur mit Contentful, um die Möglichkeiten zu demonstrieren, bestimmte Vorgehensweise auszuprobieren und letztlich so ein Paket für Kunden zu haben, das als git Clone sofort einsetzbar ist.
+
+Wenn ich also in Emacs Texte im Org-Mode schreibe, ist der Weg über ein CMS nicht erforderlich. Es gibt aber eine Möglichkeit, die man nicht außer Acht lassen sollte:
+
+Schreiben Sie Ihre Texte für Ihre Website in den Formularfeldern Ihres CMS? **Wirklich**
+Damit tun Sie sich keinen Gefallen. Bedienung, Komfort u.v.m entsprechen nicht wirklich dem was man erwarten sollte. Versuchen Sie Ihre Texte im Editor Ihrer Wahl mit Markdown zu erstellen und kopieren diese dann in Ihr CMS. Mit dem Firefox Plugin **It's all text** können Sie dies automatisieren.
+
+Ein sehr, sehr guter Editor für Markdown ist der iaWriter. Aus den hier beschriebenen Gründen nutze ich Emacs. Und wenn ich Texte, die ich mit Emacs im Org-Mode schreibe in Contentful speichern möchte, gehe ich so vor:
+
+- It's all text ist installiert.	
+- Ich schreibe den Text im Org-Mode mit Emacs
+- Exportiere den Text nach Markdown	
+- Speichere ich dieses Markdown in Emacs, transportiert das FF-Plugin dieses Markdown in das Formular von Contentful.
+
+Das funktioniert mit nahezu allen CMS und Texteditoren.	
+</article>
